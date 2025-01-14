@@ -71,4 +71,4 @@ El texto demuestra que este problema es indecidible, lo que significa que no exi
 
 [LLMs Will Always Hallucinate](https://arxiv.org/pdf/2409.05746)
 
-// Seleccionamos todos los botones con la clase "collapsible" const collapsibles = document.querySelectorAll(".collapsible"); collapsibles.forEach(button => { button.addEventListener("click", function () { // Alternamos la clase "active" en el botón this.classList.toggle("active"); // El siguiente elemento es el contenido plegable const content = this.nextElementSibling; if (content.style.maxHeight) { // Si está desplegado, lo plegamos content.style.maxHeight = null; } else { // De lo contrario, lo desplegamos content.style.maxHeight = content.scrollHeight + "px"; } }); });
+
