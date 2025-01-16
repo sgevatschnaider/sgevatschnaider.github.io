@@ -6,7 +6,8 @@
 
 ---
 
-![Visualización Blockchain](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEq9z6UXw3XsZ_Kx1YmouuNczhzaf-zWdDrDknwJl-drbNuj_gOpspT9GLUANRHuwTSPOU7vKskzGOEaYocz6Bz27jBNuIqDXw6mpq6K6R0MQQTj1LQFYkIB9hs2r8X7efn26fp51EgBo4oetEqhQQOqsR1bFX_fsq6DRwLt9429Jv2KGGqMfS4mM_hH8/s320/20250115_1209_Blockchain%20Visualization_simple_compose_01jhn8613tetbbdyyz2e1bfw97.gif)
+![DAGs y Blockchain ](https://asset.cloudinary.com/dvz9iwj4b/5f18bff0bf627948c03c4f4cec347759)
+
 
 ## 1. Grafos y Blockchain
 
