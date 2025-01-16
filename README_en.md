@@ -1,5 +1,9 @@
 #  sgevatschnnaider.github.io
 
+<div style="text-align: center;">
+  <img src="https://github.com/sgevatschnaider/sgevatschnaider.github.io/raw/main/20250113_1958_Mystical%20Data%20Labyrinths_simple_compose_01jhgy86t8eph9yne675yf4c1t.gif" alt="Alucinaciones y LLMs" style="width: 100%; border: 1px solid #ccc; border-radius: 8px;">
+</div>
+
 Welcome to my GitHub repository! This space is dedicated to the exploration of various topics in technology, data science, and artificial intelligence. Here, you will find documentation, visualizations, and reflections on innovative concepts and technological tools.
 
 ## 📂 Repository Contents
