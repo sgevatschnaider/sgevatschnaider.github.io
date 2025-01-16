@@ -6,7 +6,8 @@
 
 ---
 
-![DAGs y Blockchain ](https://asset.cloudinary.com/dvz9iwj4b/5f18bff0bf627948c03c4f4cec347759)
+![DAGs aplicado a Blockchain](https://res.cloudinary.com/dvz9iwj4b/image/upload/v1737027054/20250115_1209_Blockchain_Visualization_simple_compose_01jhn8613tetbbdyyz2e1bfw97_md4fsh.gif)
+
 
 
 ## 1. Grafos y Blockchain
