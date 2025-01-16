@@ -7,8 +7,9 @@ Alucinaciones y LLMs
 ====================
 
 <div style="text-align: center;">
-  <img src="https://github.com/sgevatschnaider/sgevatschnaider.github.io/raw/main/20250113_1958_Mystical%20Data%20Labyrinths_simple_compose_01jhgy86t8eph9yne675yf4c1t.gif" alt="Alucinaciones y LLMs" style="width: 100%; max-width: 1200px; border: 1px solid #ccc; border-radius: 8px;">
+  <img src="https://github.com/sgevatschnaider/sgevatschnaider.github.io/raw/main/20250113_1958_Mystical%20Data%20Labyrinths_simple_compose_01jhgy86t8eph9yne675yf4c1t.gif" alt="Alucinaciones y LLMs" style="width: 100%; border: 1px solid #ccc; border-radius: 8px;">
 </div>
+
 
 
 1) Alucinaciones y LLMs
