@@ -5,8 +5,10 @@
 - [🇬🇧 English](https://economiayetica.blogspot.com/2025/01/dag-and-blockchain-root-primary-color.html)
 
 ---
+<div style="text-align: center;">
+  <img src="https://github.com/sgevatschnaider/sgevatschnaider.github.io/raw/main/20250115_1209_Blockchain%20Visualization_simple_compose_01jhn8613tetbbdyyz2e1bfw97.gif" alt="DAGs y Blockchain" style="width: 80%; max-width: 600px; border: 1px solid #ccc; border-radius: 8px;">
+</div>
 
-![DAGs y Blockchain](https://github.com/sgevatschnaider/sgevatschnaider.github.io/raw/main/20250115_1209_Blockchain%20Visualization_simple_compose_01jhn8613tetbbdyyz2e1bfw97.gif)
 
 
 
