@@ -6,6 +6,11 @@
 Alucinaciones y LLMs
 ====================
 
+<video controls width="100%" style="border: 1px solid #ccc; border-radius: 8px;">
+  <source src="https://github.com/sgevatschnaider/sgevatschnaider.github.io/raw/main/20250113_1958_Mystical%20Data%20Labyrinths_simple_compose_01jhgy86t8eph9yne675yf4c1t.mp4" type="video/mp4">
+  Tu navegador no soporta la reproducción de videos.
+</video>
+
 1) Alucinaciones y LLMs
 
 Un problema de los Modelos de Lenguaje Grande (LLMs) son las alucinaciones. Estas se refieren a la generación de contenido falso, fabricado o inconsistente con los datos con los que se ha entrenado el modelo. Todos los que utilizamos estos sistemas hemos observado cómo puede generar afirmaciones que suenan correctas, pero no tienen sustento.
