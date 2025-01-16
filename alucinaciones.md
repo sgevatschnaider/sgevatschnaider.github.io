@@ -6,7 +6,7 @@
 Alucinaciones y LLMs
 ====================
 
-[Ver el video sobre alucinaciones y LLMs](https://github.com/sgevatschnaider/sgevatschnaider.github.io/raw/main/20250113_1958_Mystical%20Data%20Labyrinths_simple_compose_01jhgy86t8eph9yne675yf4c1t.mp4)
+![Alucinaciones y LLMs](https://github.com/sgevatschnaider/sgevatschnaider.github.io/raw/main/20250113_1958_Mystical%20Data%20Labyrinths_simple_compose_01jhgy86t8eph9yne675yf4c1t.gif)
 
 1) Alucinaciones y LLMs
 
