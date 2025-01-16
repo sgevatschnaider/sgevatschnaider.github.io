@@ -6,7 +6,7 @@
 
 ---
 
-![DAGs aplicado a Blockchain](https://res.cloudinary.com/dvz9iwj4b/image/upload/v1737027054/20250115_1209_Blockchain_Visualization_simple_compose_01jhn8613tetbbdyyz2e1bfw97_md4fsh.gif)
+![DAGs aplicado a Blockchain](https://res.cloudinary.com/dvz9iwj4b/image/upload/v1737027054/20250115_1209_Blockchain_Visualization_simple_compose_01jhn8613tetbbdyyz2e1bfw97_md4fsh.gif))
 
 
 
