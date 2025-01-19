@@ -9,7 +9,7 @@
 
 ## Azar, estabilidad y creación
 
-![Imagen principal](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpFzAeqJETf-ubvJCXmahSRnYgnDpKumacDlogzFCGKkVwTMNKITRNt7xPcfww60d4BdRIqof-cbz0JV6R1CwpAzqYlBYBECR58xgOYsIxXd3VEg_3EOCkO4bzHnFgARNoAXG6NGYu47b6Z1CvR0W5POGijqsHb4zehmB0pTYRyA4ebW9sAwlsrFSzydk/s320/20250119_1635_Neon%20Digital%20Universe_simple_compose_01jj010vqnfdn85tq1sg83ej1t.gif)
+<div style="display: flex; justify-content: center;"> <img src="https://github.com/sgevatschnaider/sgevatschnaider.github.io/raw/main/20250119_1635_Neon%20Digital%20Universe_simple_compose_01jj010vqnfdn85tq1sg83ej1t.gif" alt="Azar, estabilidad y creación" width="80%"> </div>
 
 ---
 
