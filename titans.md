@@ -9,7 +9,9 @@
 
 ## Diagrama Principal
 
-[Coloca aquí el enlace de tu diagrama principal]
+<div style="text-align: center;">
+  <img src="https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/3669ace641fbc22cff1a61e4faaa4710e44f6832/20250121_0825_Futuristic%20Mountain%20Panorama_simple_compose_01jj49redcf499pbw4k6wfsnqe.gif" alt="Complejidad" style="width: 100%; border: 1px solid #ccc; border-radius: 8px;">
+</div>
 
 ---
 
