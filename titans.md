@@ -46,7 +46,8 @@ Los **Transformers** enfrentan varias limitaciones, principalmente relacionadas 
 
 Ejemplo: En tareas donde las dependencias contextuales abarcan secuencias largas, los **Transformers** no pueden manejar estos datos de manera eficiente sin simplificaciones, lo que impacta la calidad del análisis.
 
-[Coloca aquí la imagen que ilustra la comparación de complejidad entre cuadrática, lineal y logarítmica]
+![Complejidad Cuadrática](https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/6ca6d86e201fcaa0900866beb8ba675860dc54e2/cuadr%C3%A1tica.png?raw=true)
+
 
 **Fuente:** Elaboración propia.
 
@@ -66,7 +67,8 @@ Ejemplo: En tareas donde las dependencias contextuales abarcan secuencias largas
 2. **Mecanismo de sorpresa y olvido dinámico**: Identifica qué información es relevante para almacenar en la memoria de largo plazo y descarta datos innecesarios.
 3. **Uso eficiente de memoria**: Implementa operaciones optimizadas en mini-lotes, reduciendo significativamente los costos computacionales.
 
-[Coloca aquí el diagrama de Titans: Arquitecturas Inspiradas en la Memoria Humana]
+![Diagrama](https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/6ca6d86e201fcaa0900866beb8ba675860dc54e2/diagrama%20en%20espa%C3%B1ol.png?raw=true)
+
 
 **Fuente:** Elaboración propia.
 
@@ -99,17 +101,22 @@ El modelo **Titans** utiliza tres estrategias principales para integrar la memor
 1. **MAC (Memoria como Contexto):**
    La **memoria de largo plazo** se trata como un contexto adicional que complementa la entrada actual. Esto permite a **Titans** manejar secuencias largas de manera eficiente sin fragmentarlas.
 
-   [Coloca aquí el diagrama para MAC]
+   ![Memoria Contextual](https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/6ca6d86e201fcaa0900866beb8ba675860dc54e2/contexto.png?raw=true)
+
 
 2. **MAG (Memoria como Puerta):**
    En esta variante, la memoria actúa como una rama separada del modelo, interactuando mediante un mecanismo de puerta no lineal que regula su impacto en el flujo principal.
 
-   [Coloca aquí el diagrama para MAG]
+  ![Memoria de Compuerta](https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/6ca6d86e201fcaa0900866beb8ba675860dc54e2/memoria%20comp%20puerta%7D.png?raw=true)
+
 
 3. **MAL (Memoria como Capa):**
    Aquí, la **memoria de largo plazo** se implementa como una capa autónoma dentro de la arquitectura. Esta integración es útil para modelos secuenciales o tareas con patrones claros.
 
-   [Coloca aquí el diagrama para MAL]
+
+Memoria de capa
+https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/6ca6d86e201fcaa0900866beb8ba675860dc54e2/mal.png
+
 
 ---
 
