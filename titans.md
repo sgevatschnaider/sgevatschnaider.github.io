@@ -9,8 +9,8 @@
 
 ## Visión de la complejidad computacional
 
-<div style="display: flex; justify-content: center;"> <img src="[https://github.com/sgevatschnaider/sgevatschnaider.github.io/raw/main/20250119_1635_Neon%20Digital%20Universe_simple_compose_01jj010vqnfdn85tq1sg83ej1t.gif](https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/3669ace641fbc22cff1a61e4faaa4710e44f6832/20250121_0825_Futuristic%20Mountain%20Panorama_simple_compose_01jj49redcf499pbw4k6wfsnqe.gif)" alt="Azar, estabilidad y creación" width="80%"> </div>
----
+<div style="display: flex; justify-content: center;"> <img src="(https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/3669ace641fbc22cff1a61e4faaa4710e44f6832/20250121_0825_Futuristic%20Mountain%20Panorama_simple_compose_01jj49redcf499pbw4k6wfsnqe.gif)" alt="Azar, estabilidad y creación" width="80%"> </div>
+
 
 ## ÍNDICE
 
