@@ -114,8 +114,8 @@ El modelo **Titans** utiliza tres estrategias principales para integrar la memor
    Aquí, la **memoria de largo plazo** se implementa como una capa autónoma dentro de la arquitectura. Esta integración es útil para modelos secuenciales o tareas con patrones claros.
 
 
-Memoria de capa
-https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/6ca6d86e201fcaa0900866beb8ba675860dc54e2/mal.png
+![Memoria de Capa](https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/6ca6d86e201fcaa0900866beb8ba675860dc54e2/mal.png?raw=true)
+
 
 
 ---
