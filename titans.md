@@ -9,8 +9,12 @@
 
 ## Visión de la complejidad computacional
 
-<div style="display: flex; justify-content: center;"> <img src="(https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/3669ace641fbc22cff1a61e4faaa4710e44f6832/20250121_0825_Futuristic%20Mountain%20Panorama_simple_compose_01jj49redcf499pbw4k6wfsnqe.gif)" alt="Azar, estabilidad y creación" width="80%"> </div>
-
+<div style="text-align: center; margin: 20px 0;">
+  <img 
+    src="https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/3669ace641fbc22cff1a61e4faaa4710e44f6832/20250121_0825_Futuristic%20Mountain%20Panorama_simple_compose_01jj49redcf499pbw4k6wfsnqe.gif" 
+    alt="Imagen de Complejidad - Panorama Futurista de Montaña" 
+    style="width: 100%; max-width: 800px; border: 1px solid #ccc; border-radius: 8px;">
+</div>
 
 ## ÍNDICE
 
