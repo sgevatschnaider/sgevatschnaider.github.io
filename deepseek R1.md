@@ -2,7 +2,6 @@
 # DeepSeek-R1: Innovación y Geopolítica en la Era de la Inteligencia Artificial
 
 🌐 **Cambiar Idioma**  
-- [🇪🇸 Español](https://economiayetica.blogspot.com/2025/01/deepseek-r1-innovacion-y-geopolitica.html)  
 - [🇬🇧 English](https://economiayetica.blogspot.com/2025/01/deepseek-r1-innovation-and-geopolitics_7.html)  
 
 ---
