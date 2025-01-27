@@ -1,4 +1,3 @@
-+++
 # DeepSeek-R1: Innovación y Geopolítica en la Era de la Inteligencia Artificial
 
 🌐 **Cambiar Idioma**  
@@ -41,4 +40,4 @@ A diferencia de los modelos completamente propietarios, **DeepSeek-R1 fomenta un
 
 ## Referencias
 - [DeepSeek-R1: Innovation and Geopolitics in the Age of Artificial Intelligence](https://economiayetica.blogspot.com/2025/01/deepseek-r1-innovation-and-geopolitics_7.html)  
-+++
+
