@@ -76,4 +76,4 @@ El uso de modelos densos y MoE se refleja en la eficiencia del modelo y puede re
 
 Video generado por Qwen 2.5 representando un grafo denso y un grafo disperso.
 
-[Reference: Qwen 2.5 Technical Report](https://tuusuario.github.io)
+[Reference: Qwen 2.5 Technical Report](https://arxiv.org/abs/2412.15115)
