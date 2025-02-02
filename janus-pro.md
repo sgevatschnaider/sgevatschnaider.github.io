@@ -1,6 +1,6 @@
 # Janus-Pro: China en la era de la inteligencia artificial
 
-[**English Version**](https://economiayetica.blogspot.com/2025/01/janus-pro-nuevo-modelo-multimodal.html)
+[**English Version**](https://economiayetica.blogspot.com/2025/02/janus-pro-china-imagenes-e-inteligencia.html)
 
 ---
 
