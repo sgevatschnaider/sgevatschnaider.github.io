@@ -5,6 +5,8 @@
 -  [🇬🇧 English](https://economiayetica.blogspot.com/2025/02/flexibilidad-grafos-y-arquitecturas_2.html)
 
 
+![Dinámica de interconexión en grafo](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSYT6N1_pzDA51MbYvty-gvmgWYJlURfTt9v4j0CA7BczoFvUlDhyRh6iDGPqdiwtpahph-xfhazwaLseSi9s5qGSOG0V09mkbGN4DzKBbNu629SGKItVLhenap6ti-05iPHMDGyfoRqqPII6n4gvXnriXBpIGRG7xiBnSh-otknyziZkqbHNc20BKc9g/s320/20250202_0545_Graph%20Interconnection%20Dynamics_simple_compose_01jk2xbw1vf8tr5vqecyrwf70y.gif)
+
 
 ## 1. Modelos densos versus MoE
 
