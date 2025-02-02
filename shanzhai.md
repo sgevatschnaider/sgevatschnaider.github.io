@@ -1,5 +1,5 @@
 
-**[Versión en inglés](https://economiayetica.blogspot.com/2025/01/copy-originality-chinese-economy.html)**
+**[Versión en inglés](https://economiayetica.blogspot.com/2025/02/copy-and-originality-chinese-economy-en.html)**
 
 # Copia y originalidad como motor de la economía china
 
