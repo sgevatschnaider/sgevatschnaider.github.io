@@ -9,6 +9,8 @@
 </div>
 
 ---
+[![Imagen generada por Janus-Pro](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnpl2altTrHZ6FCKpwGiicdwijaNrX7Gugtu05RTeKTpMpBrfNxhgxvN_vD5QBPnnQq9FoACBlHphD8-xoJuujoVFExlOYbxAX28eNs5y1yQKYMogyNB9oBWpFwpGC9isLI9cQvCUiGnxheCy-N72HWDey9oTKSqw7D8tzcFeajCiGfhR-jWkSEojyA3I/s320/janus%20pro.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnpl2altTrHZ6FCKpwGiicdwijaNrX7Gugtu05RTeKTpMpBrfNxhgxvN_vD5QBPnnQq9FoACBlHphD8-xoJuujoVFExlOYbxAX28eNs
+
 
 ## Origen y Objetivos Estratégicos
 
