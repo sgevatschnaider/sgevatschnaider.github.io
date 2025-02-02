@@ -1,9 +1,11 @@
 # DeepSeek-R1: Innovación y Geopolítica en la Era de la Inteligencia Artificial
 
-🌐 **Cambiar Idioma**  
-- [🇬🇧 English](https://economiayetica.blogspot.com/2025/01/deepseek-r1-innovation-and-geopolitics_7.html)  
+## 🌐 Cambiar Idioma
 
-[![Imagen generada por Janus-Pro](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnpl2altTrHZ6FCKpwGiicdwijaNrX7Gugtu05RTeKTpMpBrfNxhgxvN_vD5QBPnnQq9FoACBlHphD8-xoJuujoVFExlOYbxAX28eNs5y1yQKYMogyNB9oBWpFwpGC9isLI9cQvCUiGnxheCy-N72HWDey9oTKSqw7D8tzcFeajCiGfhR-jWkSEojyA3I/s320/janus%20pro.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnpl2altTrHZ6FCKpwGiicdwijaNrX7Gugtu05RTeKTpMpBrfNxhgxvN_vD5QBPnnQq9FoACBlHphD8-xoJuujoVFExlOYbxAX28eNs
+- [🇬🇧 English](https://economiayetica.blogspot.com/2025/01/deepseek-r1-innovation-and-geopolitics_7.html)
+
+[![Imagen generada por Janus-Pro](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnpl2altTrHZ6FCKpwGiicdwijaNrX7Gugtu05RTeKTpMpBrfNxhgxvN_vD5QBPnnQq9FoACBlHphD8-xoJuujoVFExlOYbxAX28eNs5y1yQKYMogyNB9oBWpFwpGC9isLI9cQvCUiGnxheCy-N72HWDey9oTKSqw7D8tzcFeajCiGfhR-jWkSEojyA3I/s320/janus%20pro.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnpl2altTrHZ6FCKpwGiicdwijaNrX7Gugtu05RTeKTpMpBrfNxhgxvN_vD5QBPnnQq9FoACBlHphD8-xoJuujoVFExlOYbxAX28eNs5y1yQKYMogyNB9oBWpFwpGC9isLI9cQvCUiGnxheCy-N72HWDey9oTKSqw7D8tzcFeajCiGfhR-jWkSEojyA3I/s320/janus%20pro.png)
+
 
 
 
