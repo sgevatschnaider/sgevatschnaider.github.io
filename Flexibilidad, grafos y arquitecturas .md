@@ -2,7 +2,8 @@
 
 ## 🌐 Cambiar Idioma
 
-- - [🇬🇧 English](https://economiayetica.blogspot.com/2025/02/flexibilidad-grafos-y-arquitecturas_53.html)
+-  [🇬🇧 English](https://economiayetica.blogspot.com/2025/02/flexibilidad-grafos-y-arquitecturas_53.html)
+
 
 
 ## 1. Modelos densos versus MoE
