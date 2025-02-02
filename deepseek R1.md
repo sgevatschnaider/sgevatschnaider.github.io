@@ -3,13 +3,8 @@
 🌐 **Cambiar Idioma**  
 - [🇬🇧 English](https://economiayetica.blogspot.com/2025/01/deepseek-r1-innovation-and-geopolitics_7.html)  
 
----
-<div style="display: flex; justify-content: center;">
-  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgo8-Fzf598dmQpX5hqI3gUNrHJAO_gCH9hrQ6-zrTHm6bmbvZ0fAMAexd16JAERHf-1O4rjI2nf0OtY0lYuefuzf5XTYRLIWyg4v47P5QVxiHEX2CwQnGGbcO5oW-_Gc5N7py4PHnkl5q9PTi0AUosye1RjRgdXlXW9v4lfijWeeCjDZFTlKxeL9c7Vrg/s800/20250127_1601_AI%20Chess%20Showdown_simple_compose_01jjmj6r7xf5raftw4qj8jzbk7.gif" alt="DeepSeek-R1 Visualization" width="80%">
-</div>
-
----
 [![Imagen generada por Janus-Pro](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnpl2altTrHZ6FCKpwGiicdwijaNrX7Gugtu05RTeKTpMpBrfNxhgxvN_vD5QBPnnQq9FoACBlHphD8-xoJuujoVFExlOYbxAX28eNs5y1yQKYMogyNB9oBWpFwpGC9isLI9cQvCUiGnxheCy-N72HWDey9oTKSqw7D8tzcFeajCiGfhR-jWkSEojyA3I/s320/janus%20pro.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnpl2altTrHZ6FCKpwGiicdwijaNrX7Gugtu05RTeKTpMpBrfNxhgxvN_vD5QBPnnQq9FoACBlHphD8-xoJuujoVFExlOYbxAX28eNs
+
 
 
 ## Origen y Objetivos Estratégicos
