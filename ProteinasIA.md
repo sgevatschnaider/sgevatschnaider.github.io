@@ -4,8 +4,10 @@
 
 ---
 
-[![Proteínas brillando en el espacio como galaxias en espiral](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidWLWgwwOX04Gf31p3mZx1vkPHZg-NTDjuG4c5ekYgpLLfq6KWp7rilBHJIISRWXmva2NQvKOWIEYrdj0joL58iVjKOoNhRKa8sIwG6Z93enQLh1YowGMP7Nn2xZHoEEeNgycYh37hT6Vv401GD7rtSJFnBXK-Zxf9rwqU7ZDx8h_LDcrxPS-9abgxY6g/s320/20250203_1640_Celestial%20Protein%20Ballet_simple_compose_01jk6n8kanebpvaxxm3de5en6t.gif))
+[![Proteínas brillando en el espacio como galaxias en espiral](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidWLWgwwOX04Gf31p3mZx1vkPHZg-NTDjuG4c5ekYgpLLfq6KWp7rilBHJIISRWXmva2NQvKOWIEYrdj0joL58iVjKOoNhRKa8sIwG6Z93enQLh1YowGMP7Nn2xZHoEEeNgycYh37hT6Vv401GD7rtSJFnBXK-Zxf9rwqU7ZDx8h_LDcrxPS-9abgxY6g/s320/20250203_1640_Celestial%20Protein%20Ballet_simple_compose_01jk6n8kanebpvaxxm3de5en6t.gif)](https://economiayetica.blogspot.com/2025/02/cuando-la-biologia-habla-modelos-de_4.html)
+
 *Representación visual de proteínas brillando en el espacio como galaxias en espiral*
+
 
 ---
 
