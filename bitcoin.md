@@ -9,7 +9,7 @@
 
 ---
 
-## Imagen: Cofre Futurista
+
 
 <div style="display: flex; justify-content: center;">
   <!-- Enlace hacia la versión grande (usamos s1600 como ejemplo si existe) -->
