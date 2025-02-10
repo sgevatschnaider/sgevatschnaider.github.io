@@ -11,7 +11,7 @@
 
 <div style="display: flex; justify-content: center;">
   <img
-    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAmIQgzNYW7MyS_VMS9TRv1etdpfxgtorpAZIo6n1Ba-ZV7zgZmkxUB7SeyQ4T3MDAw7VoPj_CtYTQ2P4f7YcRNgk8PFyV_apCZZi9vNnjIURwsKrrUdTSej1JbEhgBW4czmE8Nu1u_H7I-0ka-JQlTiamGLsaS6IhUseLhqhu5dg-7kAV34aXRoFnt6E/s320/20250205_1105_Futuristic%20Crypto%20Vault_simple_compose_01jkb6wn2qe219bqc61hzx6726.gif"
+   [![Dragón generado por Janus-Pro]src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAmIQgzNYW7MyS_VMS9TRv1etdpfxgtorpAZIo6n1Ba-ZV7zgZmkxUB7SeyQ4T3MDAw7VoPj_CtYTQ2P4f7YcRNgk8PFyV_apCZZi9vNnjIURwsKrrUdTSej1JbEhgBW4czmE8Nu1u_H7I-0ka-JQlTiamGLsaS6IhUseLhqhu5dg-7kAV34aXRoFnt6E/s320/20250205_1105_Futuristic%20Crypto%20Vault_simple_compose_01jkb6wn2qe219bqc61hzx6726.gif"
     alt="Bitcoin como activo de reserva"
     width="80%"
   />
