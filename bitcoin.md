@@ -5,7 +5,7 @@
 
 ## 🌐 Seleccionar idioma / Select Language
   
-[English](https://economiayetica.blogspot.com/2025/02/html-bitcoin-como-activo-de-reserva-y.html)
+[English]([https://economiayetica.blogspot.com/2025/02/html-bitcoin-como-activo-de-reserva-y.html])
 
 ---
 
