@@ -138,6 +138,6 @@ La incorporación de Bitcoin como activo de reserva en un Banco Central sigue si
 - [A Roundtable Discussion on the Strategic Implications of a U.S. Bitcoin Reserve](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5067147)
 
 ---
-```
 
----
+
+
