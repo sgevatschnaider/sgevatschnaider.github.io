@@ -9,13 +9,23 @@
 
 ---
 
+## Imagen: Cofre Futurista
+
 <div style="display: flex; justify-content: center;">
-  <img
-  Pro]src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAmIQgzNYW7MyS_VMS9TRv1etdpfxgtorpAZIo6n1Ba-ZV7zgZmkxUB7SeyQ4T3MDAw7VoPj_CtYTQ2P4f7YcRNgk8PFyV_apCZZi9vNnjIURwsKrrUdTSej1JbEhgBW4czmE8Nu1u_H7I-0ka-JQlTiamGLsaS6IhUseLhqhu5dg-7kAV34aXRoFnt6E/s320/20250205_1105_Futuristic%20Crypto%20Vault_simple_compose_01jkb6wn2qe219bqc61hzx6726.gif"
-    alt="Bitcoin como activo de reserva"
-    width="80%"
-  />
+  <!-- Enlace hacia la versión grande (usamos s1600 como ejemplo si existe) -->
+  <a 
+    href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAmIQgzNYW7MyS_VMS9TRv1etdpfxgtorpAZIo6n1Ba-ZV7zgZmkxUB7SeyQ4T3MDAw7VoPj_CtYTQ2P4f7YcRNgk8PFyV_apCZZi9vNnjIURwsKrrUdTSej1JbEhgBW4czmE8Nu1u_H7I-0ka-JQlTiamGLsaS6IhUseLhqhu5dg-7kAV34aXRoFnt6E/s1600/20250205_1105_Futuristic%20Crypto%20Vault_simple_compose_01jkb6wn2qe219bqc61hzx6726.gif"
+    target="_blank"
+  >
+    <!-- Imagen miniatura (s320) -->
+    <img
+      src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAmIQgzNYW7MyS_VMS9TRv1etdpfxgtorpAZIo6n1Ba-ZV7zgZmkxUB7SeyQ4T3MDAw7VoPj_CtYTQ2P4f7YcRNgk8PFyV_apCZZi9vNnjIURwsKrrUdTSej1JbEhgBW4czmE8Nu1u_H7I-0ka-JQlTiamGLsaS6IhUseLhqhu5dg-7kAV34aXRoFnt6E/s320/20250205_1105_Futuristic%20Crypto%20Vault_simple_compose_01jkb6wn2qe219bqc61hzx6726.gif"
+      alt="Cofre Futurista"
+      style="max-width: 80%;"
+    />
+  </a>
 </div>
+
 
 
 ---
