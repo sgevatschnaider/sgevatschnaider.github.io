@@ -9,10 +9,7 @@ IA que se Enseña a Sí Misma
   <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgW_WKonFhLvkYkx8eJfdRM9IOGg9sSHziiXuNUVzANXRV_raPOSpS-0ktFKDcJf1Tfxlm8mK8D8DgKTpYMfVMXfUb3QGRDE2oAi8RRGpD374KOMmaM2_QnIK44qn5kFqa2lxU5tYpH1XOax76EaCJPpe4gQgGu7akbGCgvMjHtzI55Yr04iSGE74xE8m0/s320/20250217_1854_AI%20Chess%20Battle_simple_compose_01jmayeynhehesdp849qx8epzk.gif" style="display: block; padding: 1em 0; text-align: center;">
     <img alt="" border="0" width="320" data-original-height="180" data-original-width="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgW_WKonFhLvkYkx8eJfdRM9IOGg9sSHziiXuNUVzANXRV_raPOSpS-0ktFKDcJf1Tfxlm8mK8D8DgKTpYMfVMXfUb3QGRDE2oAi8RRGpD374KOMmaM2_QnIK44qn5kFqa2lxU5tYpH1XOax76EaCJPpe4gQgGu7akbGCgvMjHtzI55Yr04iSGE74xE8m0/s320/20250217_1854_AI%20Chess%20Battle_simple_compose_01jmayeynhehesdp849qx8epzk.gif"/>
   </a>
-</div>
-<div style="display: flex; justify-content: center;">
-  <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0clouhdzRc10WLVjIhCeeigLuntzm4-3bDncUkzMRu5MKZ75lqHrPY0qo_rrOFFQhMccG6I8hr5gLPvBRo4X1p2iJH8wYn4l7yc0yXfVReS1tXAY8NR4VmAKVj_ARXT44TsLMGKqp2oXHJDxamCwP0pEfSQD4SIM6T6409IcLeUk6xIv1MwsnLWPKkYs/s320/20250215_1701_Chart%20Rollercoaster_simple_compose_01jm5k7j7ae2m962t7wb2dqkd0%20(1).gif">
-    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0clouhdzRc10WLVjIhCeeigLuntzm4-3bDncUkzMRu5MKZ75lqHrPY0qo_rrOFFQhMccG6I8hr5gLPvBRo4X1p2iJH8wYn4l7yc0yXfVReS1tXAY8NR4VmAKVj_ARXT44TsLMGKqp2oXHJDxamCwP0pEfSQD4SIM6T6409IcLeUk6xIv1MwsnLWPKkYs/s320/20250215_1701_Chart%20Rollercoaster_simple_compose_01jm5k7j7ae2m962t7wb2dqkd0%20(1).gif" alt="Pump & Dump" width="80%">
+
 Índice
 ------
 1. De los **LLMs** a los **LRMs**  
