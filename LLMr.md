@@ -6,7 +6,7 @@ IA que se Enseña a Sí Misma
 ===========================
 
 <div style="text-align: center;">
-  <img src="https://via.placeholder.com/800x400?text=IA+que+se+Ense%C3%B1a+a+S%C3%AD+Misma" alt="Imagen representando un entorno digital con dos versiones de la IA compitiendo en un tablero de ajedrez" style="width: 100%; border: 1px solid #ccc; border-radius: 8px;">
+  <img src="https://via.placeholder.com/800x400.png?text=IA+que+se+Ense%C3%B1a+a+S%C3%AD+Misma" alt="Imagen representando un entorno digital con dos versiones de la IA compitiendo en un tablero de ajedrez" style="width: 100%; border: 1px solid #ccc; border-radius: 8px;">
 </div>
 
 Índice
