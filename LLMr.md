@@ -5,10 +5,11 @@
 IA que se Enseña a Sí Misma
 ===========================
 
-div class="separator">
-          <a href="#" title="Imagen representando un entorno digital con dos versiones de la IA compitiendo en un tablero de ajedrez">
-            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxq7mJV2Q6o8JtCJlWPcLJ3MdSRoEOmgtLEv9zT_uhi2_3mDNL8q-T3f1gTXn9KvNGj8yAqY_gj_zzpHG_IrDXSrpLC3nPeOOCQ2pMffQeeNkp4PK3XoBsRjKeeNW3YTvx6K3NpLZn5hnXYl8dSBKNH0TyQdkAPnHaFZch02xZU-W9s_KVQGz1XTTJTqE/s320/20250217_1854_AI%20Chess%20Battle_simple_compose_01jmayeynhehesdp849qx8epzk.gif" alt="Entorno digital con IA en ajedrez" width="320" style="display: block; margin: 0 auto; padding: 1em 0;">
-          </a>
+<div style="text-align: center; clear: both;">
+  <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgW_WKonFhLvkYkx8eJfdRM9IOGg9sSHziiXuNUVzANXRV_raPOSpS-0ktFKDcJf1Tfxlm8mK8D8DgKTpYMfVMXfUb3QGRDE2oAi8RRGpD374KOMmaM2_QnIK44qn5kFqa2lxU5tYpH1XOax76EaCJPpe4gQgGu7akbGCgvMjHtzI55Yr04iSGE74xE8m0/s320/20250217_1854_AI%20Chess%20Battle_simple_compose_01jmayeynhehesdp849qx8epzk.gif" style="display: block; padding: 1em 0; text-align: center;">
+    <img alt="" border="0" width="320" data-original-height="180" data-original-width="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgW_WKonFhLvkYkx8eJfdRM9IOGg9sSHziiXuNUVzANXRV_raPOSpS-0ktFKDcJf1Tfxlm8mK8D8DgKTpYMfVMXfUb3QGRDE2oAi8RRGpD374KOMmaM2_QnIK44qn5kFqa2lxU5tYpH1XOax76EaCJPpe4gQgGu7akbGCgvMjHtzI55Yr04iSGE74xE8m0/s320/20250217_1854_AI%20Chess%20Battle_simple_compose_01jmayeynhehesdp849qx8epzk.gif"/>
+  </a>
+</div>
 
 Índice
 ------
