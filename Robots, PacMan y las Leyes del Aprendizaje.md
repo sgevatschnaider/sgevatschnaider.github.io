@@ -24,7 +24,8 @@ Juegos de Robot
       alt="Robot jugando al Pac-Man"
       style="max-width: 100%; height: auto;"
     />
-        <figcaption><em>La imagen muestra un robot jugando al Pac-Man</em></figcaption>
+        
+    <figcaption><em>La imagen muestra un robot jugando al Pac-Man</em></figcaption>
   </figure>
 </div>
 
