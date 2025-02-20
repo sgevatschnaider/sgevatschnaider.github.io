@@ -6,15 +6,7 @@
 
 ## Imagen: Proteínas brillando en el espacio como galaxias en espiral
 
-<div style="display: flex; justify-content: center;">
-  <a href="https://economiayetica.blogspot.com/2025/02/cuando-la-biologia-habla-modelos-de_4.html">
-    <img 
-      src="https://raw.githubusercontent.com/sgevatschnaider/sgevatschnaider.github.io/main/20250203_1640_Celestial_Protein_Ballet_simple_compose_01jk6n8kanebpvaxxm3de5en6t.gif" 
-      alt="Proteínas brillando en el espacio como galaxias en espiral" 
-      width="80%"
-    />
-  </a>
-</div>
+![Celestial Protein Ballet](https://github.com/sgevatschnaider/sgevatschnaider.github.io/raw/main/20250203_1640_Celestial%20Protein%20Ballet_simple_compose_01jk6n8kanebpvaxxm3de5en6t.gif)
 
   </a>
 </div>
