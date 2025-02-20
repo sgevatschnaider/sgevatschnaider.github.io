@@ -9,8 +9,9 @@ Juegos de Robot
 ====================
 
 <div style="text-align: center;">
-  <img
-https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/e4ece0a08af142c3b4de596c19cb1006a35b29db/20250219_2125_Robot%20Arcade%20Challenge_simple_compose_01jmgbwz42e8mbdpnrvqf6dvcx.gif
+  <img src="https://raw.githubusercontent.com/sgevatschnaider/sgevatschnaider.github.io/e4ece0a08af142c3b4de596c19cb1006a35b29db/20250219_2125_Robot%20Arcade%20Challenge_simple_compose_01jmgbwz42e8mbdpnrvqf6dvcx.gif"
+       alt="Robot jugando al Pac-Man"
+       width="500">
 </div>
 
 *La imagen muestra un robot jugando al PacMan*
