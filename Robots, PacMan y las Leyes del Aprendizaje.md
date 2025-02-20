@@ -8,7 +8,7 @@
 Juegos de Robot
 ====================
 
-# 🤖 Robots, PacMan y las Leyes del Aprendizaje
+# Robots, PacMan y las Leyes del Aprendizaje
 
 ## 🌐 Cambiar Idioma
 - [🇬🇧 English](https://economiayetica.blogspot.com/2025/02/robots-pacman-y-las-leyes-del.html)
@@ -24,7 +24,7 @@ Juegos de Robot
       alt="Robot jugando al Pac-Man"
       style="max-width: 100%; height: auto;"
     />
-    <figcaption><em>La imagen muestra un robot jugando al Pac-Man</em></figcaption>
+        <figcaption><em>La imagen muestra un robot jugando al Pac-Man</em></figcaption>
   </figure>
 </div>
 
