@@ -5,17 +5,12 @@
 
 ---
 
-## Imagen principal
+Juegos de Robot
+====================
 
-<div style="display: flex; justify-content: center; margin-bottom: 1em;">
-  <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieafI7uu0MwdC9xf8L60RlFE-uga5bdvJiQmXOAvOWrRjFgz7hA7Hw6q6mOs3DFCMZ9XLfKxP2VIvzZtGmEHvUW5cWlcuYmS_RnyRvmze1_6m3nZ9QxoYR_r9r0eQG9fG9wmpKs-7gt8ozhjUHnFP2zitqLzFebKi3ViUBmDl3H4j48hX5UvcEIidgDwE/s320/20250219_2125_Robot%20Arcade%20Challenge_simple_compose_01jmgbwz42e8mbdpnrvqf6dvcx.gif">
-    <img 
-      src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieafI7uu0MwdC9xf8L60RlFE-uga5bdvJiQmXOAvOWrRjFgz7hA7Hw6q6mOs3DFCMZ9XLfKxP2VIvzZtGmEHvUW5cWlcuYmS_RnyRvmze1_6m3nZ9QxoYR_r9r0eQG9fG9wmpKs-7gt8ozhjUHnFP2zitqLzFebKi3ViUBmDl3H4j48hX5UvcEIidgDwE/s320/20250219_2125_Robot%20Arcade%20Challenge_simple_compose_01jmgbwz42e8mbdpnrvqf6dvcx.gif" 
-      alt="Robot jugando PacMan"
-      width="320"
-      style="display: block;"
-    />
-  </a>
+<div style="text-align: center;">
+  <img
+https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/e4ece0a08af142c3b4de596c19cb1006a35b29db/20250219_2125_Robot%20Arcade%20Challenge_simple_compose_01jmgbwz42e8mbdpnrvqf6dvcx.gif
 </div>
 
 *La imagen muestra un robot jugando al PacMan*
