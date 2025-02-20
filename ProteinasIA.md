@@ -8,8 +8,7 @@
 
 ![Celestial Protein Ballet](https://github.com/sgevatschnaider/sgevatschnaider.github.io/raw/main/20250203_1640_Celestial%20Protein%20Ballet_simple_compose_01jk6n8kanebpvaxxm3de5en6t.gif)
 
-  </a>
-</div>
+
 
 *Representación visual de proteínas brillando en el espacio como galaxias en espiral*
 
