@@ -1,10 +1,3 @@
-# Robots, PacMan y las Leyes del Aprendizaje
-
-## 🌐 Cambiar Idioma
-- [🇬🇧 English](https://economiayetica.blogspot.com/2025/02/robots-pacman-y-las-leyes-del.html)
-
----
-
 Juegos de Robot
 ====================
 
