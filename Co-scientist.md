@@ -6,109 +6,78 @@
 
 ## Diagrama del AI Co‑Scientist
 
-![Diagrama AI Co‑Scientist](https://raw.githubusercontent.com/sgevatschnaider/sgevatschnaider.github.io/be2b35c1873e58e2ce7feb4d84e300856dc0aded/ai_co_scientist_hierarchical%20(1).gif)
-*Fuente: Elaboración propia basada en el paper "Towards an AI co‑scientist"*
+![Diagrama AI Co‑Scientist](https://raw.githubusercontent.com/sgevatschnaider/sgevatschnaider.github.io/be2b35c1873e58e2ce7feb4d84e300856dc0aded/ai_co_scientist_hierarchical%20(1).gif)  
+*Fuente: Elaboración propia basada en el paper **Towards an AI co‑scientist***
 
 ---
 
 ## 1) Introducción
 
-Supongamos que estamos aprendiendo una nueva habilidad, por ejemplo **jugar al tenis**. Podríamos plantearnos diversas preguntas:
+El texto es un intento de comprender el modelo de los agentes que tienen múltiples aplicaciones en **Inteligencia Artificial** a partir de la lectura del paper **Towards an AI co‑scientist** de investigadores de Google.
 
-- ¿Sería mejor entrenar directamente en una cancha al aire libre, con viento, ruido y cambios de luz?
-- ¿O sería más efectivo empezar en un ambiente controlado, como una cancha cubierta, sin distracciones?
-
-La intuición nos dice que entrenar en condiciones lo más similares a la competencia real debería darnos mejores resultados. Pero, **¿y si no fuera así?**
-
-**Isaac Asimov** revolucionó la ciencia ficción con su concepto de robots positrónicos, dotados de inteligencia avanzada y regulados por sus famosas Tres Leyes de la Robótica. Estas leyes, diseñadas para garantizar la seguridad y funcionalidad de los robots, establecían que:
-
-1. **Primera Ley**:  
-   Un robot no puede dañar a un ser humano ni, por inacción, permitir que un ser humano sufra daño.
-2. **Segunda Ley**:  
-   Un robot debe obedecer las órdenes dadas por los seres humanos, excepto si estas órdenes entran en conflicto con la Primera Ley.
-3. **Tercera Ley**:  
-   Un robot debe proteger su propia existencia en la medida en que esta protección no entre en conflicto con la Primera o la Segunda Ley.
-
-**¿Cómo serían las leyes de aprendizaje eficiente para un robot?**
+*Fuente: Elaboración propia en base al paper **Towards an AI co‑scientist***
 
 ---
 
-## 2) Un Descubrimiento Sorprendente en Aprendizaje de Robots
+## 2) Imagina una Inteligencia Artificial que Descubre Medicinas
 
-Un reciente estudio en **aprendizaje por refuerzo**, titulado *The Indoor-Training Effect: Unexpected Gains from Distribution Shifts in the Transition Function*, cuyo objetivo es mejorar el entrenamiento en robots, ha encontrado un resultado sorprendente: en algunos casos, entrenar en un entorno más limpio y estructurado puede llevar a un mejor rendimiento en condiciones difíciles.
+En la investigación científica, la generación de nuevas hipótesis es un proceso complejo que requiere el análisis de grandes volúmenes de información y múltiples validaciones. Ahora, uno debe imaginar un sistema de **inteligencia artificial** que puede formular hipótesis científicas, evaluarlas y mejorarlas de manera autónoma.
 
-Este hallazgo, llamado el **Indoor-Training Effect (ITE)**, desafía la idea convencional de que el mejor entrenamiento es aquel que se asemeja exactamente al entorno donde se aplicará el conocimiento.
+Este es el concepto detrás del **AI Co‑Scientist**, un sistema basado en una arquitectura de **Sistemas Jerárquicos Multi‑Agente (HMAS)** que organiza distintos agentes de IA en niveles de autoridad y cooperación. Para comprender su funcionamiento, la **teoría de grafos** es una herramienta esencial, ya que nos permite modelar su estructura, visualizar el flujo de información y analizar cómo los agentes colaboran para acelerar el descubrimiento científico.
 
 ---
 
-## 3) El Descubrimiento en Inteligencia Artificial
+## 3) Sistemas Jerárquicos Multi‑Agente (HMAS) y su Aplicación en el AI Co‑Scientist
 
-Este trabajo de investigación analizó cómo los agentes de **IA** aprenden en diferentes entornos mediante juegos clásicos de **ATARI** (**PacMan**, Pong y Breakout). Se compararon dos tipos de agentes:
+Un **Sistema Jerárquico Multi‑Agente (HMAS)** es una arquitectura en la que múltiples agentes inteligentes están organizados en diferentes niveles según su función y capacidad de toma de decisiones. Su estructura jerárquica permite una comunicación optimizada, división de tareas y una mayor escalabilidad.
 
-- **Learnability Agent (Lδ)**: entrenado y probado en el mismo entorno ruidoso.
-- **Generalization Agent (GT)**: entrenado en un entorno sin ruido y probado en un entorno con ruido.
+El **AI Co‑Scientist** es un ejemplo de HMAS aplicado a la investigación científica, ya que organiza agentes en niveles jerárquicos: los agentes de alto nivel supervisan y coordinan el trabajo de agentes subordinados. Además, divide el proceso de generación de hipótesis en subtareas, asignando a cada agente un rol específico. La autonomía de los agentes les permite operar de manera independiente dentro de su función, mientras que la cooperación y el flujo de información entre ellos optimizan la validación de hipótesis. Su diseño adaptable y escalable permite la incorporación de nuevos agentes y la reconfiguración de procesos según la complejidad del problema.
 
-Contra toda expectativa, el **Generalization Agent** superó al **Learnability Agent** en muchas pruebas. Es decir, entrenar en un ambiente más limpio permitió a los agentes desempeñarse mejor en entornos más complejos. El **Indoor-Training Effect** sugiere que empezar en un ambiente controlado puede mejorar la capacidad de adaptación a escenarios desafiantes, en lugar de simplemente acostumbrarse al ruido del entorno final.
+Este sistema puede modelarse con **teoría de grafos**, lo que permite representar sus interacciones y procesos de manera estructurada.
 
-### La Fase 2: Juegos Utilizados en el Estudio
+---
 
-Este trabajo de investigación analizó cómo los agentes de IA aprenden mediante juegos clásicos de **ATARI**: **PacMan**, Pong y Breakout.
+## 4) Modelando el AI Co‑Scientist con Teoría de Grafos
 
-#### Juegos y Reglas Aplicadas
+El **AI Co‑Scientist** puede representarse como un grafo dirigido **G = (V, E)**, donde los nodos representan los agentes especializados dentro del sistema y las aristas dirigidas indican el flujo de información entre ellos. De manera opcional, se pueden agregar pesos en las aristas para representar la relevancia o prioridad de ciertas interacciones.
 
-Los investigadores seleccionaron estos juegos debido a sus dinámicas de acción rápida y la necesidad de planificación estratégica. Por ejemplo, en **PacMan**, cuyo objetivo es comer todos los puntos sin ser atrapado por los fantasmas, las modificaciones en el ruido consistieron en alteraciones en la velocidad y trayectoria de los fantasmas.
+Más precisamente, puede representarse mediante un **grafo dirigido cíclico (DAG parcial)** con algunos ciclos de retroalimentación, en el que existe una red multiagente en la que cada agente tiene roles especializados y se comunica dinámicamente. Se expresa como un grafo de flujo de información, similar a modelos de sistemas distribuidos. Dicha representación es la que encabeza esta nota.
 
-![Entrenamiento en PacMan](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgy-pfZxaq_YiaCuv78FoFcI3KlPbFnr13f6_Km7VUcelj1srslm7tmnsvu0v9JY5UgbYXRXoAvS7J6grwyaklcEp2W2_aRtwuXauRmoiDgYo_BXv-D-vr2Cp_rUEVKGucw-i9nAOQKTJME1et17y2_qy4src1elMhLlyfjdbtAWEvDEF2bLeKqSRAFV2k/s320/atari.png)
-*La imagen muestra el entrenamiento en PacMan.*  
-*Fuente: The Indoor-Training Effect*
+---
 
-El siguiente diagrama muestra las tres fases con que se estructuró el experimento:
+## 5) Tipos de Grafos Aplicados al AI Co‑Scientist
 
-1. Creación de entornos  
-2. Entrenamiento  
-3. Evaluación  
+La organización del **AI Co‑Scientist** tiene la estructura de un **grafo dirigido**, lo que facilita la asignación de tareas y la toma de decisiones a distintos niveles. Además, los agentes necesitan intercambiar información de manera eficiente, lo que se modela con un **grafo de comunicación**, en el que las conexiones entre nodos representan el flujo de datos. Para la comparación de hipótesis, el **Ranking Agent** emplea un **grafo ponderado**, similar a un ranking Elo en ajedrez, donde cada nodo es una hipótesis y las aristas indican comparaciones entre ellas. Finalmente, el **Proximity Agent** organiza un **grafo de similitud**, donde los nodos representan hipótesis y las aristas conectan aquellas con contenido similar.
 
-Estas fases se utilizaron para probar esta metodología.
+---
 
-![Diagrama de fases en español](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoNiuVVJg3IV9QsiQuGdgiPafYHqsGTe-Nncl4SDaPMepwV7ttVtwwuSDDGoBAIqbf0kGDv_BIe9vOAOxOgkv4r3izEsBdXA7UswUUU9VPKBdqyDieOKW0VfO1KDrjgtYbE6TOu0jWB8G3M9rNIak6mxzXfyynJs0_Eq6Alpv70hQeNCa6SH4Xqd6A5do/s320/diagrama%20de%20fases%20en%20espa%C3%B1ol.png)
+## 6) Ejemplo de Aplicación en Descubrimiento Biomédico
+
+El **AI Co‑Scientist** se ha utilizado en biomedicina para el redescubrimiento de fármacos, la identificación de nuevos objetivos terapéuticos y el estudio de la evolución de la resistencia antimicrobiana. En el primer caso, el sistema busca medicamentos existentes que puedan tratar nuevas enfermedades. Para el descubrimiento de objetivos terapéuticos, identifica nuevas moléculas o genes clave en enfermedades específicas. Finalmente, en la evolución de la resistencia antimicrobiana, analiza cómo las bacterias desarrollan resistencia a antibióticos, permitiendo predecir nuevas estrategias terapéuticas.
+
+---
+
+## 7) Conclusión
+
+El **AI Co‑Scientist** es un ejemplo avanzado de **Sistemas Jerárquicos Multi‑Agente (HMAS)** aplicados a la investigación científica. Gracias a la **teoría de grafos**, es posible modelar su estructura y visualizar cómo la información fluye dentro del sistema, permitiendo optimizar su eficiencia.
+
+---
+
+## Tabla de Modelos en Teoría de Grafos para el AI Co‑Scientist
+
+**Componente del AI Co‑Scientist** | **Modelo en Teoría de Grafos**  
+--- | ---  
+Organización de agentes | Grafo dirigido jerárquico (similar a un árbol, pero con ciclos y retroalimentación)  
+Flujo de información | Grafo dirigido acíclico parcial (DAG parcial), con algunas conexiones de retroalimentación  
+Comparación de hipótesis | Grafo dirigido ponderado (modelo de torneo con evaluación y ranking)  
+Similitud entre hipótesis | Grafo de proximidad (grafo no dirigido con agrupamiento de hipótesis similares)  
+
 *Fuente: Elaboración propia*
 
 ---
 
-## 4) Paralelos con el Aprendizaje Humano
+## Referencias
 
-Este fenómeno en **inteligencia artificial** recuerda un patrón que ocurre en la neurociencia del aprendizaje humano. A lo largo de la evolución, los organismos han desarrollado mecanismos que les permiten aprender de manera estructurada primero y luego generalizar a entornos más complejos.
+- [**Towards an AI co‑scientist**](https://storage.googleapis.com/coscientist_paper/ai_coscientist.pdf)  
+- [**Blog de Google**](https://research.google/blog/accelerating-scientific-breakthroughs-with-an-ai-co-scientist/)
 
-Por ejemplo, un **tenista principiante** primero practica en una cancha cerrada, con una máquina que lanza bolas de manera predecible. Solo después de dominar la técnica en ese entorno, se enfrenta a un rival, a cambios en el viento y a la presión de un partido real. Este método ayuda al cerebro a solidificar patrones de movimiento antes de enfrentarse a la variabilidad del mundo real.
-
----
-
-## 5) Reflexión Final y las Leyes de los Robots
-
-En el desarrollo de **robots** e **inteligencia artificial**, se ha asumido durante mucho tiempo que entrenar en entornos que imitan exactamente las condiciones del mundo real es la mejor estrategia. Sin embargo, el **Indoor-Training Effect (ITE)** desafía esta creencia, sugiriendo que entrenar primero en un ambiente limpio y estructurado puede llevar a un mejor rendimiento en condiciones difíciles.
-
-De la misma forma que en los robots, el **Indoor-Training Effect** sugiere que entrenar paradójicamente primero en un ambiente limpio y estructurado puede llevar a un mejor rendimiento en condiciones difíciles, con un claro paralelismo en la educación humana.
-
-En el caso de los robots, uno podría pensar en tres leyes del aprendizaje, paralelas a las leyes de **Asimov**:
-
-1. **Primera Ley del Aprendizaje**  
-   Un robot debe aprender primero en un entorno estructurado y controlado antes de enfrentar la complejidad del mundo real, salvo que ello impida su capacidad de adaptación.
-2. **Segunda Ley del Aprendizaje**  
-   Un robot debe ser expuesto progresivamente a la incertidumbre y al ruido del entorno, siempre que esto no comprometa los conocimientos adquiridos en la fase inicial de entrenamiento.
-3. **Tercera Ley del Aprendizaje**  
-   Un robot debe ser capaz de adaptarse a condiciones inesperadas, siempre que esto no implique desaprender lo aprendido en la fase inicial ni generar errores sistemáticos en su desempeño.
-
-Incluso uno podría imaginar, como **Asimov**, una **Ley Cero del Aprendizaje** para robots:
-
-- **0️⃣ Ley Cero del Aprendizaje**:  
-  El aprendizaje de un robot debe optimizar su desempeño en el mundo real, incluso si ello requiere modificar las reglas anteriores.
-
----
-
-## 6) Referencias
-
-- *The Indoor-Training Effect: Unexpected Gains from Distribution Shifts in the Transition Function*  
-  [Ver Referencia](https://arxiv.org/abs/2401.15856)
-
-- *Make It Stick: The Science of Successful Learning* por Brown, Roediger & McDaniel (2014)  
-  [Ver Referencia](#)
