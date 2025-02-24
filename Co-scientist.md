@@ -78,13 +78,11 @@ Similitud entre hipótesis | Grafo de proximidad (grafo no dirigido con agrupami
 
 ## Referencias
 
-- [**Towards an AI co‑scientist**](https://storage.googleapis.com/coscientist_paper/ai_coscientist.pdf)  
-- [**Blog de Google**](https://research.google/blog/accelerating-scientific-breakthroughs-with-an-ai-co-scientist/)
-- ## Referencias
+
 
 - [**Towards an AI co‑scientist**](https://storage.googleapis.com/coscientist_paper/ai_coscientist.pdf)
 - [**Blog de Google**](https://research.google/blog/accelerating-scientific-breakthroughs-with-an-ai-co-scientist/)
-[**Github**](https://github.com/sgevatschnaider/Grafos/blob/81dfd531d00b321edbcb4a00bd261d11d4e24438/ntebooks/%20Sistemas_Jer%C3%A1rquicos_Multi%E2%80%91Agente_(HMAS).ipynb)
+- [**Github**](https://github.com/sgevatschnaider/Grafos/blob/81dfd531d00b321edbcb4a00bd261d11d4e24438/ntebooks/%20Sistemas_Jer%C3%A1rquicos_Multi%E2%80%91Agente_(HMAS).ipynb)
 
 
 
