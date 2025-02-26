@@ -3,224 +3,205 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Blog IA, Tecnología y Economía</title>
+  <title>IA, Agentes y Grafos - Notas</title>
   
-  <!-- META para SEO -->
-  <meta name="description" content="Blog personal sobre Inteligencia Artificial, Tecnología y Economía.">
-  <meta name="keywords" content="IA, Inteligencia Artificial, Tecnología, Economía, Blog">
-  <meta property="og:title" content="Blog IA, Tecnología y Economía">
-  <meta property="og:description" content="Artículos y reflexiones sobre IA, tecnología y economía.">
-  <meta property="og:image" content="https://raw.githubusercontent.com/sgevatschnaider/sgevatschnaider.github.io/main/contexto.png" />
-  <meta property="og:type" content="website">
-
-  <!-- Tailwind CSS (CDN) -->
+  <!-- Tailwind CSS desde CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    // Configuración básica de Tailwind para modo oscuro mediante la clase "dark"
-    tailwind.config = {
-      darkMode: 'class',
-      theme: {
-        extend: {
-          colors: {
-            primary: '#4F46E5',    // Indigo-600 por defecto
-            secondary: '#9333EA', // Purple-600 por defecto
-          }
-        }
-      }
-    }
-  </script>
   
+  <!-- Fuente personalizada -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: 'Poppins', sans-serif;
+    }
+    /* Transición suave al cambiar modo oscuro */
+    .transition-colors {
       transition: background-color 0.3s, color 0.3s;
-    }
-    /* Estilos para tarjetas de notas */
-    .note-card {
-      transition: transform 0.2s;
-    }
-    .note-card:hover {
-      transform: scale(1.02);
     }
   </style>
 </head>
-<body class="bg-gray-50 text-gray-800 dark:bg-gray-900 dark:text-gray-200">
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-200 transition-colors">
 
-  <!-- Barra de navegación -->
-  <nav class="bg-white dark:bg-gray-800 shadow-md py-4">
-    <div class="container mx-auto px-6 flex justify-between items-center">
-      <!-- Nombre del blog -->
-      <a href="index.html" class="text-2xl font-bold hover:text-primary">
-        Blog IA, Tecnología &amp; Economía
-      </a>
+  <!-- Navbar -->
+  <header>
+    <nav class="bg-white dark:bg-gray-800 p-4 shadow-md flex justify-between items-center">
+      <!-- Logo / Título y enlaces de navegación -->
+      <div class="flex items-center space-x-6">
+        <a href="#hero" class="text-2xl font-bold hover:text-indigo-600 transition-colors">IA, Agentes y Grafos</a>
+        <a href="#notas" class="hover:text-indigo-600 transition-colors">Notas</a>
+        <a href="#acerca" class="hover:text-indigo-600 transition-colors">Acerca de</a>
+        <a href="#contacto" class="hover:text-indigo-600 transition-colors">Contacto</a>
+      </div>
       <!-- Botón modo oscuro -->
-      <button 
-        onclick="toggleDarkMode()" 
-        class="p-2 bg-gray-300 dark:bg-gray-700 rounded transition-colors ml-4" 
-        aria-label="Alternar modo oscuro"
-      >
+      <button onclick="toggleDarkMode()" aria-label="Alternar modo oscuro" class="p-2 bg-gray-300 dark:bg-gray-700 rounded transition-colors">
         <span id="mode-icon">🌙</span>
       </button>
-    </div>
-  </nav>
-
-  <!-- Hero / Sección de Introducción -->
-  <header class="bg-gray-100 dark:bg-gray-800 py-12 mt-0 mb-8">
-    <div class="container mx-auto px-6 text-center">
-      <h1 class="text-4xl font-bold mb-4">¡Bienvenido a mi Blog!</h1>
-      <p class="text-lg max-w-2xl mx-auto">
-        En este espacio comparto <strong>análisis</strong>, <strong>proyectos</strong> y <strong>reflexiones</strong> 
-        sobre <em>Inteligencia Artificial</em>, <em>Tecnología</em> y su impacto en la <em>Economía</em>. 
-        Explora las notas más recientes, filtra temas de tu interés y únete a la conversación.
-      </p>
-    </div>
+    </nav>
   </header>
 
-  <!-- Contenido principal: Buscador y Listado de Notas -->
-  <main class="container mx-auto px-6 pb-12">
+  <!-- Sección de Inicio (Hero) -->
+  <section id="hero" class="container mx-auto px-6 py-12 text-center">
+    <h1 class="text-4xl font-extrabold mb-4">Bienvenido a IA, Agentes y Grafos</h1>
+    <p class="text-lg max-w-2xl mx-auto mb-6">
+      Explora notas relacionadas con Inteligencia Artificial, teoría de grafos y modelos multi-agente.
+      Encuentra documentación, reflexiones y apuntes de investigación en un solo lugar.
+    </p>
+    <!-- Ejemplo de imagen proveniente de tu repositorio GitHub -->
+    <img 
+      src="https://raw.githubusercontent.com/sgevatschnaider/sgevatschnaider.github.io/main/diagrama%20en%20espa%C3%B1ol.png" 
+      alt="Diagrama explicando la IA, agentes y grafos"
+      class="mx-auto mb-6 w-2/3 rounded shadow-lg"
+      loading="lazy"
+    />
+    <a href="#notas" class="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-6 py-2 rounded transition-colors">
+      Ver Notas
+    </a>
+  </section>
+
+  <!-- Sección Notas -->
+  <section id="notas" class="container mx-auto px-6 py-10">
+    <h2 class="text-3xl font-bold mb-6">Listado de Notas</h2>
+
     <!-- Buscador -->
-    <div class="mb-6 max-w-xl mx-auto">
-      <label for="searchInput" class="block text-lg font-semibold mb-2">Buscar notas:</label>
-      <input 
-        type="text" 
-        id="searchInput" 
-        placeholder="Empieza a escribir para filtrar..." 
-        class="w-full border border-gray-300 dark:border-gray-700 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary"
+    <div class="mb-6">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Buscar notas..."
+        class="w-full md:w-1/2 border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500"
       />
     </div>
 
     <!-- Listado de notas -->
-    <section>
-      <h2 class="text-3xl font-bold mb-4">Publicaciones Recientes</h2>
-      <ul id="notesList" class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-        <!-- Las notas se inyectan aquí dinámicamente -->
-        <li class="text-gray-500">Cargando notas...</li>
-      </ul>
-    </section>
+    <ul id="notesList" class="list-disc list-inside space-y-2 pl-4">
+      <!-- Se cargan dinámicamente; mensaje inicial mientras se obtienen -->
+      <li class="text-gray-500">Cargando notas...</li>
+    </ul>
 
     <!-- Botón para agregar nueva nota -->
-    <div class="mt-10 pt-6 border-t border-gray-300 dark:border-gray-700 text-center">
-      <h3 class="text-xl font-bold mb-3">¿Deseas agregar una nueva nota?</h3>
-      <p class="mb-4">Crea un nuevo archivo <code>.md</code> directamente en el repositorio:</p>
-      <a 
+    <div class="mt-8">
+      <p class="mb-4">¿Deseas agregar una nueva nota en el repositorio?</p>
+      <a
         href="https://github.com/sgevatschnaider/sgevatschnaider.github.io/new/main?filename=TuNuevaNota.md"
-        target="_blank" rel="noopener noreferrer"
-        class="inline-block bg-primary hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded transition-colors"
+        target="_blank"
+        class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded"
       >
         Agregar nueva nota
       </a>
     </div>
-  </main>
+  </section>
 
-  <!-- Pie de página -->
-  <footer class="bg-white dark:bg-gray-800 py-4 text-center">
-    <p class="text-sm">
-      &copy; 2025 <strong>Tu Nombre</strong>. Todos los derechos reservados.
+  <!-- Sección Acerca de -->
+  <section id="acerca" class="container mx-auto px-6 py-10">
+    <h2 class="text-3xl font-bold mb-4">Acerca de este sitio</h2>
+    <p class="leading-relaxed mb-4">
+      Este proyecto surge de la necesidad de recopilar y compartir reflexiones, investigaciones y apuntes sobre la 
+      <strong>Inteligencia Artificial</strong>, especialmente en áreas como los 
+      <em>Sistemas Multi-Agente</em> y la <strong>Teoría de Grafos</strong>. 
+      A lo largo de las notas, encontrarás ejemplos prácticos, diagramas y explicaciones que te ayudarán a comprender 
+      mejor estos temas. El objetivo principal es fomentar la colaboración y el intercambio de ideas.
     </p>
+    <p class="leading-relaxed">
+      Siéntete libre de explorar cada nota, aportar tus comentarios y, por supuesto, 
+      <a href="#contacto" class="text-blue-600 dark:text-blue-400 underline">contactarme</a> si tienes dudas 
+      o sugerencias. ¡Gracias por tu visita!
+    </p>
+  </section>
+
+  <!-- Sección Contacto -->
+  <section id="contacto" class="container mx-auto px-6 py-10">
+    <h2 class="text-3xl font-bold mb-4">Contacto</h2>
+    <p class="leading-relaxed mb-4">
+      ¿Tienes preguntas o deseas colaborar en algún proyecto? 
+      No dudes en escribirme a: 
+      <a href="mailto:tuemail@example.com" class="text-blue-600 dark:text-blue-400 underline">tuemail@example.com</a>.
+    </p>
+    <p class="leading-relaxed">
+      También puedes encontrarme en mis redes sociales o dejar un comentario en los repositorios de GitHub. 
+      ¡Estoy abierto a nuevas ideas y colaboraciones!
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white dark:bg-gray-800 p-4 text-center">
+    <p class="text-sm">&copy; 2025 Tu Nombre. Todos los derechos reservados.</p>
   </footer>
 
-  <!-- Scripts -->
+  <!-- Script: Modo oscuro + Petición a GitHub + Filtrado de notas -->
   <script>
-    /************************************
-     * 1) Modo Oscuro con Toggle e Icono
-     ************************************/
+    // 1) Alternar modo oscuro
     function toggleDarkMode() {
       document.body.classList.toggle('dark');
-      const icon = document.getElementById('mode-icon');
-      if (document.body.classList.contains('dark')) {
-        icon.textContent = '☀️';
-      } else {
-        icon.textContent = '🌙';
-      }
+      const modeIcon = document.getElementById('mode-icon');
+      modeIcon.textContent = document.body.classList.contains('dark') ? '☀️' : '🌙';
     }
 
-    /******************************************************
-     * 2) Listar archivos Markdown del repositorio en notas
-     *    usando la API de GitHub
-     ******************************************************/
+    // 2) Elementos del DOM para la lista y el buscador
     const notesList = document.getElementById('notesList');
-    
-    // Función para crear un elemento <li> con tarjeta y enlace
-    function createNoteCard(name, url) {
-      const li = document.createElement('li');
-      li.className = "note-card bg-white dark:bg-gray-800 rounded-md shadow p-4 flex flex-col justify-between";
-      
-      // Título
-      const title = document.createElement('h3');
-      title.className = "text-xl font-bold mb-2 break-words";
-      title.textContent = name.replace('.md',''); // Quita la extensión .md en la presentación
+    const searchInput = document.getElementById('searchInput');
 
-      // Enlace
+    // 3) Añade una nota a la lista
+    function addNoteItem(name, url) {
+      const li = document.createElement('li');
+      li.className = "hover:underline";
+
       const link = document.createElement('a');
       link.href = url;
-      link.textContent = "Leer nota →";
+      link.textContent = name;           // Ej: alucinaciones.md
       link.target = "_blank";
-      link.rel = "noopener noreferrer";
-      link.className = "mt-auto inline-block text-primary hover:underline font-semibold";
+      link.rel = "noopener noreferrer";  // Seguridad con target=_blank
+      link.className = "text-blue-600 dark:text-blue-400 hover:underline";
 
-      // Agregar al li
-      li.appendChild(title);
       li.appendChild(link);
-      return li;
+      notesList.appendChild(li);
     }
 
-    // Función recursiva para explorar carpetas y buscar archivos .md
+    // 4) Función recursiva para explorar carpetas y encontrar archivos .md
     async function fetchMarkdownFiles(apiUrl) {
       try {
         const response = await fetch(apiUrl);
         const data = await response.json();
-        if (!Array.isArray(data)) return; // En caso de error o que data no sea un array
-
         for (const item of data) {
+          // Si es archivo y termina en .md, lo agregamos a la lista
           if (item.type === "file" && item.name.endsWith(".md")) {
-            // Crear la tarjeta y añadirla a la lista
-            const noteCard = createNoteCard(item.name, item.html_url);
-            notesList.appendChild(noteCard);
-          } else if (item.type === "dir") {
-            // Recorrer recursivamente el directorio
+            addNoteItem(item.name, item.html_url);
+          }
+          // Si es un directorio, lo exploramos recursivamente
+          else if (item.type === "dir") {
             await fetchMarkdownFiles(item.url);
           }
         }
       } catch (error) {
-        console.error("Error al obtener archivos .md:", error);
+        console.error("Error al obtener contenido del repositorio:", error);
       }
     }
 
-    // Cargar notas al iniciar
+    // 5) Cargar notas al iniciar
     (async function loadNotes() {
-      notesList.innerHTML = ""; // Limpia el mensaje de "Cargando"
+      // Limpiar la lista (quitar "Cargando notas...")
+      notesList.innerHTML = "";
+      // Llamar a la función recursiva en la raíz del repositorio
       const apiRoot = "https://api.github.com/repos/sgevatschnaider/sgevatschnaider.github.io/contents/";
       await fetchMarkdownFiles(apiRoot);
-
       // Si no se encontró ninguna nota, mostrar mensaje
       if (!notesList.hasChildNodes()) {
-        const li = document.createElement('li');
-        li.textContent = "No se encontraron notas Markdown en el repositorio.";
-        li.className = "text-gray-500";
-        notesList.appendChild(li);
+        const msg = document.createElement('li');
+        msg.textContent = "No se encontraron notas.";
+        notesList.appendChild(msg);
       }
     })();
 
-    /***********************************************
-     * 3) Filtro de notas (buscador) en tiempo real
-     ***********************************************/
-    const searchInput = document.getElementById('searchInput');
+    // 6) Filtrado de notas (búsqueda en tiempo real)
     searchInput.addEventListener('input', function() {
       const filter = this.value.toLowerCase();
-      const items = notesList.getElementsByTagName('li');
-      for (let i = 0; i < items.length; i++) {
-        const li = items[i];
+      const listItems = notesList.getElementsByTagName('li');
+      for (let i = 0; i < listItems.length; i++) {
+        const li = listItems[i];
         const text = li.textContent.toLowerCase();
         li.style.display = text.includes(filter) ? "" : "none";
       }
     });
   </script>
-
 </body>
 </html>
-
-
-</body>
-</html>
-
-<!-- Fin del código HTML -->
