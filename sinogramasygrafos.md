@@ -4,6 +4,13 @@
 
 ---
 
+## Sinogram Wheel
+
+![Sinogram Wheel](https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/8c98ad6cddcf06beab0d244c5e0998c9c3212cc4/sinogram_wheel.gif)  
+*Representación visual de sinogramas*
+
+---
+
 ## Índice
 1. [Chino y grafos: un lenguaje visual y su representación matemática](#1-chino-y-grafos-un-lenguaje-visual-y-su-representación-matemática)
 2. [Introducción](#2-introducción)
@@ -19,7 +26,9 @@
 
 ---
 
-### Kun, el pez gigante de la mitología china, nadando en un vasto océano bajo el cielo
+### Kun, el pez gigante de la mitología china
+
+![Kun, el pez gigante de la mitología china, nadando en un vasto océano bajo el cielo](https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/8c98ad6cddcf06beab0d244c5e0998c9c3212cc4/20250227_1035_Majestic%20Mythical%20Fish_simple_compose_01jn3swthze76rtnkjpk7y7eew.gif)
 
 ---
 
@@ -47,7 +56,7 @@ El **chino** es un idioma que no distingue entre singular y plural en la mayorí
 Cada **clasificador** está asociado a ciertos sustantivos según sus características. Algunos ejemplos incluyen:
 
 1. **条 (tiáo)**  
-   Es como una cuerda invisible que conecta objetos delgados y largos: serpientes deslizándose en el suelo, ríos serpenteantes en el paisaje o incluso un par de pantalones doblados en el armario. La lógica detrás de estos clasificadores es tan intuitiva como cultural.
+   Es como una cuerda invisible que conecta objetos delgados y largos: serpientes deslizándose en el suelo, ríos serpenteantes en el paisaje, o incluso un par de pantalones doblados en el armario. La lógica detrás de estos clasificadores es tan intuitiva como cultural.
 
 2. **本 (běn)** – El Clasificador de lo Escrito y Encuadernado  
    Imagina un libro en las manos. Lo hojeas, sientes el peso de sus páginas y su estructura encuadernada. En chino, para contar libros no basta con decir "uno" o "dos"; necesitas el clasificador 本 (běn), reservado para todo lo que tiene páginas organizadas en un volumen. Curiosamente, el carácter 本 también significa "raíz" u "origen", ya que es una variación del sinograma 木 (mù, ‘árbol’) con un trazo adicional en la base, simbolizando el punto de partida o la base de algo.
@@ -65,7 +74,7 @@ La existencia de los **clasificadores** puede relacionarse con el concepto del *
 ## 7. La relación entre los clasificadores, los sinogramas y la teoría de grafos
 Los **sinogramas** (汉字, hànzì) son un sistema de escritura visual que representa significados a través de formas gráficas. A diferencia de los alfabetos fonéticos, donde las letras representan sonidos, los caracteres chinos tienen una fuerte relación con la imagen y la idea que transmiten. Muchos de ellos tienen un origen pictográfico, como 日 (rì, "sol"), que en sus primeras formas se asemejaba a un círculo con un punto en el centro, o 木 (mù, "árbol"), que evoca la forma de un tronco con ramas.
 
-De la misma forma que el Emporio celestial de conocimientos benévolos, podemos pensar otras formas de organizar la realidad. Los clasificadores que agrupan sustantivos pueden modelarse matemáticamente mediante la **teoría de grafos**, que estudia relaciones entre elementos dentro de un sistema. Un **grafo** está formado por **nodos** y **aristas**. En este caso, los nodos representan los clasificadores y los sustantivos, mientras que las aristas simbolizan las relaciones lingüísticas entre ellos.
+De la misma forma que el Emporio celestial de conocimientos benévolos podemos pensar otras formas de organizar la realidad. Los clasificadores que agrupan sustantivos pueden modelarse matemáticamente mediante la **teoría de grafos**, que estudia relaciones entre elementos dentro de un sistema. Un **grafo** está formado por **nodos** y **aristas**. En este caso, los nodos representan los clasificadores y los sustantivos, mientras que las aristas simbolizan las relaciones lingüísticas entre ellos.
 
 ---
 
@@ -81,7 +90,7 @@ Así como los clasificadores agrupan sustantivos mediante una estructura de graf
 ## 9. Clasificadores y sustantivos
 La siguiente imagen es una representación en grafos de lo anterior. En los nodos centrales están los clasificadores 条 (tiáo), 本 (běn) y 张 (zhāng), mientras que las **aristas** conectan con los nodos periféricos que representan a los sustantivos.
 
-**Clasificadores y sustantivos**  
+![Clasificadores y sustantivos](https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/8c98ad6cddcf06beab0d244c5e0998c9c3212cc4/multi_classifiers.gif)  
 *Fuente: Elaboración propia*
 
 ---
@@ -100,3 +109,4 @@ En un mundo cada vez más digital, donde la información se organiza en redes y 
 
 ### Más información
 El código de la imagen se encuentra en [este repositorio de GitHub](https://github.com/sgevatschnaider/Grafos/blob/main/Cuando_el_Lenguaje_es_un_Imagen_Sinogramas_y_Grafos.ipynb).
+
