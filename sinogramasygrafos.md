@@ -4,7 +4,7 @@
 
 ---
 
-## Sinogram Wheel
+## Ruedas y Sinogramas
 
 ![Sinogram Wheel](https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/8c98ad6cddcf06beab0d244c5e0998c9c3212cc4/sinogram_wheel.gif)  
 *Representación visual de sinogramas*
