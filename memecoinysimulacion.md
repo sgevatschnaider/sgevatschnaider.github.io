@@ -103,12 +103,12 @@ Las ballenas son grandes inversores con suficiente capital para influir en la di
 
 <div style="text-align: center; padding: 1em 0;">
   <a 
-    href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCSbQ0RbhHkDPxPcFm6swFKvH1wmRou44PU_ydzLMNEw4HyqZGZ7lcPTlX4pPCRyh6O8yq575tLej2U1zVtgOiraQ1jsuqUr6hrr0S2CjnNvPAbTsdRJm_KHAZCFb16ssNCOMIyc468J4CI4AjU9SI3BGREJuGJXEaUyRnoMzl16PigBdkBtr0N1LCfMQ/s1000/multi_classifiers.gif"
+    href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgK7JCiFc30OX9XpyVFPsE8rHzn3I9MkA3hKXR6jWFPuSp0g9je55fc4B9IlUzM9TGLH5ne1GZAj_OPIJ7WzigphtSbptiVdKhYG08kMDqaKNxZvuHNM922YT6_59MIl3ViTmAMSJ6_AXZMJq-YJvdIu7oJ7NKsq0eolqtv-CDPtQ9JPeOsGitQpfHgvRU/s567/evolucion%20simulaci%C3%B3n.png"
     style="display: inline-block;"
     target="_blank"
   >
     <img
-      src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCSbQ0RbhHkDPxPcFm6swFKvH1wmRou44PU_ydzLMNEw4HyqZGZ7lcPTlX4pPCRyh6O8yq575tLej2U1zVtgOiraQ1jsuqUr6hrr0S2CjnNvPAbTsdRJm_KHAZCFb16ssNCOMIyc468J4CI4AjU9SI3BGREJuGJXEaUyRnoMzl16PigBdkBtr0N1LCfMQ/s320/multi_classifiers.gif"
+      src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgK7JCiFc30OX9XpyVFPsE8rHzn3I9MkA3hKXR6jWFPuSp0g9je55fc4B9IlUzM9TGLH5ne1GZAj_OPIJ7WzigphtSbptiVdKhYG08kMDqaKNxZvuHNM922YT6_59MIl3ViTmAMSJ6_AXZMJq-YJvdIu7oJ7NKsq0eolqtv-CDPtQ9JPeOsGitQpfHgvRU/s320/evolucion%20simulaci%C3%B3n.png"
       alt="Evolución de la simulación"
       width="320"
       style="max-width:100%; height:auto;"
@@ -116,7 +116,6 @@ Las ballenas son grandes inversores con suficiente capital para influir en la di
   </a>
   <p style="margin: 0.5em auto;">Evolución de la simulación (Imagen referencial)</p>
 </div>
-
 ---
 
 ## 7. Resultados de la simulación y comparación con datos reales <a name="resultados-de-la-simulacion"></a>
