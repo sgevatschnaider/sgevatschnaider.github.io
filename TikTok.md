@@ -44,7 +44,7 @@ Las Graph Neural Networks son redes neuronales especializadas en manejar datos e
 ## 5. Fórmula matemática del modelo de recomendación
 La puntuación final de recomendación integra tres elementos clave:
 
-\[ R = w_1 \cdot I + w_2 \cdot C + w_3 \cdot V \]
+ $$R = w_1 \cdot I + w_2 \cdot C + w_3 \cdot V$$
 
 - **I** mide la interacción histórica mediante *embeddings*.  
 - **C** evalúa las propiedades del contenido (tipo, duración).  
