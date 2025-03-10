@@ -2,10 +2,9 @@
 
 [**Cambio de idioma (English Version)**](https://economiayetica.blogspot.com/2025/03/la-paradoja-de-la-ia-por-que-los.html)
 
-<div style="text-align: center; padding: 1em 0;">
+<div style="text-align: center;">
   <a 
     href="https://github.com/sgevatschnaider/sgevatschnaider.github.io/raw/db3b2ebc645c02c0132f82b6c7725436f26a90ea/20250309_2207_AI%20Collapse%20Illustrated_simple_compose_01jnysfpasf3ntf7fmb3j72sjw.gif"
-    style="display: inline-block;"
     target="_blank"
   >
     <img
@@ -15,7 +14,7 @@
       style="max-width:100%; height:auto;"
     />
   </a>
-  <p style="margin: 0.5em auto;">Colapso de la IA</p>
+  <p>Imagen del colapso de la IA</p>
 </div>
 
 El siguiente documento presenta una revisión completa sobre cómo los modelos de Inteligencia Artificial corren el riesgo de “autodestruirse” a causa del entrenamiento continuo con datos sintéticos y la consecuente pérdida de diversidad semántica.
@@ -51,10 +50,9 @@ La **autofagia** ocurre cuando un modelo de lenguaje grande (LLM) es entrenado c
 
 El entrenamiento con **datos sintéticos** agrava aún más este problema, pues estos datos suelen carecer de la riqueza y diversidad que caracteriza a los datos reales. Especialmente críticos son los datos sintéticos de baja calidad —repetitivos, sesgados o llenos de errores— que aceleran considerablemente el **colapso**, reforzando patrones específicos y limitando gravemente la generalización del modelo.
 
-<div style="text-align: center; padding: 1em 0;">
+<div style="text-align: center;">
   <a 
     href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgn8b7UWYzAoUUFd3rmNnlMAQkDxpkttAfKGbrFaqCkQ6dYdGgrOzyJowxASzAlSCQeQEIaj0OCDvOqwBwyP2kUFZ9rppBfOXQt-g_5AnDoHRefqBtrNdQuRCUWqX-FpB1N1-vT77hYNi5RYfd7nNfGkbLNdTC8kAruDzdKmCVnu1M4ZHyenlTjg0me4fo/s320/grafos.png"
-    style="display: inline-block;"
     target="_blank"
   >
     <img
@@ -64,7 +62,7 @@ El entrenamiento con **datos sintéticos** agrava aún más este problema, pues 
       style="max-width:100%; height:auto;"
     />
   </a>
-  <p style="margin: 0.5em auto;">Fuente: Gambetta, 2023</p>
+  <p>Fuente: Gambetta, 2023</p>
 </div>
 
 La anterior figura muestra las redes semánticas derivadas de diferentes conjuntos de datos (wiki, xls, sci) en distintas generaciones (0, 5 y 10). Es evidente cómo el número de **tokens** disminuye drásticamente con cada generación. En la generación 10, el conjunto wiki colapsa en una red reducida a dos nodos ("is" y "church"), mientras que la red sci se vuelve completamente interconectada. Ambos casos ilustran claramente la gravedad del **colapso del modelo**.
