@@ -4,12 +4,12 @@
 
 <div style="text-align: center; padding: 1em 0;">
   <a 
-    href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMD5LKW34ZOajxUuqaACJN8I6cx3i0-8q5RKR-0T9fRu2AzPeeqPBM4V9okuaMZvPbP3gNCGocNWRqKYRnUD_mPsXJzqf8cl51HjFmE8PaJ4orAN2lFqYY1_f9sapTQ3y8ZG9M54kWO-olCbAe7rJBA7_8eQ_lW1GZoezr1aE1YRB4Myby4tBxeEM3KK4/s320/20250309_2207_AI%20Collapse%20Illustrated_simple_compose_01jnysfpasf3ntf7fmb3j72sjw.gif"
+    href="https://github.com/sgevatschnaider/sgevatschnaider.github.io/raw/db3b2ebc645c02c0132f82b6c7725436f26a90ea/20250309_2207_AI%20Collapse%20Illustrated_simple_compose_01jnysfpasf3ntf7fmb3j72sjw.gif"
     style="display: inline-block;"
     target="_blank"
   >
     <img
-      src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMD5LKW34ZOajxUuqaACJN8I6cx3i0-8q5RKR-0T9fRu2AzPeeqPBM4V9okuaMZvPbP3gNCGocNWRqKYRnUD_mPsXJzqf8cl51HjFmE8PaJ4orAN2lFqYY1_f9sapTQ3y8ZG9M54kWO-olCbAe7rJBA7_8eQ_lW1GZoezr1aE1YRB4Myby4tBxeEM3KK4/s320/20250309_2207_AI%20Collapse%20Illustrated_simple_compose_01jnysfpasf3ntf7fmb3j72sjw.gif"
+      src="https://github.com/sgevatschnaider/sgevatschnaider.github.io/raw/db3b2ebc645c02c0132f82b6c7725436f26a90ea/20250309_2207_AI%20Collapse%20Illustrated_simple_compose_01jnysfpasf3ntf7fmb3j72sjw.gif"
       alt="Representación del colapso de la IA"
       width="320"
       style="max-width:100%; height:auto;"
