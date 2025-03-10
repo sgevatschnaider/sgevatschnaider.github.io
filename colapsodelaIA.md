@@ -15,7 +15,7 @@
       style="max-width:100%; height:auto;"
     />
   </a>
-  <p style="margin: 0.5em auto;">Imagen del colapso de la IA</p>
+  <p style="margin: 0.5em auto;">Colapso de la IA</p>
 </div>
 
 El siguiente documento presenta una revisión completa sobre cómo los modelos de Inteligencia Artificial corren el riesgo de “autodestruirse” a causa del entrenamiento continuo con datos sintéticos y la consecuente pérdida de diversidad semántica.
