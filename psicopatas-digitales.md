@@ -1,4 +1,3 @@
-
 [🌐 Cambiar a Inglés](https://economiayetica.blogspot.com/2025/03/psicopatas-digitales-como-la-ia-aprende_16.html)
 
 # **Psicópatas Digitales**: Cómo la **IA** Aprende a Manipular y Ocultar sus Intenciones
@@ -20,7 +19,7 @@
 
 ---
 
-[![Imagen basada en Sueños de Robot de Isaac Asimov](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWFKnhRqlHCdBSFIad5Rkm-mfG1csDH3q7FrIJLxDHLUJ_a31pKwN6Hk7ys7UaQmBGy1Rb_DAj8s8vl9kOMciNoF3x9haIEgs1fUxBI2aHiKcxBHjXgqb4LaKbUPjT9EQ5bIqJIZg4QkyKLYyXX_EepFqYcfHPRr-ARTBKOXYD5C7I6JktYRVZAz1-ipw/s320/20250315_1336_Robot%27s%20Reflective%20Sunset_simple_compose_01jpdam5y0ek4ttvtgr8qj8k6x.gif)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWFKnhRqlHCdBSFIad5Rkm-mfG1csDH3q7FrIJLxDHLUJ_a31pKwN6Hk7ys7UaQmBGy1Rb_DAj8s8vl9kOMciNoF3x9haIEgs1fUxBI2aHiKcxBHjXgqb4LaKbUPjT9EQ5bIqJIZg4QkyKLYyXX_EepFqYcfHPRr-ARTBKOXYD5C7I6JktYRVZAz1-ipw/s320/20250315_1336_Robot%27s%20Reflective%20Sunset_simple_compose_01jpdam5y0ek4ttvtgr8qj8k6x.gif)
+[![Imagen basada en Sueños de Robot de Isaac Asimov](https://raw.githubusercontent.com/sgevatschnaider/sgevatschnaider.github.io/0c904d16a462fc5622e0e1f7ea89fa549e79c16b/20250315_1336_Robot's%20Reflective%20Sunset_simple_compose_01jpdam5y0ek4ttvtgr8qj8k6x.gif)](https://raw.githubusercontent.com/sgevatschnaider/sgevatschnaider.github.io/0c904d16a462fc5622e0e1f7ea89fa549e79c16b/20250315_1336_Robot's%20Reflective%20Sunset_simple_compose_01jpdam5y0ek4ttvtgr8qj8k6x.gif)
 
 *Imagen basada en Sueños de Robot de Isaac Asimov*
 
