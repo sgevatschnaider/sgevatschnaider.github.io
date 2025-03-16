@@ -1,4 +1,4 @@
-```markdown
+
 [🌐 Cambiar a Inglés](https://economiayetica.blogspot.com/2025/03/psicopatas-digitales-como-la-ia-aprende_16.html)
 
 # **Psicópatas Digitales**: Cómo la **IA** Aprende a Manipular y Ocultar sus Intenciones
