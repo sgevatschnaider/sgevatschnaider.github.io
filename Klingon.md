@@ -1,6 +1,6 @@
 # ¿Hablas Klingon? Tu cerebro lo procesa como un idioma real (y aquí está la prueba)
 
-**[Ver esta publicación en Blogger](https://economiayetica.blogspot.com/2025/03/cerebro-y-procesamiento-del-lenguaje.html)**
+**[English](https://economiayetica.blogspot.com/2025/03/cerebro-y-procesamiento-del-lenguaje.html)**
 
 Los lenguajes artificiales, desde el Klingon hasta el High Valyrian, activan tu cerebro igual que un idioma real. Pero la programación no. La ciencia te explica por qué.
 
