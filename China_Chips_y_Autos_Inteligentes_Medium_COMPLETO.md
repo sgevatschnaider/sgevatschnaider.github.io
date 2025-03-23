@@ -9,7 +9,8 @@
 ---
 
 ![Imagen de apertura: El automóvil como infraestructura algorítmica](https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/2cdce2518337f054895674f49a0dde1dadfafe59/imagen%20autos%20y%20tecnolog%C3%ADa.png)
-*Fuente: Elaborado mediante JanusPro.*
+
+*Fuente: Elaborado mediante JanusPro*
 
 **Imagen: El cielo chino escribe en sinogramas.**  
 En una escena donde se cruzan la industria, la movilidad y el cielo digital, esta imagen anticipa la tesis central de este ensayo: el automóvil del futuro no es un objeto aislado, sino una **infraestructura computacional encarnada en un vehículo**. China no solo produce autos: **codifica un modelo de innovación estatal que conecta software, chips, planificación industrial y soberanía tecnológica**.
@@ -47,7 +48,9 @@ Aquí es donde China está liderando la transformación. Empresas como BYD, NIO,
 Entonces, ¿por qué este no es un blog sobre Tesla? Porque Tesla, aunque pionera, representa una etapa previa en esta transformación. La propuesta china no es simplemente “un Tesla más barato”. Es algo cualitativamente distinto: una nueva concepción del automóvil como interfaz digital, como plataforma nacional, como infraestructura de poder conectada a la nube.
 
 ![El auto como plataforma digital](https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/e02b40a12d16ce1fbcbb8403da9f0bbc02bc542f/auto%20como%20plataforma.png)
-*Fuente: Elaboración usando Qwen2.5.*
+
+*Fuente: Elaborado usando Qwen2.5.*
+
 **Imagen: El automóvil como plataforma digital.**  
 La ilustración muestra un vehículo en el centro de una red interconectada de servicios digitales: inteligencia artificial, chips, almacenamiento en la nube, infraestructura urbana y redes de datos. Esta representación sintetiza visualmente la transformación del automóvil en China: de objeto físico a plataforma computacional. El auto ya no es una máquina de movilidad, sino un nodo inteligente integrado en una infraestructura nacional de innovación, procesamiento y soberanía digital.
 
@@ -76,6 +79,8 @@ La lógica que define al *Software-Defined Vehicle* es análoga a la de un smart
 El EV ya no es un fin en sí mismo. Es un medio. Es el caballo de Troya mediante el cual China está desplegando su visión de un futuro en el que los automóviles piensan, escuchan y deciden. Y en el que, detrás del volante, ya no hay solo un conductor humano, sino una red algorítmica en movimiento.
 
 ![Mapa mental - SDV chino como infraestructura digital](https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/8ca9022d4322e3726a27606c42655a7d931a9631/EVmapa%20mental.png)
+
+*Fuente: Elaboración propia.*
 
 **Imagen: Mapa mental del Software-Defined Vehicle (SDV) como infraestructura digital**  
 Este diagrama resume los seis ejes conceptuales que definen la transformación del EV en China. En el centro se sitúa el vehículo eléctrico como **plataforma computacional**. Las ramas visualizan su evolución en distintas dimensiones:
@@ -209,6 +214,7 @@ Los siguientes mapas de calor muestran cómo varía el valor percibido por los u
 ![Valor percibido por usuarios en ecosistema SDV - Gráfico 1](https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/fe075c84a50d0ca3f76f137558a187c64fd5a2a4/headmap1.png)
 
 *Fuente: Elaboración propia.*
+
 ### Visualización 2
 
 ![Valor percibido por usuarios en ecosistema SDV - Gráfico 2](https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/01a089a4d28da1207abe54b01f86dd38f012a6ad/headmap2.png)
