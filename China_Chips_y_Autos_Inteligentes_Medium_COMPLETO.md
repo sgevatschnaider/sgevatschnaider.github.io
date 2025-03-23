@@ -369,17 +369,25 @@ Diseño que permite integrar o reemplazar fácilmente componentes de hardware o 
 Integración coordinada entre hardware (como chips) y software (como sistemas operativos o middleware), que mejora la eficiencia, reduce costos y optimiza el rendimiento del vehículo.
 
 ---
-
 ## 10. Referencias Bibliográficas
 
-- **Electric Dreams, Robot Reality: China's EV-to-AI Evolution (2023)**  
-  Análisis sobre la estrategia industrial y política de China en vehículos inteligentes e IA.
+- **Electric Dreams, Robot Reality: China's EV-to-AI Evolution / Convergence Point: Why China's EV Leaders Are Pivoting to AI**  
+  [*AI Pro – Substack* (2023)](https://aiproem.substack.com/p/electric-dreams-robot-reality-chinas)  
+  Autora: **Grace Shao**  
+  Análisis en profundidad sobre la transición estratégica de los líderes del sector de vehículos eléctricos en China hacia la inteligencia artificial, con foco en la convergencia tecnológica, políticas industriales y visión a futuro.
 
-- **China and the Domestic Chip Ecosystem (2023)**  
-  Estudio sobre la construcción de una cadena de suministro nacional de semiconductores en China para avanzar hacia la soberanía tecnológica.
+- **Software-defined Vehicle Research Report, 2023–2024 – Industry Panorama and Strategy**  
+  [*ResearchInChina*](http://www.researchinchina.com/Htmls/Report/2024/73950.html)  
+  Autor: **ResearchInChina Analysts Team**  
+  Reporte técnico y estratégico sobre el avance de los SDVs en China, con foco en la arquitectura de software, infraestructura, regulación y estrategias nacionales.
 
-- **Software-defined Vehicle Research Report 2023–2024 – ResearchInChina**  
-  Reporte técnico sobre la evolución de los SDVs en China: arquitectura de software, infraestructura y estándares.
+- **China is basically trying to produce the entire semiconductor supply chain domestically**  
+  [*Reddit – r/singularity* (2024)](https://www.reddit.com/r/singularity/comments/1j6ohwr/china_is_basically_trying_to_produce_the_entire/)  
+  Discusión sobre los esfuerzos de China por construir una cadena de suministro nacional de semiconductores para fortalecer su soberanía tecnológica y reducir dependencia extranjera.
+
+- **Automotive Industry Market Report**  
+  [*ReportLinker*](https://www.reportlinker.com/market-report/Automotive/505417/Automotive)  
+  Informe global sobre el mercado automotriz, con datos de crecimiento, análisis regionales, segmentación por tipo de vehículo y proyecciones a futuro.
 
 - **Byung-Chul Han – _Shanzhai: Deconstruction in Chinese_ (MIT Press)**  
   Reflexión filosófica sobre la noción de copia y originalidad en la cultura china, esencial para comprender su enfoque hacia la tecnología.
@@ -387,7 +395,8 @@ Integración coordinada entre hardware (como chips) y software (como sistemas op
 - **Fortune Business Insights – Automotive Software Market Report**  
   Informe sobre el crecimiento del mercado de software automotriz en Asia y a nivel global, con proyecciones e inversiones clave.
 
-- **Mordor Intelligence – China EV Charging Infrastructure Market**  
-  Análisis del desarrollo de la infraestructura de carga para vehículos eléctricos en China.
+- **China EV Charging Infrastructure Market**  
+  [*Mordor Intelligence*](https://www.mordorintelligence.com/industry-reports/china-ev-charging-infrastructure-market)  
+  Análisis del desarrollo, actores clave y perspectivas del mercado chino de infraestructura de carga para vehículos eléctricos.
 
 ---
