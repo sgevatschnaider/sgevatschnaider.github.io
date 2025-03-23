@@ -371,8 +371,11 @@ Integración coordinada entre hardware (como chips) y software (como sistemas op
 ---
 ## 10. Referencias Bibliográficas
 
++++markdown
+## 10. Referencias Bibliográficas
+
 - **Electric Dreams, Robot Reality: China's EV-to-AI Evolution / Convergence Point: Why China's EV Leaders Are Pivoting to AI**  
-  [*AI Pro – Substack* (2023)](https://aiproem.substack.com/p/electric-dreams-robot-reality-chinas)  
+  [*AI Pro – Substack*](https://aiproem.substack.com/p/electric-dreams-robot-reality-chinas)  
   Autora: **Grace Shao**  
   Análisis en profundidad sobre la transición estratégica de los líderes del sector de vehículos eléctricos en China hacia la inteligencia artificial, con foco en la convergencia tecnológica, políticas industriales y visión a futuro.
 
@@ -382,21 +385,31 @@ Integración coordinada entre hardware (como chips) y software (como sistemas op
   Reporte técnico y estratégico sobre el avance de los SDVs en China, con foco en la arquitectura de software, infraestructura, regulación y estrategias nacionales.
 
 - **China is basically trying to produce the entire semiconductor supply chain domestically**  
-  [*Reddit – r/singularity* (2024)](https://www.reddit.com/r/singularity/comments/1j6ohwr/china_is_basically_trying_to_produce_the_entire/)  
+  [*Reddit – r/singularity*](https://www.reddit.com/r/singularity/comments/1j6ohwr/china_is_basically_trying_to_produce_the_entire/)  
   Discusión sobre los esfuerzos de China por construir una cadena de suministro nacional de semiconductores para fortalecer su soberanía tecnológica y reducir dependencia extranjera.
 
 - **Automotive Industry Market Report**  
   [*ReportLinker*](https://www.reportlinker.com/market-report/Automotive/505417/Automotive)  
   Informe global sobre el mercado automotriz, con datos de crecimiento, análisis regionales, segmentación por tipo de vehículo y proyecciones a futuro.
 
-- **Byung-Chul Han – _Shanzhai: Deconstruction in Chinese_ (MIT Press)**  
+- **Byung-Chul Han – _Shanzhai: Deconstruction in Chinese_**  
+  [*MIT Press*](https://mitpress.mit.edu/9780262529845/shanzhai/)  
   Reflexión filosófica sobre la noción de copia y originalidad en la cultura china, esencial para comprender su enfoque hacia la tecnología.
 
-- **Fortune Business Insights – Automotive Software Market Report**  
-  Informe sobre el crecimiento del mercado de software automotriz en Asia y a nivel global, con proyecciones e inversiones clave.
+- **Automotive Software Market Report**  
+  [*Fortune Business Insights*](https://www.fortunebusinessinsights.com/automotive-software-market-102678)  
+  Informe sobre el crecimiento del mercado de software automotriz en Asia y a nivel global, con proyecciones, tendencias tecnológicas y análisis de inversión.
 
 - **China EV Charging Infrastructure Market**  
   [*Mordor Intelligence*](https://www.mordorintelligence.com/industry-reports/china-ev-charging-infrastructure-market)  
   Análisis del desarrollo, actores clave y perspectivas del mercado chino de infraestructura de carga para vehículos eléctricos.
+
+- **China Chips y Autos Inteligentes – Notebook en Python**  
+  [*GitHub – Jupyter Notebook*](https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/61d5d4077fabaa205a0d02c5d705744393f34098/China_Chips_y_Autos_Inteligentes.ipynb)  
+  Código en Python para análisis de datos sobre la industria de semiconductores y vehículos inteligentes en China. Incluye visualizaciones y procesamiento de datos.
+
+---
+
+
 
 ---
