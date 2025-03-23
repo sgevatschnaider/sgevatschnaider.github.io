@@ -51,9 +51,8 @@ Aquí es donde China está liderando la transformación. Empresas como BYD, NIO,
 
 Entonces, ¿por qué este no es un blog sobre Tesla? Porque Tesla, aunque pionera, representa una etapa previa en esta transformación. La propuesta china no es simplemente “un Tesla más barato”. Es algo cualitativamente distinto: una nueva concepción del automóvil como interfaz digital, como plataforma nacional, como infraestructura de poder conectada a la nube.
 
-<p align="center"> <img src="https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/e02b40a12d16ce1fbcbb8403da9f0bbc02bc542f/auto%20como%20plataforma.png" alt="El auto como plataforma digital" width="80%"> </p> <p align="center"><em>El auto como plataforma digital<br> Fuente: Elaborado usando Qwen2.5</em></p>
+<p align="center"> <img src="https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/e02b40a12d16ce1fbcbb8403da9f0bbc02bc542f/auto%20como%20plataforma.png" alt="El auto como plataforma digital" width="80%"> </p> <p align="center"><em>El automovil como plataforma digital<br> Fuente: Elaborado usando Qwen2.5</em></p>
 
-**Imagen: El automóvil como plataforma digital.**  
 La ilustración muestra un vehículo en el centro de una red interconectada de servicios digitales: inteligencia artificial, chips, almacenamiento en la nube, infraestructura urbana y redes de datos. Esta representación sintetiza visualmente la transformación del automóvil en China: de objeto físico a plataforma computacional. El auto ya no es una máquina de movilidad, sino un nodo inteligente integrado en una infraestructura nacional de innovación, procesamiento y soberanía digital.
 
 Este blog busca explorar esa transformación desde múltiples ángulos: técnico, económico, geopolítico y cultural. Porque lo que está en juego no es solo el mercado automotor, sino quién controla la infraestructura digital del futuro.
