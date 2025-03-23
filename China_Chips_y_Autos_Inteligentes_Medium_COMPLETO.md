@@ -200,8 +200,8 @@ En nuestro modelo, los desarrolladores no son empleados de los fabricantes, sino
 China está construyendo las condiciones para ese ciclo. Plataformas como Banma, iSOFT o HarmonyOS ofrecen kits de desarrollo, APIs abiertas y entornos accesibles que permiten acelerar la innovación. El modelo replica la lógica de Android o iOS, pero trasladada a una industria históricamente centrada en el hardware.
 
 La transformación es profunda. El capital estratégico ya no está enterrado bajo tierra: está frente a una pantalla, escribiendo líneas de código. Y en esta nueva geografía de poder digital, China no solo construye coches: está construyendo su propio Silicon Valley sobre ruedas.
----
-7. Open source y soberanía: el nuevo campo de batalla
+---  
+## 7. Open source y soberanía: el nuevo campo de batalla
 La imagen dominante de China en el imaginario tecnológico global suele ser la de una economía cerrada, jerárquica, poco compatible con los principios de apertura digital. Sin embargo, en el universo de los Software-Defined Vehicles, la realidad es más compleja —y, en muchos aspectos, paradójica.
 
 China está desplegando una estrategia profundamente política a través de plataformas open source. En lugar de imponer un estándar cerrado, está construyendo ecosistemas abiertos pero controlados: entornos donde el acceso es posible, siempre que se respete el marco legal, técnico y jurisdiccional del Estado chino.
@@ -215,7 +215,7 @@ Aquí, el código abierto no es una opción ideológica ni un gesto de transpare
 China no usa el open source como una bandera: lo utiliza como una palanca de soberanía. Y en esa lógica, el coche deja de ser un vehículo para convertirse en una extensión computacional del Estado.
 ---
 
-8. Conclusión: El SDV no es un coche — es una infraestructura de poder
+## 8. Conclusión: El SDV no es un coche — es una infraestructura de poder
 La era del automóvil como simple máquina de movilidad ha quedado atrás. Hoy, el coche se ha transformado en una infraestructura digital rodante, un sistema cibernético que transporta datos, decisiones y algoritmos, tanto como personas.
 
 El Software-Defined Vehicle (SDV) no es un objeto aislado. Es la interfaz visible de una plataforma nacional que integra chips, software, desarrolladores, estándares y servicios —todo bajo una lógica estatal de control, coordinación y expansión.
@@ -231,7 +231,7 @@ El vehículo ha dejado de ser un medio de movilidad para convertirse en un instr
 
 ¿Será el automóvil del futuro chino por fuera… y por dentro?
 
-9. Glosario técnico
+## 9. Glosario técnico
 Software-Defined Vehicle (SDV):
 Vehículo cuya funcionalidad principal depende del software. A diferencia de los autos tradicionales, los SDVs pueden actualizar sus capacidades, incorporar nuevas funciones y personalizar la experiencia del usuario mediante software, incluso después de ser vendidos.
 
