@@ -100,11 +100,18 @@ Este mapa no solo organiza ideas: visualiza cómo el automóvil del futuro está
 
 ## **3. Software rules the roads: el sistema operativo automotriz**
 
-En la nueva era de los vehículos definidos por software (*Software-Defined Vehicles*, o SDV), **el alma del automóvil ya no es su motor, ni su batería, ni siquiera su diseño**. Es su **sistema operativo**. Como en los smartphones, lo que determina qué puede hacer un coche, cómo se comporta, qué servicios ofrece y quién controla su evolución, depende del **software base sobre el cual todo corre**.
+En el contexto de los vehículos definidos por software (*Software-Defined Vehicles*, SDVs), la elección del sistema operativo no es un detalle técnico menor, sino una decisión estratégica que define la arquitectura del vehículo, su escalabilidad futura y su grado de soberanía tecnológica. Existen dos enfoques dominantes —RTOS y Safety Linux— que responden a diferentes necesidades dentro del ecosistema del automóvil inteligente. A continuación, se presenta una tabla comparativa que resume sus características y usos principales, incluyendo la opción adoptada por China: una **arquitectura dual** que combina lo mejor de ambos mundos.
 
-En ese plano se está librando una batalla estratégica entre dos arquitecturas principales:  
-- **RTOS** (*Real-Time Operating System*): sistemas operativos diseñados para responder a eventos críticos en tiempo real. Son altamente confiables, pero rígidos.  
-- **Safety Linux**: una base abierta, modular y escalable. Permite actualizaciones OTA y soporte para ecosistemas de aplicaciones, aunque requiere certificaciones de seguridad funcional para entornos críticos.
+### Tabla 1. Comparación de arquitecturas de sistema operativo en SDVs
+
+| **Sistema Operativo** | **Características Principales**                                                                 | **Uso en China**                         |
+|-----------------------|--------------------------------------------------------------------------------------------------|------------------------------------------|
+| **RTOS**              | - Respuesta en tiempo real<br>- Alta confiabilidad<br>- Estructura rígida y especializada         | Funciones críticas: frenado, dirección, sensores de colisión |
+| **Safety Linux**      | - Modular y escalable<br>- Soporte para actualizaciones OTA<br>- Requiere certificación ISO 26262 | Interfaz con el usuario, conectividad, capa de servicios digitales |
+| **Arquitectura Dual** | - Combinación de RTOS + Safety Linux<br>- Balance entre fiabilidad estructural y flexibilidad    | Modelo adoptado por empresas como ZTE, Banma, iSOFT |
+
+**Fuente: Elaboración propia**
++++
 
 China ha optado por una **arquitectura dual**: núcleos *RTOS* para las funciones críticas (como el frenado, la dirección o los sensores de colisión) y *Safety Linux* para la capa de servicios, interacción con el usuario y conectividad. Esta arquitectura mixta permite combinar **fiabilidad estructural** con **flexibilidad evolutiva**.  
 Ejemplos de implementación: **ZTE**, **Banma**, **iSOFT**.
