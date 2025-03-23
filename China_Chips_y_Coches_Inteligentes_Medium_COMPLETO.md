@@ -38,21 +38,21 @@ Este blog busca explorar esa transformación desde múltiples ángulos: técnico
 ---
 
 ## 2. Del EV al ecosistema inteligente: el coche como plataforma
-Durante mucho tiempo, el vehículo eléctrico (EV) fue visto como una solución ecológica. Pero esa fue apenas la primera capa de una transformación mucho más profunda. En China, el EV se convirtió en el nodo central de un ecosistema digital inteligente.
+Durante mucho tiempo, el vehículo eléctrico (EV) fue percibido como una solución ecológica. Pero esa fue solo la primera capa de una transformación mucho más profunda. En China, el EV ha sido resignificado como el núcleo de un ecosistema digital inteligente.
 
-Se transformó en la plataforma ideal para integrar tecnologías convergentes: sensores, inteligencia artificial, interfaces de usuario, cloud computing, sistemas operativos y arquitectura de datos.
+Se ha convertido en la plataforma ideal para la convergencia de tecnologías: sensores de percepción, algoritmos de inteligencia artificial, interfaces de usuario, infraestructura cloud, sistemas operativos modulares y arquitecturas de datos distribuidas.
 
-China lo entendió rápido. El auto dejó de ser un objeto cerrado y se convirtió en una terminal móvil de software.
+China comprendió esta transición con rapidez. El automóvil dejó de ser un objeto cerrado para convertirse en una terminal móvil de software.
 
-Este fenómeno tiene un nombre: *Embodied AI*. Es inteligencia artificial encarnada, embebida en el objeto físico. Un coche que ve, escucha, predice, aprende y responde.
+Este fenómeno tiene un nombre técnico preciso: Embodied AI. Se trata de inteligencia artificial encarnada, embebida en un soporte físico que ve, escucha, predice, aprende y responde.
 
-Una de las metáforas más potentes en China: el coche como *“robot sobre ruedas”*. Ya no es solo un vehículo, sino una infraestructura digital rodante. Parte del entorno conectado, parte del sistema nacional de innovación.
+Una de las metáforas más potentes surgidas en el ecosistema chino lo sintetiza bien: el automóvil como "robot sobre ruedas". Ya no es solo un vehículo: es una infraestructura digital rodante, integrada al entorno conectado y alineada con los objetivos del sistema nacional de innovación.
 
-No es un slogan de marketing. Es una descripción técnica y estratégica. El vehículo ya no es un contenedor de componentes mecánicos, sino un ente cibernético móvil, equipado con hardware de percepción (cámaras, radares, LIDAR), sistemas cognitivos (algoritmos de IA) y capacidad de decisión en tiempo real.
+No se trata de un slogan de marketing, sino de una descripción técnica y estratégica. El automóvil ya no es un contenedor de piezas mecánicas, sino un ente cibernético móvil, equipado con hardware de percepción (cámaras, radares, LIDAR), sistemas cognitivos (IA) y capacidad de toma de decisiones en tiempo real.
 
-La idea de que el auto puede ser actualizado como un smartphone, personalizado como un feed digital, y conectado como una app, es la lógica detrás del SDV. Pero en China, esto va más allá del consumidor: el coche inteligente es visto como infraestructura digital rodante, parte de la ciudad inteligente, del entorno conectado y del sistema nacional de innovación.
+La lógica que define al Software-Defined Vehicle es análoga a la de un smartphone: actualizable por software, personalizable como un feed digital, y extensible mediante aplicaciones. Pero en China, esta lógica va más allá del consumidor: el coche inteligente se concibe como infraestructura digital soberana, un nodo de la ciudad inteligente y una pieza del sistema nacional de innovación.
 
-El EV ya no es un fin en sí mismo. Es un medio. Es el caballo de Troya por el cual China está desplegando su visión de un futuro donde los coches piensan, escuchan y deciden. Y donde, detrás del volante, ya no hay solo un conductor humano, sino una red de algoritmos en movimiento.
+El EV ya no es un fin en sí mismo. Es un medio. Es el caballo de Troya mediante el cual China está desplegando su visión de un futuro en el que los automóviles piensan, escuchan y deciden. Y en el que, detrás del volante, ya no hay solo un conductor humano, sino una red algorítmica en movimiento.
 
 
 ## 3. Software rules the roads: el sistema operativo automotriz
