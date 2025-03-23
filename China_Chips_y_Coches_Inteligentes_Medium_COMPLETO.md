@@ -115,6 +115,23 @@ Creamos un modelo matemático inspirado en plataformas digitales. Variables clav
 
 > Donde ambos se iluminan juntos, nace el modelo ganador.
 
+## Valor percibido por usuarios en ecosistema SDV
+
+Los siguientes mapas de calor muestran cómo varía el valor percibido por los usuarios en función del número de desarrolladores y el número de usuarios dentro del ecosistema SDV (Software Defined Vehicle).
+
+- **Eje X**: Número de desarrolladores.
+- **Eje Y**: Número de usuarios (en millones).
+- **Colores**: Representan el valor percibido por los usuarios, donde colores más claros indican mayor valor.
+
+### Visualización 1
+
+![Valor percibido por usuarios en ecosistema SDV - Gráfico 1](img/valor_percibido_sdv_1.png)
+
+### Visualización 2
+
+![Valor percibido por usuarios en ecosistema SDV - Gráfico 2](img/valor_percibido_sdv_2.png)
+
+
 **China no quiere hacer el mejor auto. Quiere dominar la plataforma.**
 
 ---
