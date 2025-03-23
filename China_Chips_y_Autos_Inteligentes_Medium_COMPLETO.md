@@ -319,49 +319,75 @@ El vehículo ha dejado de ser un medio de movilidad para convertirse en un instr
 
 ¿Será el automóvil del futuro chino por fuera… y por dentro?
 
-## 9. Glosario técnico
-Software-Defined Vehicle (SDV):
-Vehículo cuya funcionalidad principal depende del software. A diferencia de los autos tradicionales, los SDVs pueden actualizar sus capacidades, incorporar nuevas funciones y personalizar la experiencia del usuario mediante software, incluso después de ser vendidos.
+## 9. Glosario Técnico
 
-Open-source (código abierto):
-Software cuyo código fuente está disponible para ser modificado, distribuido y reutilizado por terceros. En el contexto automotriz, permite crear ecosistemas colaborativos y acelerar la innovación con estándares compartidos.
+A continuación, se presenta un glosario técnico con términos clave relacionados con el mundo de los **vehículos definidos por software (SDV)**, la inteligencia artificial aplicada, y tecnologías asociadas:
 
-Embodied AI (inteligencia artificial encarnada):
-IA que no se limita a entornos virtuales o servidores en la nube, sino que está integrada en un objeto físico (como un auto). Es capaz de interactuar en tiempo real con el entorno físico gracias a sensores, actuadores y capacidad de procesamiento local.
+---
 
-OTA (Over-the-Air):
-Tecnología que permite actualizar el software de un vehículo de forma remota, sin intervención física. Es clave para los SDVs, ya que les permite corregir errores, añadir funciones o mejorar el rendimiento en tiempo real.
+### **Software-Defined Vehicle (SDV)**
+Vehículo cuya funcionalidad principal depende del software. A diferencia de los autos tradicionales, los SDVs pueden actualizar sus capacidades, incorporar nuevas funciones y personalizar la experiencia del usuario mediante software, incluso después de su venta.
 
-RTOS (Real-Time Operating System):
-Sistema operativo diseñado para ejecutar tareas en tiempo crítico. Se usa en aplicaciones donde los tiempos de respuesta deben ser predecibles y garantizados, como en sistemas de frenado o control del motor.
+---
 
-Safety Linux:
-Versión modificada del sistema operativo Linux que cumple con estándares de seguridad funcional (como ISO 26262). Permite combinar la apertura y escalabilidad de Linux con los requisitos de confiabilidad del sector automotriz.
+### **Open-source (Código Abierto)**
+Software cuyo código fuente está disponible para ser modificado, distribuido y reutilizado por terceros. En el contexto automotriz, fomenta ecosistemas colaborativos y acelera la innovación mediante estándares compartidos.
 
-Kernel:
-El núcleo de un sistema operativo. Administra los recursos del sistema y permite que las aplicaciones interactúen con el hardware. Quien controla el kernel, controla la arquitectura y la evolución del ecosistema digital.
+---
 
-Modularidad:
-Diseño que permite que diferentes partes del sistema (hardware o software) puedan integrarse o reemplazarse fácilmente sin afectar el todo. Es clave para acelerar la innovación, reducir costos y atraer desarrolladores externos.
+### **Embodied AI (Inteligencia Artificial Encarnada)**
+IA integrada en objetos físicos (como automóviles), capaz de interactuar en tiempo real con su entorno mediante sensores, actuadores y procesamiento local. Va más allá del ámbito virtual o la nube.
 
-Sinergia tecnológica (chip + software):
-Fenómeno en el cual la integración coordinada de hardware (como chips) y software (como sistemas operativos o middleware) permite aumentar la eficiencia, reducir costos y mejorar el rendimiento del vehículo.
+---
 
-10. Referencias bibliográficas
-Electric Dreams, Robot Reality: China's EV-to-AI Evolution (2023).
-Análisis detallado de la estrategia industrial y política de China en torno a los vehículos inteligentes y la inteligencia artificial.
+### **OTA (Over-the-Air)**
+Tecnología que permite **actualizar remotamente el software** de un vehículo sin intervención física. Es esencial en los SDVs para corregir errores, añadir funciones o mejorar el rendimiento en tiempo real.
 
-China and the Domestic Chip Ecosystem (2023).
-Documento sobre cómo China intenta construir una cadena de suministro nacional de semiconductores para resistir sanciones tecnológicas y avanzar en soberanía digital.
+---
 
-Software-defined Vehicle Research Report 2023–2024 – ResearchInChina.
-Reporte técnico y estratégico sobre el avance de los SDVs en China, con foco en arquitectura software, infraestructura, y estándares nacionales.
+### **RTOS (Real-Time Operating System)**
+Sistema operativo diseñado para ejecutar tareas críticas con tiempos de respuesta predecibles y garantizados. Es fundamental en sistemas como el frenado o el control del motor.
 
-Byung-Chul Han, Shanzhai: Deconstruction in Chinese (MIT Press).
-Libro filosófico que reflexiona sobre la noción china de copia, originalidad y creación, clave para entender cómo China reinterpreta tecnología.
+---
 
-Fortune Business Insights: Automotive Software Market Report.
-Datos de mercado sobre el crecimiento del software automotriz en Asia y el mundo, con proyecciones y análisis de inversión.
+### **Safety Linux**
+Versión modificada de Linux que cumple con estándares de **seguridad funcional** (como ISO 26262). Combina la apertura y escalabilidad de Linux con los altos requerimientos del sector automotriz.
 
-Mordor Intelligence: China EV Charging Infrastructure Market.
-Análisis de la infraestructura de carga eléctrica en China, esencial para entender la adopción y expansión del mercado EV.
+---
+
+### **Kernel**
+Núcleo del sistema operativo que administra los recursos del sistema y facilita la interacción entre el hardware y las aplicaciones. Controlar el kernel es clave para dirigir la evolución del ecosistema digital.
+
+---
+
+### **Modularidad**
+Diseño que permite integrar o reemplazar fácilmente componentes de hardware o software sin afectar al sistema completo. Facilita la innovación, reduce costos y promueve la participación de desarrolladores externos.
+
+---
+
+### **Sinergia tecnológica (Chip + Software)**
+Integración coordinada entre hardware (como chips) y software (como sistemas operativos o middleware), que mejora la eficiencia, reduce costos y optimiza el rendimiento del vehículo.
+
+---
+
+## 10. Referencias Bibliográficas
+
+- **Electric Dreams, Robot Reality: China's EV-to-AI Evolution (2023)**  
+  Análisis sobre la estrategia industrial y política de China en vehículos inteligentes e IA.
+
+- **China and the Domestic Chip Ecosystem (2023)**  
+  Estudio sobre la construcción de una cadena de suministro nacional de semiconductores en China para avanzar hacia la soberanía tecnológica.
+
+- **Software-defined Vehicle Research Report 2023–2024 – ResearchInChina**  
+  Reporte técnico sobre la evolución de los SDVs en China: arquitectura de software, infraestructura y estándares.
+
+- **Byung-Chul Han – _Shanzhai: Deconstruction in Chinese_ (MIT Press)**  
+  Reflexión filosófica sobre la noción de copia y originalidad en la cultura china, esencial para comprender su enfoque hacia la tecnología.
+
+- **Fortune Business Insights – Automotive Software Market Report**  
+  Informe sobre el crecimiento del mercado de software automotriz en Asia y a nivel global, con proyecciones e inversiones clave.
+
+- **Mordor Intelligence – China EV Charging Infrastructure Market**  
+  Análisis del desarrollo de la infraestructura de carga para vehículos eléctricos en China.
+
+---
