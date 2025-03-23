@@ -47,9 +47,11 @@ Este fenómeno tiene un nombre: *Embodied AI*. Es inteligencia artificial encarn
 
 Una de las metáforas más potentes en China: el coche como *“robot sobre ruedas”*. Ya no es solo un vehículo, sino una infraestructura digital rodante. Parte del entorno conectado, parte del sistema nacional de innovación.
 
----
+No es un slogan de marketing. Es una descripción técnica y estratégica. El vehículo ya no es un contenedor de componentes mecánicos, sino un ente cibernético móvil, equipado con hardware de percepción (cámaras, radares, LIDAR), sistemas cognitivos (algoritmos de IA) y capacidad de decisión en tiempo real.
 
-(continúa…)
+La idea de que el auto puede ser actualizado como un smartphone, personalizado como un feed digital, y conectado como una app, es la lógica detrás del SDV. Pero en China, esto va más allá del consumidor: el coche inteligente es visto como infraestructura digital rodante, parte de la ciudad inteligente, del entorno conectado y del sistema nacional de innovación.
+
+El EV ya no es un fin en sí mismo. Es un medio. Es el caballo de Troya por el cual China está desplegando su visión de un futuro donde los coches piensan, escuchan y deciden. Y donde, detrás del volante, ya no hay solo un conductor humano, sino una red de algoritmos en movimiento.
 
 
 ## 3. Software rules the roads: el sistema operativo automotriz
