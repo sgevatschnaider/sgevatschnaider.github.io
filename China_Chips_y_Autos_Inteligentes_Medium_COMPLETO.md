@@ -98,6 +98,41 @@ La competencia global por el automóvil del futuro no se decide únicamente en l
 
 El resultado no es una copia del automóvil occidental. Es otra cosa: una plataforma inteligente sobre ruedas que ya no depende de Silicon Valley, sino de 国家
 
+# El sinograma **国** y su campo semántico  
+### Visualización del poder en la lengua china
+
+Las siguientes imágenes permiten visualizar, de manera sintética pero significativa, la arquitectura conceptual del sinograma **国 (guó)**, que en chino moderno designa *Estado* o *país*. Lejos de ser una unidad léxica neutra, **国** actúa como un **núcleo semántico y político**, desde el cual se proyectan conceptos fundamentales para entender la organización del poder en China.
+
+---
+
+## Imagen 1. *国 como pictograma político*  
+[Ver imagen en GitHub](https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/432816a58fd5e3689eeb87615f99e874568bcc8b/sinogram_dictionary.gif)
+
+![国 - Estado/País](https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/432816a58fd5e3689eeb87615f99e874568bcc8b/sinogram_dictionary.gif)
+
+Esta imagen presenta el sinograma **国** acompañado por su glosa directa: *Estado / País*. A través de una estética limpia y centralizada, se lo destaca como una **unidad visual cargada de sentido político**. Esta representación funciona como una cartela lingüística: útil para introducir al lector a la estructura interna del carácter, pero también como recordatorio de su densidad histórica y simbólica.  
+**国** no es solo un signo lingüístico: es un emblema de soberanía.
+
+---
+
+## Imagen 2. *Grafo semántico: 国家 y sus extensiones*  
+[Ver imagen en GitHub](https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/432816a58fd5e3689eeb87615f99e874568bcc8b/sinogram_wheel.segundo.gif)
+
+![Grafo semántico 国家](https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/432816a58fd5e3689eeb87615f99e874568bcc8b/sinogram_wheel.segundo.gif)
+
+La segunda imagen representa un **grafo animado tipo rueda**, donde **国** ocupa el centro y se conecta con otros términos compuestos que lo contienen: **国家** (nación-Estado), **国防** (defensa nacional), **国策** (estrategia estatal), **国企** (empresa estatal), entre otros.
+
+Este grafo hace visible cómo **un único sinograma puede estructurar todo un campo léxico y político**. Cada palabra derivada no solo amplía su significado, sino que extiende la red de funciones del Estado en China: desde el territorio y la ciudadanía, hasta la economía, la defensa y la frontera.
+
+---
+
+## Lectura conjunta
+
+Estas dos imágenes constituyen una microgramática visual del sinograma **国**.  
+Mientras la primera lo aísla para destacar su valor simbólico, la segunda lo **dinamiza como eje estructurador del lenguaje del poder**. En conjunto, permiten entender por qué en China el lenguaje no solo describe el mundo: lo construye políticamente.  
+Y por qué leer los sinogramas es, en cierto sentido, leer el Estado.
+
+
 ## 5. Simulamos el futuro: ¿cuándo gana el fabricante chino?
 Imaginemos que sos un fabricante chino de SDVs. ¿Cuándo te empieza a cerrar la ecuación económica?
 
