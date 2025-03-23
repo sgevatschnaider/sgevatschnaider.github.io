@@ -72,7 +72,7 @@ Ejemplos de implementación: **ZTE**, **Banma**, **iSOFT**.
 
 Este principio resume la estrategia china: el futuro del automóvil no se decide en el diseño exterior ni en la química de la batería. Se decide en el **control del sistema operativo**. Y eso implica más que ingeniería: implica **soberanía digital**.
 
-Porque controlar el sistema operativo no es solo definir cómo funciona un coche. Es definir **quién escribe las reglas**, **quién accede a los datos**, y **quién condiciona las dependencias tecnológicas del futuro**. En esta nueva cartografía de poder, el software automotriz es **territorio estratégico**.
+Porque controlar el sistema operativo no es solo definir cómo funciona un automovil. Es definir **quién escribe las reglas**, **quién accede a los datos**, y **quién condiciona las dependencias tecnológicas del futuro**. En esta nueva cartografía de poder, el software automotriz es **territorio estratégico**.
 
 ---
 
