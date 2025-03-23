@@ -78,12 +78,18 @@ No se trata de un slogan de marketing, sino de una descripción técnica y estra
 
 La lógica que define al *Software-Defined Vehicle* es análoga a la de un smartphone: actualizable por software, personalizable como un feed digital, y extensible mediante aplicaciones. Pero en China, esta lógica va más allá del consumidor: el coche inteligente se concibe como infraestructura digital soberana, un nodo de la ciudad inteligente y una pieza del sistema nacional de innovación.
 
-El EV ya no es un fin en sí mismo. Es un medio. Es el caballo de Troya mediante el cual China está desplegando su visión de un futuro en el que los automóviles piensan, escuchan y deciden. Y en el que, detrás del volante, ya no hay solo un conductor humano, sino una red algorítmica en movimiento.
+> El EV ya no es un fin en sí mismo. Es un medio.  
+> Es el **caballo de Troya** mediante el cual China está desplegando su visión de un futuro en el que los automóviles piensan, escuchan y deciden.  
+> Y en el que, detrás del volante, ya no hay solo un conductor humano, sino una **red algorítmica en movimiento**.
 
-![Mapa mental - SDV chino como infraestructura digital](https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/8ca9022d4322e3726a27606c42655a7d931a9631/EVmapa%20mental.png)
+<p align="center">
+  <img src="https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/8ca9022d4322e3726a27606c42655a7d931a9631/EVmapa%20mental.png" alt="Mapa mental - SDV chino como infraestructura digital" width="80%">
+</p>
 
-*Fuente: Elaboración propia.*
+<p align="center"><em>Mapa mental – SDV chino como infraestructura digital<br>
+Fuente: Elaboración propia</em></p>
 
+---
 **Imagen: Mapa mental del Software-Defined Vehicle (SDV) como infraestructura digital**  
 Este diagrama resume los seis ejes conceptuales que definen la transformación del EV en China. En el centro se sitúa el vehículo eléctrico como **plataforma computacional**. Las ramas visualizan su evolución en distintas dimensiones:
 
