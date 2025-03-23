@@ -125,7 +125,7 @@ Los siguientes mapas de calor muestran cómo varía el valor percibido por los u
 
 ### Visualización 1
 
-![Valor percibido por usuarios en ecosistema SDV - Gráfico 1](img/valor_percibido_sdv_1.png)
+![Valor percibido por usuarios en ecosistema SDV - Gráfico 1]([img/valor_percibido_sdv_1.png](https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/fe075c84a50d0ca3f76f137558a187c64fd5a2a4/headmap1.png))
 
 ### Visualización 2
 
