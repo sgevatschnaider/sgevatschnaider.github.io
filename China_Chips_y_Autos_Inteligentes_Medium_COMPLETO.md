@@ -75,7 +75,7 @@ Este principio resume la estrategia china: el futuro del automóvil no se decide
 Porque controlar el sistema operativo no es solo definir cómo funciona un coche. Es definir **quién escribe las reglas**, **quién accede a los datos**, y **quién condiciona las dependencias tecnológicas del futuro**. En esta nueva cartografía de poder, el software automotriz es **territorio estratégico**.
 
 ---
-4. Competencia geopolítica: el sinograma de la estrategia china
+## **4Competencia geopolítica: el sinograma de la estrategia china
 En el centro del primer paper que revisamos, Electric Dreams, Robot Reality, aparece un detalle visual aparentemente menor, pero conceptualmente inmenso: el sinograma 国家 (guójiā), que se traduce como “nación-estado”. Este carácter compuesto —formado por 国 (territorio, país) y 家 (familia, hogar)— condensa una concepción del poder profundamente enraizada en la historia política y filosófica de China. Y revela, simbólicamente, el tipo de estrategia que hoy impulsa la transformación de su industria automotriz.
 
 Porque lo que estamos presenciando no es simplemente la electrificación del transporte. Es mucho más: se trata de un rediseño coordinado del aparato productivo nacional bajo una lógica geoeconómica. Mientras que en Occidente predomina el mercado como regulador y la competencia empresarial como motor, en China es el Estado quien asume el rol de arquitecto industrial. La competencia existe, pero está enmarcada por objetivos nacionales de largo plazo. En ese contexto, el Software-Defined Vehicle (SDV) deja de ser un producto comercial para convertirse en infraestructura estratégica.
