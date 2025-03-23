@@ -16,9 +16,7 @@
 Fuente: Elaborado mediante JanusPro</em></p>
 
 ---
-+++
 
-**Imagen: El cielo chino escribe en sinogramas.**  
 En una escena donde se cruzan la industria, la movilidad y el cielo digital, esta imagen anticipa la tesis central de este ensayo: el automóvil del futuro no es un objeto aislado, sino una **infraestructura computacional encarnada en un vehículo**. China no solo produce autos: **codifica un modelo de innovación estatal que conecta software, chips, planificación industrial y soberanía tecnológica**.
 
 Mientras en Occidente el auto eléctrico todavía se piensa como una máquina ecológica o una plataforma de consumo, en China ha sido resignificado como **nodo estratégico del sistema nacional de innovación**. Un espacio donde se entrelazan inteligencia artificial, hardware autónomo, redes urbanas y visión geopolítica. La transformación no ocurre únicamente bajo el capó: sucede en el código que lo estructura, en los sinogramas que lo nombran, y en la arquitectura política que lo sostiene.
@@ -53,9 +51,7 @@ Aquí es donde China está liderando la transformación. Empresas como BYD, NIO,
 
 Entonces, ¿por qué este no es un blog sobre Tesla? Porque Tesla, aunque pionera, representa una etapa previa en esta transformación. La propuesta china no es simplemente “un Tesla más barato”. Es algo cualitativamente distinto: una nueva concepción del automóvil como interfaz digital, como plataforma nacional, como infraestructura de poder conectada a la nube.
 
-![El auto como plataforma digital](https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/e02b40a12d16ce1fbcbb8403da9f0bbc02bc542f/auto%20como%20plataforma.png)
-
-*Fuente: Elaborado usando Qwen2.5.*
+<p align="center"> <img src="https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/e02b40a12d16ce1fbcbb8403da9f0bbc02bc542f/auto%20como%20plataforma.png" alt="El auto como plataforma digital" width="80%"> </p> <p align="center"><em>El auto como plataforma digital<br> Fuente: Elaborado usando Qwen2.5</em></p>
 
 **Imagen: El automóvil como plataforma digital.**  
 La ilustración muestra un vehículo en el centro de una red interconectada de servicios digitales: inteligencia artificial, chips, almacenamiento en la nube, infraestructura urbana y redes de datos. Esta representación sintetiza visualmente la transformación del automóvil en China: de objeto físico a plataforma computacional. El auto ya no es una máquina de movilidad, sino un nodo inteligente integrado en una infraestructura nacional de innovación, procesamiento y soberanía digital.
