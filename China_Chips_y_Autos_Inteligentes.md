@@ -17,7 +17,7 @@ Fuente: Elaborado mediante JanusPro</em></p>
 
 ---
 
-En una escena donde se cruzan la industria, la movilidad y el cielo digital, esta imagen anticipa la tesis central de este ensayo: el automóvil del futuro no es un objeto aislado, sino una **infraestructura computacional encarnada en un vehículo**. China no solo produce autos: **codifica un modelo de innovación estatal que conecta software, chips, planificación industrial y soberanía tecnológica**.
+En una escena donde se cruzan la industria, la movilidad y el cielo digital, esta imagen anticipa la tesis de esta nota: el automóvil del futuro no es un objeto aislado, sino una **infraestructura computacional encarnada en un vehículo**. China no solo produce autos: **codifica un modelo de innovación estatal que conecta software, chips, planificación industrial y soberanía tecnológica**.
 
 Mientras en Occidente el auto eléctrico todavía se piensa como una máquina ecológica o una plataforma de consumo, en China ha sido resignificado como **nodo estratégico del sistema nacional de innovación**. Un espacio donde se entrelazan inteligencia artificial, hardware autónomo, redes urbanas y visión geopolítica. La transformación no ocurre únicamente bajo el capó: sucede en el código que lo estructura, en los sinogramas que lo nombran, y en la arquitectura política que lo sostiene.
 
