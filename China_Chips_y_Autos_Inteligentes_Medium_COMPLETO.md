@@ -9,6 +9,7 @@
 ---
 
 ![Imagen de apertura: El automóvil como infraestructura algorítmica](https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/2cdce2518337f054895674f49a0dde1dadfafe59/imagen%20autos%20y%20tecnolog%C3%ADa.png)
+*Fuente: Elaborado mediante JanusPro.*
 
 **Imagen: El cielo chino escribe en sinogramas.**  
 En una escena donde se cruzan la industria, la movilidad y el cielo digital, esta imagen anticipa la tesis central de este ensayo: el automóvil del futuro no es un objeto aislado, sino una **infraestructura computacional encarnada en un vehículo**. China no solo produce autos: **codifica un modelo de innovación estatal que conecta software, chips, planificación industrial y soberanía tecnológica**.
@@ -46,7 +47,7 @@ Aquí es donde China está liderando la transformación. Empresas como BYD, NIO,
 Entonces, ¿por qué este no es un blog sobre Tesla? Porque Tesla, aunque pionera, representa una etapa previa en esta transformación. La propuesta china no es simplemente “un Tesla más barato”. Es algo cualitativamente distinto: una nueva concepción del automóvil como interfaz digital, como plataforma nacional, como infraestructura de poder conectada a la nube.
 
 ![El auto como plataforma digital](https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/e02b40a12d16ce1fbcbb8403da9f0bbc02bc542f/auto%20como%20plataforma.png)
-
+*Fuente: Elaboración usando Qwen2.5.*
 **Imagen: El automóvil como plataforma digital.**  
 La ilustración muestra un vehículo en el centro de una red interconectada de servicios digitales: inteligencia artificial, chips, almacenamiento en la nube, infraestructura urbana y redes de datos. Esta representación sintetiza visualmente la transformación del automóvil en China: de objeto físico a plataforma computacional. El auto ya no es una máquina de movilidad, sino un nodo inteligente integrado en una infraestructura nacional de innovación, procesamiento y soberanía digital.
 
@@ -145,6 +146,8 @@ Las siguientes imágenes permiten visualizar, de manera sintética pero signific
 
 ![国 - Estado/País](https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/432816a58fd5e3689eeb87615f99e874568bcc8b/sinogram_dictionary.gif)
 
+*Fuente: Elaboración propia.*
+
 Esta imagen presenta el sinograma **国** acompañado por su glosa directa: *Estado / País*. A través de una estética limpia y centralizada, se lo destaca como una **unidad visual cargada de sentido político**. Esta representación funciona como una cartela lingüística: útil para introducir al lector a la estructura interna del carácter, pero también como recordatorio de su densidad histórica y simbólica.  
 **国** no es solo un signo lingüístico: es un emblema de soberanía.
 
@@ -154,6 +157,8 @@ Esta imagen presenta el sinograma **国** acompañado por su glosa directa: *Est
 [Ver imagen en GitHub](https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/432816a58fd5e3689eeb87615f99e874568bcc8b/sinogram_wheel.segundo.gif)
 
 ![Grafo semántico 国家](https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/432816a58fd5e3689eeb87615f99e874568bcc8b/sinogram_wheel.segundo.gif)
+
+*Fuente: Elaboración propia.*
 
 La segunda imagen representa un **grafo animado tipo rueda**, donde **国** ocupa el centro y se conecta con otros términos compuestos que lo contienen: **国家** (nación-Estado), **国防** (defensa nacional), **国策** (estrategia estatal), **国企** (empresa estatal), entre otros.
 
@@ -203,10 +208,12 @@ Los siguientes mapas de calor muestran cómo varía el valor percibido por los u
 
 ![Valor percibido por usuarios en ecosistema SDV - Gráfico 1](https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/fe075c84a50d0ca3f76f137558a187c64fd5a2a4/headmap1.png)
 
+*Fuente: Elaboración propia.*
 ### Visualización 2
 
 ![Valor percibido por usuarios en ecosistema SDV - Gráfico 2](https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/01a089a4d28da1207abe54b01f86dd38f012a6ad/headmap2.png)
 
+*Fuente: Elaboración propia.*
 
 **China no quiere hacer el mejor auto. Quiere dominar la plataforma.**
 
