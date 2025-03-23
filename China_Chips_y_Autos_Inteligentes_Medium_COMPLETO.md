@@ -45,21 +45,37 @@ Este blog busca explorar esa transformación desde múltiples ángulos: técnico
 ---
 
 ## 2. Del EV al ecosistema inteligente: el coche como plataforma
+
 Durante mucho tiempo, el vehículo eléctrico (EV) fue percibido como una solución ecológica. Pero esa fue solo la primera capa de una transformación mucho más profunda. En China, el EV ha sido resignificado como el núcleo de un ecosistema digital inteligente.
 
 Se ha convertido en la plataforma ideal para la convergencia de tecnologías: sensores de percepción, algoritmos de inteligencia artificial, interfaces de usuario, infraestructura cloud, sistemas operativos modulares y arquitecturas de datos distribuidas.
 
 China comprendió esta transición con rapidez. El automóvil dejó de ser un objeto cerrado para convertirse en una terminal móvil de software.
 
-Este fenómeno tiene un nombre técnico preciso: Embodied AI. Se trata de inteligencia artificial encarnada, embebida en un soporte físico que ve, escucha, predice, aprende y responde.
+Este fenómeno tiene un nombre técnico preciso: *Embodied AI*. Se trata de inteligencia artificial encarnada, embebida en un soporte físico que ve, escucha, predice, aprende y responde.
 
 Una de las metáforas más potentes surgidas en el ecosistema chino lo sintetiza bien: el automóvil como "robot sobre ruedas". Ya no es solo un vehículo: es una infraestructura digital rodante, integrada al entorno conectado y alineada con los objetivos del sistema nacional de innovación.
 
 No se trata de un slogan de marketing, sino de una descripción técnica y estratégica. El automóvil ya no es un contenedor de piezas mecánicas, sino un ente cibernético móvil, equipado con hardware de percepción (cámaras, radares, LIDAR), sistemas cognitivos (IA) y capacidad de toma de decisiones en tiempo real.
 
-La lógica que define al Software-Defined Vehicle es análoga a la de un smartphone: actualizable por software, personalizable como un feed digital, y extensible mediante aplicaciones. Pero en China, esta lógica va más allá del consumidor: el coche inteligente se concibe como infraestructura digital soberana, un nodo de la ciudad inteligente y una pieza del sistema nacional de innovación.
+La lógica que define al *Software-Defined Vehicle* es análoga a la de un smartphone: actualizable por software, personalizable como un feed digital, y extensible mediante aplicaciones. Pero en China, esta lógica va más allá del consumidor: el coche inteligente se concibe como infraestructura digital soberana, un nodo de la ciudad inteligente y una pieza del sistema nacional de innovación.
 
 El EV ya no es un fin en sí mismo. Es un medio. Es el caballo de Troya mediante el cual China está desplegando su visión de un futuro en el que los automóviles piensan, escuchan y deciden. Y en el que, detrás del volante, ya no hay solo un conductor humano, sino una red algorítmica en movimiento.
+
+![Mapa mental - SDV chino como infraestructura digital](https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/8ca9022d4322e3726a27606c42655a7d931a9631/EVmapa%20mental.png)
+
+**Imagen: Mapa mental del Software-Defined Vehicle (SDV) como infraestructura digital**  
+Este diagrama resume los seis ejes conceptuales que definen la transformación del EV en China. En el centro se sitúa el vehículo eléctrico como **plataforma computacional**. Las ramas visualizan su evolución en distintas dimensiones:
+
+1. **Plataforma digital**: de objeto ecológico a terminal de software.  
+2. **Tecnologías convergentes**: sensores, inteligencia artificial, cloud computing, sistemas operativos modulares.  
+3. **Embodied AI**: una inteligencia artificial encarnada que interactúa con el entorno físico.  
+4. **Robot sobre ruedas**: infraestructura móvil alineada al sistema nacional de innovación.  
+5. **Paralelismo con el smartphone**: software extensible y experiencia personalizada.  
+6. **Función geoestratégica**: el auto como nodo algorítmico en movimiento, clave en la disputa por la soberanía tecnológica.
+
+Este mapa no solo organiza ideas: visualiza cómo el automóvil del futuro está siendo rediseñado en China como un **sistema cibernético soberano**, pensado para articular tecnologías, datos y decisiones en tiempo real.
+
 
 
 ---
