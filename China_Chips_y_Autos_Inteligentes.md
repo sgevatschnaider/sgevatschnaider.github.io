@@ -8,18 +8,11 @@
 
 ---
 
-![Imagen de apertura: El automóvil como infraestructura algorítmica](https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/2cdce2518337f054895674f49a0dde1dadfafe59/imagen%20autos%20y%20tecnolog%C3%ADa.png)
-
-*Fuente: Elaborado mediante JanusPro*
-
-+++markdown
----
-
 <p align="center">
   <img src="https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/2cdce2518337f054895674f49a0dde1dadfafe59/imagen%20autos%20y%20tecnolog%C3%ADa.png" alt="Imagen de apertura: El automóvil como infraestructura algorítmica" width="80%">
 </p>
 
-<p align="center"><em>Imagen de apertura: El automóvil como infraestructura algorítmica<br>
+<p align="center"><em> El automóvil como infraestructura algorítmica<br>
 Fuente: Elaborado mediante JanusPro</em></p>
 
 ---
