@@ -115,9 +115,6 @@ En el contexto de los vehículos definidos por software (*Software-Defined Vehic
 China ha optado por una **arquitectura dual**: núcleos *RTOS* para las funciones críticas (como el frenado, la dirección o los sensores de colisión) y *Safety Linux* para la capa de servicios, interacción con el usuario y conectividad. Esta arquitectura mixta permite combinar **fiabilidad estructural** con **flexibilidad evolutiva**.  
 Ejemplos de implementación: **ZTE**, **Banma**, **iSOFT**.
 
-+++markdown
-> **Quien controla el kernel, controla la industria.**
-+++
 
 > **Quien controla el kernel, controla la industria.**
 
