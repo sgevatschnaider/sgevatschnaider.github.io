@@ -1,12 +1,24 @@
 
+---
 # El automóvil como código: China, IA y la nueva arquitectura del poder automotriz
-*Cómo el software, los chips y la estrategia industrial china están redefiniendo el automóvil — y por qué el futuro ya no se diseña en Occidente..*
 
 ---
 
 *El coche del futuro no es un objeto: es una plataforma. Y mientras Occidente busca mejorar baterías, China ya controla el sistema operativo. Este ensayo explora por qué el poder automotriz del siglo XXI se escribe en código… y en mandarín.*
 
 ---
+
+![Imagen de apertura: El automóvil como infraestructura algorítmica](https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/2cdce2518337f054895674f49a0dde1dadfafe59/imagen%20autos%20y%20tecnolog%C3%ADa.png)
+
+**Imagen: El cielo chino escribe en sinogramas.**  
+En una escena donde se cruzan la industria, la movilidad y el cielo digital, esta imagen anticipa la tesis central de este ensayo: el automóvil del futuro no es un objeto aislado, sino una **infraestructura computacional encarnada en un vehículo**. China no solo produce autos: **codifica un modelo de innovación estatal que conecta software, chips, planificación industrial y soberanía tecnológica**.
+
+Mientras en Occidente el auto eléctrico todavía se piensa como una máquina ecológica o una plataforma de consumo, en China ha sido resignificado como **nodo estratégico del sistema nacional de innovación**. Un espacio donde se entrelazan inteligencia artificial, hardware autónomo, redes urbanas y visión geopolítica. La transformación no ocurre únicamente bajo el capó: sucede en el código que lo estructura, en los sinogramas que lo nombran, y en la arquitectura política que lo sostiene.
+
+Este trabajo explora esa mutación desde múltiples ángulos: técnico, cultural, económico y simbólico. Porque el **automóvil como código** es también una forma de leer el presente —y de anticipar el futuro.
+
+---
+
 
 ## Índice
 
