@@ -155,12 +155,16 @@ Las siguientes imágenes permiten visualizar, de manera sintética pero signific
 
 ---
 
++++markdown
 ## Imagen 1. *国 como pictograma político*  
 [Ver imagen en GitHub](https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/432816a58fd5e3689eeb87615f99e874568bcc8b/sinogram_dictionary.gif)
 
-![国 - Estado/País](https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/432816a58fd5e3689eeb87615f99e874568bcc8b/sinogram_dictionary.gif)
+<p align="center">
+  <img src="https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/432816a58fd5e3689eeb87615f99e874568bcc8b/sinogram_dictionary.gif" alt="国 - Estado/País" width="60%">
+</p>
 
-*Fuente: Elaboración propia.*
+<p align="center"><em>国 - Estado / País<br>
+Fuente: Elaboración propia</em></p>
 
 Esta imagen presenta el sinograma **国** acompañado por su glosa directa: *Estado / País*. A través de una estética limpia y centralizada, se lo destaca como una **unidad visual cargada de sentido político**. Esta representación funciona como una cartela lingüística: útil para introducir al lector a la estructura interna del carácter, pero también como recordatorio de su densidad histórica y simbólica.  
 **国** no es solo un signo lingüístico: es un emblema de soberanía.
@@ -170,9 +174,12 @@ Esta imagen presenta el sinograma **国** acompañado por su glosa directa: *Est
 ## Imagen 2. *Grafo semántico: 国家 y sus extensiones*  
 [Ver imagen en GitHub](https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/432816a58fd5e3689eeb87615f99e874568bcc8b/sinogram_wheel.segundo.gif)
 
-![Grafo semántico 国家](https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/432816a58fd5e3689eeb87615f99e874568bcc8b/sinogram_wheel.segundo.gif)
+<p align="center">
+  <img src="https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/432816a58fd5e3689eeb87615f99e874568bcc8b/sinogram_wheel.segundo.gif" alt="Grafo semántico 国家" width="70%">
+</p>
 
-*Fuente: Elaboración propia.*
+<p align="center"><em>Grafo semántico animado de 国家 y derivados<br>
+Fuente: Elaboración propia</em></p>
 
 La segunda imagen representa un **grafo animado tipo rueda**, donde **国** ocupa el centro y se conecta con otros términos compuestos que lo contienen: **国家** (nación-Estado), **国防** (defensa nacional), **国策** (estrategia estatal), **国企** (empresa estatal), entre otros.
 
