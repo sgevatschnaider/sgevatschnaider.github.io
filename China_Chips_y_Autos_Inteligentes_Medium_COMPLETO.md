@@ -129,7 +129,7 @@ Los siguientes mapas de calor muestran cómo varía el valor percibido por los u
 
 ### Visualización 2
 
-![Valor percibido por usuarios en ecosistema SDV - Gráfico 2](img/valor_percibido_sdv_2.png)
+![Valor percibido por usuarios en ecosistema SDV - Gráfico 2](https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/01a089a4d28da1207abe54b01f86dd38f012a6ad/headmap2.png)
 
 
 **China no quiere hacer el mejor auto. Quiere dominar la plataforma.**
