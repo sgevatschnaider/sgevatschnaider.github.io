@@ -402,7 +402,7 @@ Integración coordinada entre hardware (como chips) y software (como sistemas op
 ---
 ## 10. Referencias Bibliográficas
 
-+++markdown
+
 ## 10. Referencias Bibliográficas
 
 - **Electric Dreams, Robot Reality: China's EV-to-AI Evolution / Convergence Point: Why China's EV Leaders Are Pivoting to AI**  
