@@ -33,7 +33,7 @@ Aquí es donde China está liderando la transformación. Empresas como **BYD, NI
 
 Entonces, ¿por qué este no es un blog sobre Tesla? Porque **Tesla, aunque pionera, representa una etapa previa** en esta transformación. La propuesta china no es simplemente “un Tesla más barato”. Es algo cualitativamente distinto: una **nueva concepción del automóvil** como interfaz digital, como **plataforma nacional**, como **infraestructura de poder conectada a la nube**.
 
-Este blog busca explorar esa transformación desde múltiples ángulos: técnico, económico, geopolítico y cultural. Porque lo que está en juego **no es solo el coche**, sino **quién controla la infraestructura digital del futuro**.
+Este blog busca explorar esa transformación desde múltiples ángulos: técnico, económico, geopolítico y cultural. Porque lo que está en juego **no es solo el mercado automotor**, sino **quién controla la infraestructura digital del futuro**.
 
 ---
 
