@@ -21,7 +21,7 @@
 
 ---
 
-## **1. El automóvil del futuro ya se fabrica en China**
+## 1. El automóvil del futuro ya se fabrica en China**
 
 Durante años, el símbolo del futuro automotriz fue un coche eléctrico de diseño minimalista, con una gran pantalla táctil en el tablero. Ese imaginario tenía un nombre propio: **Tesla**. Pero esa imagen —y su hegemonía simbólica— está perdiendo fuerza. Hoy, si uno quiere observar hacia dónde se dirige realmente la innovación en movilidad inteligente, debe mirar hacia el este. Porque el automóvil del futuro **ya se está fabricando en China**.
 
@@ -37,7 +37,7 @@ Este blog busca explorar esa transformación desde múltiples ángulos: técnico
 
 ---
 
-## ** 2. Del EV al ecosistema inteligente: el coche como plataforma
+## 2. Del EV al ecosistema inteligente: el coche como plataforma
 Durante mucho tiempo, el vehículo eléctrico (EV) fue percibido como una solución ecológica. Pero esa fue solo la primera capa de una transformación mucho más profunda. En China, el EV ha sido resignificado como el núcleo de un ecosistema digital inteligente.
 
 Se ha convertido en la plataforma ideal para la convergencia de tecnologías: sensores de percepción, algoritmos de inteligencia artificial, interfaces de usuario, infraestructura cloud, sistemas operativos modulares y arquitecturas de datos distribuidas.
