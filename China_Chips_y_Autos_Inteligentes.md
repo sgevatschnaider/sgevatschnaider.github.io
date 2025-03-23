@@ -195,7 +195,7 @@ Y por qué leer los sinogramas es, en cierto sentido, leer el Estado.
 
 
 ## 5. Simulamos el futuro: ¿cuándo gana el fabricante chino?
-Imaginemos que sos un fabricante chino de SDVs. ¿Cuándo te empieza a cerrar la ecuación económica?
+Imaginemos la perspectiva de un fabricante chino de SDVs. ¿Cuándo le comienza a cerrar la ecuación económica?
 
 Creamos un modelo matemático inspirado en plataformas digitales. Variables clave:
 
@@ -227,19 +227,28 @@ Los siguientes mapas de calor muestran cómo varía el valor percibido por los u
 
 ### Visualización 1
 
-![Valor percibido por usuarios en ecosistema SDV - Gráfico 1](https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/fe075c84a50d0ca3f76f137558a187c64fd5a2a4/headmap1.png)
+<p align="center">
+  <img src="https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/fe075c84a50d0ca3f76f137558a187c64fd5a2a4/headmap1.png" alt="Valor percibido por usuarios en ecosistema SDV - Gráfico 1" width="75%">
+</p>
 
-*Fuente: Elaboración propia.*
+<p align="center"><em>Valor percibido por usuarios en ecosistema SDV – Gráfico 1<br>
+Fuente: Elaboración propia</em></p>
+
+---
 
 ### Visualización 2
 
-![Valor percibido por usuarios en ecosistema SDV - Gráfico 2](https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/01a089a4d28da1207abe54b01f86dd38f012a6ad/headmap2.png)
+<p align="center">
+  <img src="https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/01a089a4d28da1207abe54b01f86dd38f012a6ad/headmap2.png" alt="Valor percibido por usuarios en ecosistema SDV - Gráfico 2" width="75%">
+</p>
 
-*Fuente: Elaboración propia.*
+<p align="center"><em>Valor percibido por usuarios en ecosistema SDV – Gráfico 2<br>
+Fuente: Elaboración propia</em></p>
 
-**China no quiere hacer el mejor auto. Quiere dominar la plataforma.**
+<p align="center"><strong>China no quiere hacer el mejor auto. Quiere dominar la plataforma.</strong></p>
 
 ---
+
 
 ## 6. Desarrolladores, el nuevo capital estratégico
 Imaginemos que sos un fabricante de autos eléctricos en China. No sos una empresa cualquiera: estás en el corazón de una revolución industrial definida por software, impulsada por subsidios estatales, desarrolladores locales y una plataforma digital que se instala no solo en autos, sino también en la geopolítica.
