@@ -12,6 +12,19 @@
 
 *Fuente: Elaborado mediante JanusPro*
 
++++markdown
+---
+
+<p align="center">
+  <img src="https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/2cdce2518337f054895674f49a0dde1dadfafe59/imagen%20autos%20y%20tecnolog%C3%ADa.png" alt="Imagen de apertura: El automóvil como infraestructura algorítmica" width="80%">
+</p>
+
+<p align="center"><em>Imagen de apertura: El automóvil como infraestructura algorítmica<br>
+Fuente: Elaborado mediante JanusPro</em></p>
+
+---
++++
+
 **Imagen: El cielo chino escribe en sinogramas.**  
 En una escena donde se cruzan la industria, la movilidad y el cielo digital, esta imagen anticipa la tesis central de este ensayo: el automóvil del futuro no es un objeto aislado, sino una **infraestructura computacional encarnada en un vehículo**. China no solo produce autos: **codifica un modelo de innovación estatal que conecta software, chips, planificación industrial y soberanía tecnológica**.
 
