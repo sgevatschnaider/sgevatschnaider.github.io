@@ -23,17 +23,24 @@
 
 ## 1. El automóvil del futuro ya se fabrica en China
 
-Durante años, el símbolo del futuro automotriz fue un coche eléctrico de diseño minimalista, con una gran pantalla táctil en el tablero. Ese imaginario tenía un nombre propio: **Tesla**. Pero esa imagen —y su hegemonía simbólica— está perdiendo fuerza. Hoy, si uno quiere observar hacia dónde se dirige realmente la innovación en movilidad inteligente, debe mirar hacia el este. Porque el automóvil del futuro **ya se está fabricando en China**.
+Durante años, el símbolo del futuro automotriz fue un coche eléctrico de diseño minimalista, con una gran pantalla táctil en el tablero. Ese imaginario tenía un nombre propio: Tesla. Pero esa imagen —y su hegemonía simbólica— está perdiendo fuerza. Hoy, si uno quiere observar hacia dónde se dirige realmente la innovación en movilidad inteligente, debe mirar hacia el este. Porque el automóvil del futuro ya se está fabricando en China.
 
-Pero lo que está ocurriendo no se limita a la electrificación. El verdadero salto se produce en una capa más profunda: el **software**. China está transformando el automóvil en una **plataforma digital sobre ruedas**: un nodo inteligente que recolecta datos, ejecuta algoritmos de inteligencia artificial y se integra dinámicamente con ecosistemas urbanos, comerciales y domésticos. Este nuevo tipo de vehículo tiene un nombre técnico preciso: *Software-Defined Vehicle (SDV)*.
+Pero lo que está ocurriendo no se limita a la electrificación. El verdadero salto se produce en una capa más profunda: el software. China está transformando el automóvil en una plataforma digital sobre ruedas: un nodo inteligente que recolecta datos, ejecuta algoritmos de inteligencia artificial y se integra dinámicamente con ecosistemas urbanos, comerciales y domésticos. Este nuevo tipo de vehículo tiene un nombre técnico preciso: *Software-Defined Vehicle* (SDV).
 
-Un SDV no es simplemente un auto con pantalla táctil. Es un vehículo cuyo comportamiento, funcionalidades y experiencia de usuario dependen estructuralmente del software. Desde el asistente de voz basado en IA hasta las actualizaciones OTA, los sistemas de navegación autónoma o las aplicaciones de entretenimiento, **todo en el SDV es código**. Es la diferencia entre adquirir un producto estático y formar parte de una plataforma en evolución permanente.
+Un SDV no es simplemente un auto con pantalla táctil. Es un vehículo cuyo comportamiento, funcionalidades y experiencia de usuario dependen estructuralmente del software. Desde el asistente de voz basado en IA hasta las actualizaciones OTA, los sistemas de navegación autónoma o las aplicaciones de entretenimiento, todo en el SDV es código. Es la diferencia entre adquirir un producto estático y formar parte de una plataforma en evolución permanente.
 
-Aquí es donde China está liderando la transformación. Empresas como **BYD, NIO, Li Auto y Xpeng** ya no se limitan a producir vehículos eléctricos de calidad y bajo costo. También integran sus propios **chips**, **sistemas operativos nacionales** (como *HarmonyOS* o *Banma*), y servicios digitales desarrollados en alianza con gigantes tecnológicos como **Alibaba, Baidu y Huawei**. El auto chino ya no se define por su batería: se define por su **inteligencia**.
+Aquí es donde China está liderando la transformación. Empresas como BYD, NIO, Li Auto y Xpeng ya no se limitan a producir vehículos eléctricos de calidad y bajo costo. También integran sus propios chips, sistemas operativos nacionales (como HarmonyOS o Banma), y servicios digitales desarrollados en alianza con gigantes tecnológicos como Alibaba, Baidu y Huawei. El auto chino ya no se define por su batería: se define por su inteligencia.
 
-Entonces, ¿por qué este no es un blog sobre Tesla? Porque **Tesla, aunque pionera, representa una etapa previa** en esta transformación. La propuesta china no es simplemente “un Tesla más barato”. Es algo cualitativamente distinto: una **nueva concepción del automóvil** como interfaz digital, como **plataforma nacional**, como **infraestructura de poder conectada a la nube**.
+Entonces, ¿por qué este no es un blog sobre Tesla? Porque Tesla, aunque pionera, representa una etapa previa en esta transformación. La propuesta china no es simplemente “un Tesla más barato”. Es algo cualitativamente distinto: una nueva concepción del automóvil como interfaz digital, como plataforma nacional, como infraestructura de poder conectada a la nube.
 
-Este blog busca explorar esa transformación desde múltiples ángulos: técnico, económico, geopolítico y cultural. Porque lo que está en juego **no es solo el mercado automotor**, sino **quién controla la infraestructura digital del futuro**.
+![El auto como plataforma digital](https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/e02b40a12d16ce1fbcbb8403da9f0bbc02bc542f/auto%20como%20plataforma.png)
+
+**Imagen: El automóvil como plataforma digital.**  
+La ilustración muestra un vehículo en el centro de una red interconectada de servicios digitales: inteligencia artificial, chips, almacenamiento en la nube, infraestructura urbana y redes de datos. Esta representación sintetiza visualmente la transformación del automóvil en China: de objeto físico a plataforma computacional. El auto ya no es una máquina de movilidad, sino un nodo inteligente integrado en una infraestructura nacional de innovación, procesamiento y soberanía digital.
+
+Este blog busca explorar esa transformación desde múltiples ángulos: técnico, económico, geopolítico y cultural. Porque lo que está en juego no es solo el mercado automotor, sino quién controla la infraestructura digital del futuro.
+
+
 
 ---
 
