@@ -21,7 +21,7 @@
 
 ---
 
-## 1. El automóvil del futuro ya se fabrica en China**
+## 1. El automóvil del futuro ya se fabrica en China
 
 Durante años, el símbolo del futuro automotriz fue un coche eléctrico de diseño minimalista, con una gran pantalla táctil en el tablero. Ese imaginario tenía un nombre propio: **Tesla**. Pero esa imagen —y su hegemonía simbólica— está perdiendo fuerza. Hoy, si uno quiere observar hacia dónde se dirige realmente la innovación en movilidad inteligente, debe mirar hacia el este. Porque el automóvil del futuro **ya se está fabricando en China**.
 
