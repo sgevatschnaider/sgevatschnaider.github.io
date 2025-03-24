@@ -1,4 +1,4 @@
-* [🇬🇧 English](https://economiayetica.blogspot.com/2025/03/el-automovil-como-codigo-china-ia-y-la_23.html))
+* [🇬🇧 English](https://economiayetica.blogspot.com/2025/03/el-automovil-como-codigo-china-ia-y-la_23.html)
   
 ---
 # El automóvil como código: China, IA y la nueva arquitectura del poder automotriz
