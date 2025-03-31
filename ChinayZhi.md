@@ -1,7 +1,11 @@
-[Ingles](#) 
+[Ingles](https://economiayetica.blogspot.com/2025/03/el-arte-de-no-actuar-china-el-shi-y-la.html) 
 ---
 
-[![Laozi](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJDZ4hgpTeijhk8VyvSiMoMlnHE-SJakzYVVkQF0aRXSz2RyYWBi1nFBWaPz51omUbNm0BVDLYcl5eD7YNGhz7MYt_ytwD3qvL8wb4C4JGeB2A_ZPm7X-pY39b3g3NOdbHgQRNKBJPdnWHZR_m7eCovcIOG48IbSzqvZu5BVi8WgWl0b8ej4zZIn94tOU/s320/laozi.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJDZ4hgpTeijhk8VyvSiMoMlnHE-SJakzYVVkQF0aRXSz2RyYWBi1nFBWaPz51omUbNm0BVDLYcl5eD7YNGhz7MYt_ytwD3qvL8wb4C4JGeB2A_ZPm7X-pY39b3g3NOdbHgQRNKBJPdnWHZR_m7eCovcIOG48IbSzqvZu5BVi8WgWl0b8ej4zZIn94tOU/s1536/laozi.png)
+<p align="center">
+  <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJDZ4hgpTeijhk8VyvSiMoMlnHE-SJakzYVVkQF0aRXSz2RyYWBi1nFBWaPz51omUbNm0BVDLYcl5eD7YNGhz7MYt_ytwD3qvL8wb4C4JGeB2A_ZPm7X-pY39b3g3NOdbHgQRNKBJPdnWHZR_m7eCovcIOG48IbSzqvZu5BVi8WgWl0b8ej4zZIn94tOU/s1536/laozi.png">
+    <img alt="Laozi" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJDZ4hgpTeijhk8VyvSiMoMlnHE-SJakzYVVkQF0aRXSz2RyYWBi1nFBWaPz51omUbNm0BVDLYcl5eD7YNGhz7MYt_ytwD3qvL8wb4C4JGeB2A_ZPm7X-pY39b3g3NOdbHgQRNKBJPdnWHZR_m7eCovcIOG48IbSzqvZu5BVi8WgWl0b8ej4zZIn94tOU/s320/laozi.png" width="320">
+  </a>
+</p>
 
 # Laozi y el dragón
 
@@ -22,7 +26,11 @@
 7.  Referencias
 8.  Tabla de sinogramas estratégicos utilizados
 
-[![Grafo Estrategia China](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoTWReIC5s9hBBynV2Fhy9UcOlv0wLZT5KNcTO9M6MbM3lF-heof7CoYT493OPM24Wl9MxAYour3A-BeX8LajU05jWpHHxCaz0BdMXyu5tQSamfD1lYLFJG-2CGketph0nURTi1X9l7HdZAtEaj1evgFZ3DlPJe9_YXjP3rboOiwy0QuewY20HXyv07Os/s320/china_wheel_grafo_mejorado.gif)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoTWReIC5s9hBBynV2Fhy9UcOlv0wLZT5KNcTO9M6MbM3lF-heof7CoYT493OPM24Wl9MxAYour3A-BeX8LajU05jWpHHxCaz0BdMXyu5tQSamfD1lYLFJG-2CGketph0nURTi1X9l7HdZAtEaj1evgFZ3DlPJe9_YXjP3rboOiwy0QuewY20HXyv07Os/s1440/china_wheel_grafo_mejorado.gif)
+<p align="center">
+  <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoTWReIC5s9hBBynV2Fhy9UcOlv0wLZT5KNcTO9M6MbM3lF-heof7CoYT493OPM24Wl9MxAYour3A-BeX8LajU05jWpHHxCaz0BdMXyu5tQSamfD1lYLFJG-2CGketph0nURTi1X9l7HdZAtEaj1evgFZ3DlPJe9_YXjP3rboOiwy0QuewY20HXyv07Os/s1440/china_wheel_grafo_mejorado.gif">
+    <img alt="Grafo Estrategia China" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoTWReIC5s9hBBynV2Fhy9UcOlv0wLZT5KNcTO9M6MbM3lF-heof7CoYT493OPM24Wl9MxAYour3A-BeX8LajU05jWpHHxCaz0BdMXyu5tQSamfD1lYLFJG-2CGketph0nURTi1X9l7HdZAtEaj1evgFZ3DlPJe9_YXjP3rboOiwy0QuewY20HXyv07Os/s320/china_wheel_grafo_mejorado.gif" width="320">
+  </a>
+</p>
 
 **Sinogramas y estrategia**
 
@@ -185,6 +193,12 @@ Y donde hay forma, hay **shì**.
 
 *   **[El automóvil como código: China, IA y la nueva arquitectura del poder automotriz](https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/1a4a1c11ae45c541e692ddd3850f5fbc71c4c34a/China_Chips_y_Autos_Inteligentes.md)**
     *   Nota: Referencia adicional proporcionada.
+
+---
+
+<p align="center">
+  <img alt="Sinogram Slideshow" src="https://raw.githubusercontent.com/sgevatschnaider/sgevatschnaider.github.io/492515fc3f1a790ffdb50e5b4ccbce3ee96a2551/sinogram_translation_slideshow.gif">
+</p>
 
 ### 8) Tabla de sinogramas estratégicos utilizados
 
