@@ -1,3 +1,21 @@
+# Inglés
+
+<p>
+    <button onclick="location.href='#en';">English</button>
+</p>
+
+---
+
+## <a name="es"></a>Contenido en Español
+
+Aquí tu texto en español...
+
+---
+
+## <a name="en"></a>Content in English
+
+Here goes your text in English...
+
 # Pensamiento Artificial: Cómo Razonan los Modelos de Lenguaje
 
 ## Abrir la Caja Negra: Grafos de Atribución y Razonamiento en Modelos de Lenguaje
