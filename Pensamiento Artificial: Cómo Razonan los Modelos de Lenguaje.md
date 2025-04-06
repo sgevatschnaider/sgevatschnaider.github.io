@@ -1,8 +1,6 @@
 # Inglés
 
-<p>
-    <button onclick="location.href='#en';">English</button>
-</p>
+[![English](https://img.shields.io/badge/Language-English-red)](#english-section)
 
 ---
 
