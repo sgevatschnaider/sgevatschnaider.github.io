@@ -1,18 +1,8 @@
 # Inglés
 
-[![English](https://img.shields.io/badge/Language-English-red)](#english-section)
+[![English]([https://img.shields.io/badge/Language-English-red](https://economiayetica.blogspot.com/2025/04/pensamiento-artificial-como-razonan-los_1.html))](#english-section)
 
----
 
-## <a name="es"></a>Contenido en Español
-
-Aquí tu texto en español...
-
----
-
-## <a name="en"></a>Content in English
-
-Here goes your text in English...
 
 # Pensamiento Artificial: Cómo Razonan los Modelos de Lenguaje
 
