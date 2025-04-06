@@ -2,8 +2,6 @@
 
 [![English](https://img.shields.io/badge/Language-English-red)](https://economiayetica.blogspot.com/2025/04/pensamiento-artificial-como-razonan-los_1.html)
 
-
-
 # Pensamiento Artificial: Cómo Razonan los Modelos de Lenguaje
 
 ## Abrir la Caja Negra: Grafos de Atribución y Razonamiento en Modelos de Lenguaje
@@ -24,7 +22,12 @@
 ---
 
 ### 1. Introducción
+
+<div align="center">
+  
 ![Introducción (ES) / Introduction (EN)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-Uytdizaj-782Vc2GTaVzIW_wQBK2fUL4HGUZDaSIK5loBwx6wqA4z1WOx3X1-WRZzu_V5_aeelr_6KCwcbaYUQUOktvXmF25I47GHcFQ45TkM0pBkCNlQSCGQPc8kID3wT1TDhyphenhypheng3Z4ByzOZa9u_Rp7YE3dP3xtfK6uYvqS7pq2DxXTk7cOIa-_z1Jg/s320/Introducci%C3%B3n.png "Introducción (ES) / Introduction (EN) - Muestra la idea inicial del tema")
+
+</div>
 
 En los últimos años, los modelos de lenguaje han demostrado capacidades sorprendentes, desde responder preguntas con precisión hasta escribir poesía o resolver acertijos. Pero una pregunta clave persiste: ¿cómo “piensan” estos modelos? ¿Son simplemente predictores de la próxima palabra, o hay mecanismos internos más complejos operando bajo la superficie?
 
@@ -34,7 +37,11 @@ En esta entrada exploraremos ambos trabajos como partes de una misma narrativa: 
 
 ---
 
+<div align="center">
+
 ![Interpretabilidad mecánica (ES) / Mechanical interpretability (EN)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGsZZ2olal53Bu12_Zq337vTOWJTQn6XkBhoTHLJLL7a7jCVJen7ZoJuJBjBlK180kYLx5Og2VTO4npRh2R3kr6ABIgN5-ZNHCZgXCjrJfMKkeVyxzojy_IfQ0N8W8bZ2uP0uG7VxoS2FRhZO9WPMRkDrH1o6RsWc_KZuSMofQhnTx2nk65Dg7yN_rCQc/s320/interpretabilidad.png "Interpretabilidad mecánica (ES) / Mechanical interpretability (EN) - Representa el análisis interno de un modelo")
+
+</div>
 
 ### 2. Marco conceptual: Interpretabilidad mecánica
 Cuando hablamos de interpretar un modelo de lenguaje, solemos pensar en ver qué palabras activas, qué partes del input son importantes, o cómo responde ante cambios en el prompt. Sin embargo, la interpretabilidad mecánica propone ir mucho más allá: busca entender los mecanismos internos reales que el modelo utiliza para razonar, de forma análoga a cómo la neurociencia estudia los circuitos del cerebro.
@@ -45,7 +52,11 @@ Este enfoque no solo abre una nueva puerta al entendimiento técnico, sino que t
 
 ---
 
+<div align="center">
+
 ![Supergrafo computacional y subgrafo de atribución (ES) / Computational supergraph and attribution subgraph (EN)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiopOWgMU5duqEbGTORMw8d5b-WRlZPOEEEhtcKmptJgb80iYvbUMOO6j04vTQZ4JSzF4sLyux2jgAmJsTxxlhJrM_G74PmvfaJiQF1vC3zmd-Jj8rb-M1W4dwG8kMTHa9IzRr0yPjV5GmH4WsOQCBP9tnU-Nl8T7xCudO-jz8NxYfpr7_G1Rx-oT7z7lQ "Supergrafo y subgrafo de atribución")
+
+</div>
 
 ### 3. Del supergrafo al subgrafo: el modelo como red dinámica
 Los modelos de lenguaje modernos, como los transformadores, pueden entenderse como redes computacionales altamente conectadas. En cada capa, cada token puede influir en muchos otros mediante mecanismos de atención, mientras que las redes feed-forward (MLPs) mezclan información de manera compleja. Si representamos todas las posibles rutas de activación, obtenemos un **supergrafo computacional**: un grafo dirigido y denso, en el que la información fluye a través de millones de conexiones posibles.
@@ -56,7 +67,11 @@ Esta visión del supergrafo al subgrafo permite analizar el pensamiento del mode
 
 ---
 
+<div align="center">
+
 ![Del modelo original al modelo de reemplazo (ES) / From the original model to the replacement model (EN)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEit9JfOgOySH_lCTg4ZFHGgQpzsNS4_MGxmAPcEh3IfDxCshMJD57affU5n8ShpRoU2q_zCTXQ-B-Po643sBBhmv8hM15qAPHntSa7Wz_67-7TepKJuoZ7oie2MkaHujMsExrw2DoN1RRY4wYlXJvHlkR2ffZqJJqohxDcuT-pf808xLYibIeWaqnDFTLA/s320/modelo%20de%20reemplazo.png "Representa la transición hacia un modelo más interpretable")
+
+</div>
 
 ### 4. Construyendo el microscopio: CLTs y modelo de reemplazo
 Para poder observar con precisión el flujo interno de información en un modelo de lenguaje, los autores del paper desarrollan una herramienta central: los **Cross-Layer Transcoders (CLTs)**. Estas redes sustituyen las MLPs originales del modelo, que suelen ser difíciles de interpretar debido a sus neuronas polisémicas, por un conjunto de features escasas y más comprensibles.
@@ -69,7 +84,11 @@ Este modelo reemplazado actúa como un microscopio computacional, permitiendo ob
 
 ---
 
+<div align="center">
+
 ![Grafo de atribución (ES) / Attribution graph (EN)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3spzDIjjTsV5CYrhCAjGiPemAvRCCPv4C2UgjaUyokWkoc5ebaFo3gTDlKMyyg7LZJ_JWmAchMFWDcKvhviQ80Gmmk0uSzIorJ88NyDxk7ux0TCcIczL7rJb_Mx3Yrf3YkZIroTz0oaQMXCg-9UAU-fjTZyXXITaPbdlDIDFI7H84wXaz98yIf6tHMXo/s320/grafo%20de%20atribuci%C3%B3n.png "Visualiza cómo fluye la información dentro del modelo")
+
+</div>
 
 ### 5. Visualizando el razonamiento: grafos de atribución
 Una vez construido el modelo de reemplazo con CLTs, los autores introducen su herramienta más poderosa: el **grafo de atribución**. Este grafo es una representación visual y cuantitativa del flujo de información que lleva a una predicción concreta. En él, cada nodo representa una unidad activa como un embedding de token, una feature del CLT o un logit de salida, y cada arista representa una contribución lineal entre esas unidades.
@@ -80,7 +99,11 @@ Además, al tratarse de un subgrafo extraído del supergrafo del modelo original
 
 ---
 
+<div align="center">
+
 ![Microscopio (ES) / Microscope (EN)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6gZAysK6lHybvxyXRPvaV6GKOLQ4sRR1y2Pqf-tz6KDN-tcuWOvBdyRLgjGdU1VRg5R96C-WV5BXw96oWSuscMZ2Eyve8ORAYa23R0nXY0W2ph5VS8HHXNsiQ1PZmlB7pj5Pnsa-X6oEEkE3vleykbME1GSH9hzrZo0U9u-5mYr8IxvG7VDVbYzsJM6o/s407/microscopio.png "Permite analizar y rastrear rutas internas de cómputo")
+
+</div>
 
 ### 6. Usando el microscopio: análisis de casos reales
 Con el modelo de reemplazo y los grafos de atribución en mano, los autores aplican su enfoque a casos reales y diversos, demostrando que es posible observar, explicar y validar cómo un modelo de lenguaje toma decisiones en tareas complejas.
@@ -101,11 +124,19 @@ Uno de los hallazgos más provocadores es que, al observar los grafos de atribuc
 
 Por ejemplo, en tareas poéticas —como en una rima donde la feature asociada a la palabra “rabbit” se activa antes de completar la línea— se evidencia que el modelo ajusta otras partes del texto para encajar con la rima elegida. Asimismo, en tareas lógicas o de diagnóstico, se observan activaciones intermedias que indican múltiples hipótesis convergiendo hacia una decisión final.
 
+<div align="center">
+
 ![Feature (ES) / Feature (EN)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgK0G-u2-ZauhBt-18kf3MGTqrMv5T3hz6E9d8mN1StYkii7B_K7yEV8j8zBqbS72JFj7NC_WfZM_MBrm-amujcUBx0Ob6bf0tTrKfzDVRWJpL_DSSHz7epMPX6nGlpBir5sLVLI2oEihhrdUOFWPIp_kLba-gShvzXPjGqRNWZh0QJFO-mU0zKrovxQlw/s418/feature.png "Ejemplo de activaciones clave en el razonamiento del modelo")
+
+</div>
 
 ---
 
+<div align="center">
+
 ![Limitaciones del modelo (ES) / Model limitations (EN)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipuPk9R4s0g-EPW0285u1NYadqmvO8Pq9wYcSxpZGRetl5AmMY1anV43E9dVmGeGfqM37rCZu2AseS8n1J8RUUxjj_L1KEA7Lrlzu5n8CJtU9c-_dy472EaiISCs_4XVOJ7nVgZ9HmQLGu6FwduxgCgzs21rIKIJV7T1Kcz76XxbSNc4a-COb6lxu9lCs/s281/limitaciones.png "Subraya los principales desafíos y vacíos actuales")
+
+</div>
 
 ### 8. Limitaciones actuales y futuro del campo
 Aunque los resultados son prometedores, los autores reconocen limitaciones técnicas y conceptuales:
