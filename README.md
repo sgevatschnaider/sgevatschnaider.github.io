@@ -1,93 +1,88 @@
-Entendido 👌 Vamos a mantenerlo profesional y claro, reduciendo los emojis a lo justo y necesario para destacar secciones importantes. Aquí te dejo un `README.md` listo para pegar en tu repo, totalmente alineado con buenas prácticas y presentación profesional bilingüe:
+# sgevatschnaider.github.io
+
+<img src="https://github.com/sgevatschnaider/sgevatschnaider.github.io/raw/main/20250113_1958_Mystical%20Data%20Labyrinths_simple_compose_01jhgy86t8eph9yne675yf4c1t.gif" alt="AI visualization" width="100%" style="border: 1px solid #ccc; border-radius: 8px;">
+
+## Welcome
+
+This GitHub repository hosts my personal GitHub Pages site, a space dedicated to exploring cutting-edge topics in **technology**, **data science**, **artificial intelligence**, **cryptography**, and **mathematics**. Here you will find technical documents, visualizations, research notes, and reflections on emerging tools and ideas.
 
 ---
 
-```markdown
-# Sitio Web Personal – sgevatschnaider.github.io
+## 📂 Repository Contents
 
-Este repositorio contiene el código fuente y los recursos que conforman mi sitio web personal, alojado mediante GitHub Pages. Está diseñado para compartir información sobre mis proyectos, intereses profesionales y otros contenidos relevantes.
+### Featured Topics
 
----
-
-## Estructura del Proyecto
-
-```
-.
-├── index.html          Página principal del sitio
-├── css/                Estilos en cascada (CSS)
-├── js/                 Funcionalidades JavaScript
-├── assets/             Recursos multimedia
-│   ├── images/         Imágenes utilizadas en el sitio
-│   ├── gifs/           Animaciones tipo GIF
-│   └── videos/         Videos embebidos o descargables
-├── README.md           Este archivo
-├── README_es.md        Documentación en español
-└── README_en.md        Documentation in English
-```
+- **AI Ethics**: Reflections on ethics and accountability in artificial intelligence.
+- **Alphafold**: Applications of protein structure modeling and deep learning.
+- **Hallucinations in LLMs**: Analyses of hallucination phenomena in language models.
+- **Reinforcement Learning**: Practical examples and theoretical explanations.
+- **Artificial Intelligence**: Use cases and conceptual discussions.
+- **Mathematical Beauty**: Exploration of symmetry, patterns, and abstraction.
+- **Big Data**: Frameworks and approaches to processing massive datasets.
+- **Blockchain & DAGs**: Directed Acyclic Graphs in decentralized technologies.
+- **Quantum Computing**: Introduction to concepts and computation models.
+- **Cryptography**: From classical fundamentals to modern applications.
+- **Diffusion Models**: Foundations and implementations in generative AI.
+- **Other Topics**: China, DeepSeek, DFS algorithms, Rubik’s Cube, and more.
 
 ---
 
-## Idiomas disponibles
+## 📄 Key Files
 
-Este repositorio está documentado en ambos idiomas:
-
-- [Versión en Español](README_es.md)
-- [English Version](README_en.md)
+- `20250113_1958_Mystical Data Labyrinths_simple.md`: Research on hallucinations and their relation to LLM architecture.
+- `20250115_1209_Blockchain Visualization_simple.md`: Visual exploration of blockchain concepts using DAG structures.
+- `DAGs y blockchain.md`: In-depth guide to DAG-based blockchain applications.
+- `alucinaciones.md`: Focused study on hallucinations in AI and neural language systems.
 
 ---
 
-## Uso del repositorio
+## 🚀 Getting Started
 
-1. Clonar el repositorio:
+To explore or contribute:
+
+1. Clone this repository:
    ```bash
    git clone https://github.com/sgevatschnaider/sgevatschnaider.github.io.git
    ```
 
-2. Abrir el archivo `index.html` en un navegador para visualizar el sitio localmente.
+2. Open `index.html` in your browser to view the site locally.
 
-3. Realizar las modificaciones necesarias en los archivos HTML, CSS o JS.
+3. Explore `.md` files to dive into the content.
 
-4. Subir los cambios a GitHub:
+4. Contributions are welcome (see below).
+
+---
+
+## 🤝 Contributing
+
+You're invited to contribute! To suggest improvements:
+
+1. Fork the repository.
+2. Create a feature branch:
    ```bash
-   git add .
-   git commit -m "Actualización del sitio web"
-   git push origin main
+   git checkout -b improve-[topic]
    ```
-
-5. El sitio se actualizará automáticamente en:  
-   [https://sgevatschnaider.github.io](https://sgevatschnaider.github.io)
-
----
-
-## Tecnologías utilizadas
-
-- HTML5
-- CSS3
-- JavaScript
-- GitHub Pages
+3. Commit your changes:
+   ```bash
+   git commit -m "Improvement: [topic]"
+   ```
+4. Open a Pull Request for review and discussion.
 
 ---
 
-## Mejores prácticas sugeridas
+## 📜 License
 
-- Organizar los archivos multimedia dentro de subcarpetas específicas (`assets/images`, `assets/videos`, etc.)
-- Optimizar imágenes y videos para mejorar el rendimiento del sitio
-- Incluir un archivo `.gitignore` si se integran herramientas de desarrollo adicionales
-- Considerar el uso de un dominio personalizado mediante un archivo `CNAME`
+This project is under the MIT License. Attribution is appreciated if you use or share any part of this work.
 
 ---
 
-## Contacto
+## 📬 Contact
 
-Para consultas, propuestas o contacto profesional, por favor dirigirse a la sección de contacto del sitio web.
+Feel free to reach out via [GitHub](https://github.com/sgevatschnaider) for questions, suggestions, or collaboration.
 
----
-
-## Licencia
-
-Este proyecto se distribuye bajo la Licencia MIT. Ver el archivo [LICENSE](LICENSE) para más detalles.
+Thank you for visiting this repository.
 ```
 
 ---
 
-Este README ya está bien armado, con secciones esen
+¿Querés que te haga ahora el `README_es.md` con el mismo nivel de calidad, pero en español? Te lo preparo al toque.
