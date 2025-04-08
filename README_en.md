@@ -1,42 +1,34 @@
-#  sgevatschnnaider.github.io
+# sgevatschnaider.github.io
 
-<div style="text-align: center;">
-  <img src="https://github.com/sgevatschnaider/sgevatschnaider.github.io/raw/main/20250113_1958_Mystical%20Data%20Labyrinths_simple_compose_01jhgy86t8eph9yne675yf4c1t.gif" alt="Alucinaciones y LLMs" style="width: 100%; border: 1px solid #ccc; border-radius: 8px;">
+<div align="center">
+  <img src="https://github.com/sgevatschnaider/sgevatschnaider.github.io/raw/main/20250113_1958_Mystical%20Data%20Labyrinths_simple_compose_01jhgy86t8eph9yne675yf4c1t.gif" alt="Visualización" width="100%" style="border: 1px solid #ccc; border-radius: 8px;">
 </div>
 
-Welcome to my GitHub repository! This space is dedicated to the exploration of various topics in technology, data science, and artificial intelligence. Here, you will find documentation, visualizations, and reflections on innovative concepts and technological tools.
+Bienvenido a mi sitio personal de GitHub Pages. Este espacio está dedicado a la exploración de temas avanzados en inteligencia artificial, ciencia de datos, tecnología, criptografía, visualización, y otros campos emergentes del conocimiento.
 
-## 📂 Repository Contents
+Aquí encontrarás:
 
-This repository includes files and documents about the following topics:
-
-### Main Topics
-- **AI Ethics**: Reflections on ethics in artificial intelligence.
-- **Alphafold**: Analysis and advances in protein modeling using Alphafold.
-- **Hallucinations**: Studies on hallucinations in language models and LLMs.
-- **Reinforcement Learning**: Explanations and examples of reinforcement learning.
-- **Artificial Intelligence**: Discussions about AI and its applications.
-- **Mathematical Beauty**: Explorations of patterns and beauty in mathematics.
-- **Big Data**: Concepts and analysis of large datasets.
-- **Blockchain**: Use of DAGs and blockchain in visualizations and applications.
-- **Quantum Computing**: Introduction and exploration of quantum computing.
-- **Cryptography**: Fundamentals of cryptography and its modern applications.
-- **DAGs**: Modeling and examples of Directed Acyclic Graphs.
-- **Diffusion Models**: Applications and explanations of diffusion models.
-- **Other Topics**: China, DeepSeek, DFS, Rubik's Cube, and more.
+- Documentación técnica
+- Visualizaciones interactivas
+- Ensayos sobre IA, Blockchain, Modelos de Lenguaje y más
+- Reflexiones interdisciplinarias entre tecnología, ética y ciencia
 
 ---
 
-### 📄 Key Files
-- **`20250113_1958_Mystical Data Labyrinths_simple.md`**: Document on hallucinations and their relationship with large language models (LLMs).
-- **`20250115_1209_Blockchain Visualization_simple.md`**: Example of visualizations applied to blockchain using DAGs.
-- **`DAGs y blockchain.md`**: Guide and analysis of how DAGs are applied in blockchain contexts.
-- **`alucinaciones.md`**: Detailed study of hallucinations in artificial intelligence and language models.
+## 🌍 Selecciona idioma / Choose Language
+
+| Español 🇪🇸 | English 🇬🇧 |
+|------------|-------------|
+| [Ver README en Español](README_es.md) | [View README in English](README_en.md) |
 
 ---
 
-## 🚀 Getting Started
+## ⚙️ Sobre este Repositorio
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/sgevatschnnaider/sgevatschnnaider.github.io.git
+Este sitio está construido con HTML, CSS y recursos Markdown, y se publica automáticamente mediante GitHub Pages. Es un proyecto vivo en constante evolución.
+
+Para más información específica, visita el README completo en tu idioma preferido.
+
+---
+
+Gracias por visitar este proyecto.
