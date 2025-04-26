@@ -13,7 +13,7 @@ En este artículo analizamos “**Huginn**”, una arquitectura innovadora basad
 ## Cartografía del Pensamiento Latente
 
 <p align="center">
-  <img alt="Visualización animada del espacio latente" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgzb3e9KG5oBvd1oAHMGyIHAg8Wpe66E1eMmQVeDTA21HBbec38DmWzw-5QSAp9rLgj5gU2THOu-mFzsZ9ZD_7SoUG2j52JYhK-5Q4_ZRqdALPqYd6__l572-CzSN3fD88rRIVcslxX2MeHpdiNzUBku9JdQycPEFLNmsrdBiMBqAFcbwlaFGhKwKviwM/s400/20250426_1022_Futuristic%20Data%20Cosmos_simple_compose_01jss47n5gf1mrhst3t1ctf3nx.gif" />
+  <img alt="Visualización animada del espacio latente" src="./20250426_1022_Futuristic%20Data%20Cosmos_simple_compose_01jss47n5gf1mrhst3t1ctf3nx.gif" />
 </p>
 <p align="center">
   <em>La imagen representa un video hecho por Sora para representar el <strong>espacio latente</strong>. Si bien Sora no utiliza un <strong>espacio latente</strong> sino un espacio de píxeles para la generación de videos, ambos espacios tienen mucho en común. El espacio de píxeles, como esta imagen, representa el color real de cada punto, mientras que el <strong>espacio latente</strong> representa información abstracta: contornos, texturas, semántica.</em>
