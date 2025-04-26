@@ -150,10 +150,6 @@ Lo más impresionante es que el rendimiento mejora de forma continua con más re
 
 ### Patrones emergentes de pensamiento latente en IA
 
-<p align="center">
-  <img alt="Patrones emergentes de pensamiento" width="400" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjePjtjmPlCTvLGvmjBfyVs9sRsYemuo2uPQJ_TLNLCfM7AuqZDIv5oG9WKbymDDH4_h0emq498r0FmNtbq0KcR5r_6bBzGCIGzxf-_0QnIgUJHAKGvROZH4G7GrYGHhK_ctdqnLA_7pBaTojbpRBVn4SppK9WNlTl2VOVsibl4c_d5bHI5QJC93wg1NmU/s400/trayectorias_mejorado.gif"/>
-</p>
-<!-- Nota: El pie de foto de la imagen anterior no estaba en tu código, si es relevante, añádelo aquí como el siguiente párrafo -->
 
 Uno de los descubrimientos más fascinantes de este modelo es que no todos los pensamientos siguen el mismo camino interno. Dependiendo de la tarea, **Huginn** razona de formas diferentes y, eso puede verse directamente en su **espacio latente**.
 
@@ -170,9 +166,9 @@ Estos **comportamientos emergentes** apuntan a una idea poderosa: **Huginn** no 
 ### Trayectorias latentes de tokens triviales durante el razonamiento **recurrente**
 
 <p align="center">
-  <img alt="Visualización de trayectorias latentes para tokens triviales" width="600" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-i1Jk_LmN-oPq_RsT-uVw_XyZ-aBc_DeFg-hIj_KlMn-oPq_RsT-uVw_XyZ-aBc_DeFg-hIj/s1600/trivial_token_trajectories.png" />
+  <img alt="Patrones emergentes de pensamiento" width="400" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjePjtjmPlCTvLGvmjBfyVs9sRsYemuo2uPQJ_TLNLCfM7AuqZDIv5oG9WKbymDDH4_h0emq498r0FmNtbq0KcR5r_6bBzGCIGzxf-_0QnIgUJHAKGvROZH4G7GrYGHhK_ctdqnLA_7pBaTojbpRBVn4SppK9WNlTl2VOVsibl4c_d5bHI5QJC93wg1NmU/s400/trayectorias_mejorado.gif"/>
 </p>
-<p align="center">
+<!-- Nota: El pie de foto de la imagen anterior no estaba en tu código, si es relevante, añádelo aquí como el siguiente párrafo -->
   <em>Fuente: Elaboración propia en base al repositorio de Scaling up Test-Time Compute with Latent Reasoning</em>
 </p>
 
