@@ -12,8 +12,12 @@ En este artículo analizamos “**Huginn**”, una arquitectura innovadora basad
 
 ## Cartografía del Pensamiento Latente
 
-![Visualización animada del espacio latente](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgzb3e9KG5oBvd1oAHMGyIHAg8Wpe66E1eMmQVeDTA21HBbec38DmWzw-5QSAp9rLgj5gU2THOu-mFzsZ9ZD_7SoUG2j52JYhK-5Q4_ZRqdALPqYd6__l572-CzSN3fD88rRIVcslxX2MeHpdiNzUBku9JdQycPEFLNmsrdBiMBqAFcbwlaFGhKwKviwM/s400/20250426_1022_Futuristic%20Data%20Cosmos_simple_compose_01jss47n5gf1mrhst3t1ctf3nx.gif)
-*La imagen representa un video hecho por Sora para representar el **espacio latente**. Si bien Sora no utiliza un **espacio latente** sino un espacio de píxeles para la generación de videos, ambos espacios tienen mucho en común. El espacio de píxeles, como esta imagen, representa el color real de cada punto, mientras que el **espacio latente** representa información abstracta: contornos, texturas, semántica.*
+<p align="center">
+  <img alt="Visualización animada del espacio latente" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgzb3e9KG5oBvd1oAHMGyIHAg8Wpe66E1eMmQVeDTA21HBbec38DmWzw-5QSAp9rLgj5gU2THOu-mFzsZ9ZD_7SoUG2j52JYhK-5Q4_ZRqdALPqYd6__l572-CzSN3fD88rRIVcslxX2MeHpdiNzUBku9JdQycPEFLNmsrdBiMBqAFcbwlaFGhKwKviwM/s400/20250426_1022_Futuristic%20Data%20Cosmos_simple_compose_01jss47n5gf1mrhst3t1ctf3nx.gif" />
+</p>
+<p align="center">
+  <em>La imagen representa un video hecho por Sora para representar el <strong>espacio latente</strong>. Si bien Sora no utiliza un <strong>espacio latente</strong> sino un espacio de píxeles para la generación de videos, ambos espacios tienen mucho en común. El espacio de píxeles, como esta imagen, representa el color real de cada punto, mientras que el <strong>espacio latente</strong> representa información abstracta: contornos, texturas, semántica.</em>
+</p>
 
 ---
 
@@ -55,8 +59,12 @@ Ahí es donde entra la idea de razonar en **espacio latente**, sin **tokens** de
 
 ### Mapa latente de tokens en el paso inicial del razonamiento
 
-![Mapa latente inicial de tokens](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6Zvy0VfMYA5gOzklGEpQtmSsgxHIYZZAL3yBHYjHAXFhm3_wMn9C0cBOKxx6Yv8utq2_rNmkK53V8jZBGzSusA41SYmUMARF48MIitKUFQ5b7EWtRF0mM9uuPTXQiwc4yOcAZggQraytcEbcJJN6uFgBADWSVQqz3LsXrahxto1l10jEVkKzmlNUb95U/s400/waterfall_mejorado.gif)
-*Fuente: Elaboración propia en base al repositorio de Scaling up Test-Time Compute with Latent Reasoning*
+<p align="center">
+  <img alt="Mapa latente inicial de tokens" width="400" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6Zvy0VfMYA5gOzklGEpQtmSsgxHIYZZAL3yBHYjHAXFhm3_wMn9C0cBOKxx6Yv8utq2_rNmkK53V8jZBGzSusA41SYmUMARF48MIitKUFQ5b7EWtRF0mM9uuPTXQiwc4yOcAZggQraytcEbcJJN6uFgBADWSVQqz3LsXrahxto1l10jEVkKzmlNUb95U/s400/waterfall_mejorado.gif"/>
+</p>
+<p align="center">
+  <em>Fuente: Elaboración propia en base al repositorio de Scaling up Test-Time Compute with Latent Reasoning</em>
+</p>
 
 La imagen anterior representa una visualización del proceso de **razonamiento latente** **recurrente** de un modelo de lenguaje avanzado. Cada punto corresponde al estado interno de un **token** de la entrada en el primer paso de razonamiento. Los ejes horizontales (PCA1 y PCA2) representan una proyección reducida del **espacio latente** de alta dimensión mediante Análisis de Componentes Principales (**PCA**), mientras que el eje vertical indica la posición del **token** en la secuencia original de texto.
 
@@ -142,6 +150,11 @@ Lo más impresionante es que el rendimiento mejora de forma continua con más re
 
 ### Patrones emergentes de pensamiento latente en IA
 
+<p align="center">
+  <img alt="Patrones emergentes de pensamiento" width="400" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjePjtjmPlCTvLGvmjBfyVs9sRsYemuo2uPQJ_TLNLCfM7AuqZDIv5oG9WKbymDDH4_h0emq498r0FmNtbq0KcR5r_6bBzGCIGzxf-_0QnIgUJHAKGvROZH4G7GrYGHhK_ctdqnLA_7pBaTojbpRBVn4SppK9WNlTl2VOVsibl4c_d5bHI5QJC93wg1NmU/s400/trayectorias_mejorado.gif"/>
+</p>
+<!-- Nota: El pie de foto de la imagen anterior no estaba en tu código, si es relevante, añádelo aquí como el siguiente párrafo -->
+
 Uno de los descubrimientos más fascinantes de este modelo es que no todos los pensamientos siguen el mismo camino interno. Dependiendo de la tarea, **Huginn** razona de formas diferentes y, eso puede verse directamente en su **espacio latente**.
 
 La siguiente imagen muestra cómo se transforma internamente el estado de ciertos **tokens** a medida que el modelo razona en silencio. Cada trayectoria corresponde a una palabra específica mientras pasa por múltiples iteraciones del bloque **recurrente**. Lo notable es que el modelo adopta diferentes patrones de razonamiento espontáneamente, sin que nadie se lo haya enseñado:
@@ -156,8 +169,12 @@ Estos **comportamientos emergentes** apuntan a una idea poderosa: **Huginn** no 
 
 ### Trayectorias latentes de tokens triviales durante el razonamiento **recurrente**
 
-![Patrones emergentes de pensamiento](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjePjtjmPlCTvLGvmjBfyVs9sRsYemuo2uPQJ_TLNLCfM7AuqZDIv5oG9WKbymDDH4_h0emq498r0FmNtbq0KcR5r_6bBzGCIGzxf-_0QnIgUJHAKGvROZH4G7GrYGHhK_ctdqnLA_7pBaTojbpRBVn4SppK9WNlTl2VOVsibl4c_d5bHI5QJC93wg1NmU/s400/trayectorias_mejorado.gif)
-*Fuente: Elaboración propia en base al repositorio de Scaling up Test-Time Compute with Latent Reasoning*
+<p align="center">
+  <img alt="Visualización de trayectorias latentes para tokens triviales" width="600" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-i1Jk_LmN-oPq_RsT-uVw_XyZ-aBc_DeFg-hIj_KlMn-oPq_RsT-uVw_XyZ-aBc_DeFg-hIj/s1600/trivial_token_trajectories.png" />
+</p>
+<p align="center">
+  <em>Fuente: Elaboración propia en base al repositorio de Scaling up Test-Time Compute with Latent Reasoning</em>
+</p>
 
 La visualización anterior muestra la evolución del estado latente de **tokens** seleccionados a lo largo del proceso de razonamiento interno del modelo. Cada fila corresponde a un **token** específico del texto (por ejemplo, “3”, “many”, “?”), y cada columna muestra su trayectoria proyectada en diferentes planos del **espacio latente** reducidos por análisis de componentes principales (**PCA**).
 
