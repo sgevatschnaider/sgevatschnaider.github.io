@@ -142,8 +142,6 @@ Lo más impresionante es que el rendimiento mejora de forma continua con más re
 
 ### Patrones emergentes de pensamiento latente en IA
 
-![Patrones emergentes de pensamiento](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjePjtjmPlCTvLGvmjBfyVs9sRsYemuo2uPQJ_TLNLCfM7AuqZDIv5oG9WKbymDDH4_h0emq498r0FmNtbq0KcR5r_6bBzGCIGzxf-_0QnIgUJHAKGvROZH4G7GrYGHhK_ctdqnLA_7pBaTojbpRBVn4SppK9WNlTl2VOVsibl4c_d5bHI5QJC93wg1NmU/s400/trayectorias_mejorado.gif)
-
 Uno de los descubrimientos más fascinantes de este modelo es que no todos los pensamientos siguen el mismo camino interno. Dependiendo de la tarea, **Huginn** razona de formas diferentes y, eso puede verse directamente en su **espacio latente**.
 
 La siguiente imagen muestra cómo se transforma internamente el estado de ciertos **tokens** a medida que el modelo razona en silencio. Cada trayectoria corresponde a una palabra específica mientras pasa por múltiples iteraciones del bloque **recurrente**. Lo notable es que el modelo adopta diferentes patrones de razonamiento espontáneamente, sin que nadie se lo haya enseñado:
@@ -158,7 +156,7 @@ Estos **comportamientos emergentes** apuntan a una idea poderosa: **Huginn** no 
 
 ### Trayectorias latentes de tokens triviales durante el razonamiento **recurrente**
 
-![Visualización de trayectorias latentes para tokens triviales](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-i1Jk_LmN-oPq_RsT-uVw_XyZ-aBc_DeFg-hIj_KlMn-oPq_RsT-uVw_XyZ-aBc_DeFg-hIj/s1600/trivial_token_trajectories.png)
+![Patrones emergentes de pensamiento](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjePjtjmPlCTvLGvmjBfyVs9sRsYemuo2uPQJ_TLNLCfM7AuqZDIv5oG9WKbymDDH4_h0emq498r0FmNtbq0KcR5r_6bBzGCIGzxf-_0QnIgUJHAKGvROZH4G7GrYGHhK_ctdqnLA_7pBaTojbpRBVn4SppK9WNlTl2VOVsibl4c_d5bHI5QJC93wg1NmU/s400/trayectorias_mejorado.gif)
 *Fuente: Elaboración propia en base al repositorio de Scaling up Test-Time Compute with Latent Reasoning*
 
 La visualización anterior muestra la evolución del estado latente de **tokens** seleccionados a lo largo del proceso de razonamiento interno del modelo. Cada fila corresponde a un **token** específico del texto (por ejemplo, “3”, “many”, “?”), y cada columna muestra su trayectoria proyectada en diferentes planos del **espacio latente** reducidos por análisis de componentes principales (**PCA**).
