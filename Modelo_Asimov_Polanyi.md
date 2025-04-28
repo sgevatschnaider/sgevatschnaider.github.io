@@ -2,7 +2,7 @@
 
 [![Versión en inglés](https://img.shields.io/badge/Versión-Inglés-blue)](https://economiayetica.blogspot.com/2025/04/tecnologia-intuicion-y-el-futuro-del.html)
 
-<div style="text-align: center;">
+<div style="text-align: right;">
   <img alt="Futuristic Scholar's Observation" width="600" src="https://raw.githubusercontent.com/sgevatschnaider/sgevatschnaider.github.io/67fc6e8371baf810d496969672b01c8461d1e7eb/20250427_1802_Futuristic%20Scholar%27s%20Observation_simple_compose_01jswgx1jhfedta7wh42z775zm.gif"/>
 </div>
 
