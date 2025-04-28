@@ -2,10 +2,6 @@
 
 [![Versión en inglés](https://img.shields.io/badge/Versión-Inglés-blue)](https://economiayetica.blogspot.com/2025/04/tecnologia-intuicion-y-el-futuro-del.html)
 
-<p align="center">
-  <img alt="Futuristic Scholar's Observation" width="600" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgz2UYmoamLODneqQtXWlRlrwSbHlqxjRnH2H02r1j73UC8F6dUF_PyNfuGp9lqfQmn0jq7apFuTr7Nj9pp58XUKf5XN1OCn27b79KyjdnfFKWp3zLKdikpWjb1YJGkl9FcmfgLd6CjSTIp-GaZJjvIB308CGsbp6Vo6Fs_HehoQ_ta255FBwJdgH-fzWs/s600/20250427_1802_Futuristic%20Scholar%27s%20Observation_simple_compose_01jswgx1jhfedta7wh42z775zm.gif"/>
-</p>
-
 ---
 
 **Tabla de Contenidos**
@@ -21,6 +17,10 @@
 ---
 
 ## Cómo la erosión del **conocimiento tácito** redefine los límites entre humanos y máquinas
+
+<p align="center">
+  <img alt="Futuristic Scholar's Observation" width="600" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgz2UYmoamLODneqQtXWlRlrwSbHlqxjRnH2H02r1j73UC8F6dUF_PyNfuGp9lqfQmn0jq7apFuTr7Nj9pp58XUKf5XN1OCn27b79KyjdnfFKWp3zLKdikpWjb1YJGkl9FcmfgLd6CjSTIp-GaZJjvIB308CGsbp6Vo6Fs_HehoQ_ta255FBwJdgH-fzWs/s600/20250427_1802_Futuristic%20Scholar%27s%20Observation_simple_compose_01jswgx1jhfedta7wh42z775zm.gif"/>
+</p>
 
 En 1969, Isaac **Asimov** publicó un relato corto que, sin proponérselo, anticipó un dilema que hoy domina el debate sobre **inteligencia artificial** y empleo: ¿puede una máquina adquirir **conocimiento tácito**, ese saber que no está formalizado en reglas explícitas?
 
