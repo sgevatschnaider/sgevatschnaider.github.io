@@ -2,7 +2,9 @@
 
 [![Versión en inglés](https://img.shields.io/badge/Versión-Inglés-blue)](https://economiayetica.blogspot.com/2025/04/tecnologia-intuicion-y-el-futuro-del.html)
 
-![Futuristic Scholar's Observation](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgz2UYmoamLODneqQtXWlRlrwSbHlqxjRnH2H02r1j73UC8F6dUF_PyNfuGp9lqfQmn0jq7apFuTr7Nj9pp58XUKf5XN1OCn27b79KyjdnfFKWp3zLKdikpWjb1YJGkl9FcmfgLd6CjSTIp-GaZJjvIB308CGsbp6Vo6Fs_HehoQ_ta255FBwJdgH-fzWs/s600/20250427_1802_Futuristic%20Scholar%27s%20Observation_simple_compose_01jswgx1jhfedta7wh42z775zm.gif)
+<p align="center">
+  <img alt="Futuristic Scholar's Observation" width="600" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgz2UYmoamLODneqQtXWlRlrwSbHlqxjRnH2H02r1j73UC8F6dUF_PyNfuGp9lqfQmn0jq7apFuTr7Nj9pp58XUKf5XN1OCn27b79KyjdnfFKWp3zLKdikpWjb1YJGkl9FcmfgLd6CjSTIp-GaZJjvIB308CGsbp6Vo6Fs_HehoQ_ta255FBwJdgH-fzWs/s600/20250427_1802_Futuristic%20Scholar%27s%20Observation_simple_compose_01jswgx1jhfedta7wh42z775zm.gif"/>
+</p>
 
 ---
 
@@ -102,25 +104,35 @@ Para ilustrar estas ideas, desarrollamos una serie de visualizaciones:
 
 La primera muestra cómo el potencial de **automatización** crece a medida que el **parámetro J** aumenta, especialmente cuando el conocimiento inicial de las tareas es predominantemente **explícito**.
 
-![Automatización en función de J](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh49puSlWj4z6rTT36wKExO_l_OPldRUtopAuildaI9l7b7QvhxpVUUDu_cZ-hw7jj8w37vA0ZTDj2N_aajyOrwqIKw5rjeEcMgAOzP-3LFLNRQ23alOcjK-AKnCliJJIF580c3qCkD1w8EY2hKWGM7dn-tro382U1VskR6rXBUUhLoDjklCzIuItwrhvI/s400/Automatizacion_anim.gif)
+<p align="center">
+  <img alt="Automatización en función de J" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh49puSlWj4z6rTT36wKExO_l_OPldRUtopAuildaI9l7b7QvhxpVUUDu_cZ-hw7jj8w37vA0ZTDj2N_aajyOrwqIKw5rjeEcMgAOzP-3LFLNRQ23alOcjK-AKnCliJJIF580c3qCkD1w8EY2hKWGM7dn-tro382U1VskR6rXBUUhLoDjklCzIuItwrhvI/s400/Automatizacion_anim.gif"/>
+</p>
 
 La segunda visualización muestra cómo, a medida que la erosión del **conocimiento tácito** avanza, disminuye la posibilidad de **complementariedad** humana. Esto ocurre porque las tareas que requerían juicio, **adaptabilidad** o interpretación implícita se vuelven progresivamente codificables y predecibles.
 
-![Complementariedad en función de J](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsf4TMImqltgQtsexgSFW9MMCD6fX2xkztF9wwWyGGzH2p_fRCRgpsYuQFTfgOq5vH69uKQTASfud8GKZH3f0o4bHZ_2qCLADoJxxID65jSFsTbV0yJLHu8WmnNVzJdzYLo9SK95NrnD_Ww5HtRNoXX-9iKekU0Mj3y-awlPNZggoozRyFDhuZUEr6yPs/s400/Complementariedad_anim.gif)
+<p align="center">
+  <img alt="Complementariedad en función de J" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsf4TMImqltgQtsexgSFW9MMCD6fX2xkztF9wwWyGGzH2p_fRCRgpsYuQFTfgOq5vH69uKQTASfud8GKZH3f0o4bHZ_2qCLADoJxxID65jSFsTbV0yJLHu8WmnNVzJdzYLo9SK95NrnD_Ww5HtRNoXX-9iKekU0Mj3y-awlPNZggoozRyFDhuZUEr6yPs/s400/Complementariedad_anim.gif"/>
+</p>
 
 Una tercera visualización integra ambos efectos —**automatización** y **complementariedad**— para calcular el desplazamiento neto de empleo en diferentes escenarios de avance tecnológico. Esta superficie tridimensional permite observar cómo distintos sectores laborales se ven afectados de manera desigual.
 
-![Desplazamiento Neto](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7KssMSXY5OHOk-GNTc4zwLJjk1ZYfXIYWsYKYNtydx5yixYOIm64z-fNnss-nGNEUDt46Ryhar1kIXVN7nJQk8UOH3HKMAHwNiQvB6XzNUytHDbCxNCGNX7jK5_r7kJ3W-2HXhDhK4FmnT1tLX0f_4Ge02lbn3OHSHEW3Ld6stpkUy78hw4gvQwhcJvE/s400/Desplazamiento_Neto_anim.gif)
+<p align="center">
+  <img alt="Desplazamiento Neto" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7KssMSXY5OHOk-GNTc4zwLJjk1ZYfXIYWsYKYNtydx5yixYOIm64z-fNnss-nGNEUDt46Ryhar1kIXVN7nJQk8UOH3HKMAHwNiQvB6XzNUytHDbCxNCGNX7jK5_r7kJ3W-2HXhDhK4FmnT1tLX0f_4Ge02lbn3OHSHEW3Ld6stpkUy78hw4gvQwhcJvE/s400/Desplazamiento_Neto_anim.gif"/>
+</p>
 
 Finalmente, simulamos cómo evoluciona dinámicamente la estructura del conocimiento de las tareas bajo distintos valores de **interacción física** y aprendizaje real.
 
 Con un valor de **J** moderado (0.5), observamos que la **automatización** progresa, pero aún existe un espacio considerable para la **complementariedad** humana.
 
-![Evolución con J moderado (0.5)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvjoIkvegpjb_P-51AZa2bbsygPRy28CIWQdgt_6wD1nsxyiGEuMytbJ9bpn4b3qyE-SBI6s6Z1TWTxvitIkx8I9J1ZOd1hKQFMZEJJ-FHqOl3MtqqoopH13f4I2ZfykvW7fXv-brm_DkgMoeRClnlLcNlhpNhyphenhyphenP2XS6R0rIPUWxe1oajDajufbfmYkTY/s400/polanyi_construccion.gif)
+<p align="center">
+  <img alt="Evolución con J moderado (0.5)" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvjoIkvegpjb_P-51AZa2bbsygPRy28CIWQdgt_6wD1nsxyiGEuMytbJ9bpn4b3qyE-SBI6s6Z1TWTxvitIkx8I9J1ZOd1hKQFMZEJJ-FHqOl3MtqqoopH13f4I2ZfykvW7fXv-brm_DkgMoeRClnlLcNlhpNhyphenhyphenP2XS6R0rIPUWxe1oajDajufbfmYkTY/s400/polanyi_construccion.gif"/>
+</p>
 
 Con un valor de **J** elevado (0.9), en cambio, la **automatización** domina casi por completo, dejando un margen mínimo para la intervención humana.
 
-![Evolución con J alto (0.9)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgV92ZnR4Wcvz-3Jlo-B5RiW7FkkGPtDm7qZghfO2sOo-ViNWAAbNHAXD1SVbb9aytR1n8PHbPeuWPXNdT305gk1uxVh5uTbPynRwH15d6jnTWIFaGTai5OaWTgU31N5n2b-xzcdCjnxLlGK_0MPrl9SBxDU6JoBFNoxxjSS7ejskNQY2vAmPNm3G8vo1k/s400/polanyi_construccion_J0.9.gif)
+<p align="center">
+  <img alt="Evolución con J alto (0.9)" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgV92ZnR4Wcvz-3Jlo-B5RiW7FkkGPtDm7qZghfO2sOo-ViNWAAbNHAXD1SVbb9aytR1n8PHbPeuWPXNdT305gk1uxVh5uTbPynRwH15d6jnTWIFaGTai5OaWTgU31N5n2b-xzcdCjnxLlGK_0MPrl9SBxDU6JoBFNoxxjSS7ejskNQY2vAmPNm3G8vo1k/s400/polanyi_construccion_J0.9.gif"/>
+</p>
 
 Estas visualizaciones permiten no solo entender la teoría, sino también visualizar de forma tangible cómo el **conocimiento tácito** y su erosión redefinen las fronteras entre humanos y máquinas.
 
