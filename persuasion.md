@@ -67,8 +67,7 @@ La siguiente imagen tomada del estudio muestra los resultados de la investigaci�
     <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjldqufP48Sg5_GgqSd76tiPnN7YE40NVIHJJ5o9bgeYbyCxaWVcVgz5DBBbR7IUAjDMOusEziYzpxxdJWog0cN2aWiiNCAZuPE3Pr7-W3X-VxILB0TxRdNDfDRz5IVizsnew0yUV8rH25xcGsM-e1fEHMhu8fA4aUGVXIneVipgzo6aZ46t7IA7J0ETZs/s600/graph%20paper.png" alt="Tasas de persuasión del estudio original" width="600">
   </a>
 </p>
-> *Tasas de persuasión*
-> *Fuente: Can AI Change Your View?*
+*Fuente: Can AI Change Your View?*
 
 La imagen muestra que todos los tratamientos con **inteligencia artificial** superan ampliamente al rendimiento humano base, cuya tasa de **persuasión** se sitúa en apenas 0.027. Dentro de las condiciones evaluadas, la estrategia de **Personalización** se destaca como la más eficaz, con una tasa de **∆** del 18%. No obstante, su intervalo de confianza se superpone parcialmente con el del modelo **Genérico**, lo que sugiere que la diferencia entre ambos no es estadísticamente concluyente. Por otro lado, aunque **Alineado con Comunidad** presenta una tasa más baja (9%), esta sigue siendo aproximadamente tres veces superior al rendimiento humano, lo cual es significativo. Los intervalos de confianza representados en el gráfico permiten estimar la precisión de cada resultado: cuanto más estrecho es el intervalo, mayor es la fiabilidad del valor estimado. En conjunto, el gráfico demuestra que la **IA** supera consistentemente a los humanos en capacidad persuasiva, incluso en su forma menos efectiva, y que la personalización de los argumentos mejora levemente la eficacia, aunque sin garantizar superioridad estadística clara frente a otras variantes.
 
