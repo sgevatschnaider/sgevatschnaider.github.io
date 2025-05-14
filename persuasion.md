@@ -97,7 +97,6 @@ Junto al desarrollo del **DAG** elaboré una tabla para poder mejor visualizar l
 > *Fuente: Elaboración propia en base datos de: Can AI Change Your View?*
 
 ### 5. Simulación y Modelado: Autómatas Celulares Sociales
-*(Nota: La numeración "5." se repite del texto original, la mantengo)*
 
 A partir del grafo anterior que me permitió precisar las variables a utilizar en el **autómata celular** y de la tabla, creé un modelo de **autómata celular** donde cada celda representa a un usuario susceptible o no de ser convencido. La grilla bidimensional simula la estructura social de una comunidad online, con reglas locales de interacción y contagio ideológico.
 
@@ -108,9 +107,7 @@ El modelo permite configurar distintos parámetros: la probabilidad base de **pe
 Los resultados de la **simulación** permiten observar cómo pequeñas modificaciones en la estrategia **IA** o en el entorno social pueden alterar profundamente la tasa global de **persuasión**. Por ejemplo, al activar el efecto social con un umbral bajo, se observa una aceleración del cambio colectivo, similar a un efecto de tipping point.
 
 <p align="center">
-  [LUGAR PARA LA VISUALIZACIÓN DEL AUTÓMATA CELULAR Y LA PERSUASIÓN (VIDEO/ANIMACIÓN)]
-  <br>
-  <em>(Originalmente un objeto de vídeo/animación en el HTML: <code>object class="BLOG_video_class" contentid="2e41684486f01120"</code>)</em>
+  <img src="https://sgevatschnaider.github.io/persuasion_anim.gif" alt="Visualización del autómata celular y la persuasión" width="600">
 </p>
 > *Autómata celular y persuasión*
 > *Fuente: Elaboración propia*
