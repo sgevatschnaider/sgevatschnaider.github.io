@@ -82,8 +82,8 @@ Un Diagrama de Causalidad (**DAG**) que muestra cómo se infiere el efecto causa
     <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCNUof8cPt8KrkROy6753h1hBkeEEtXFdWv1Pu1TzvjtI3ElzfBs5zspqqC0eJ8FbT9-dagrakYnmIxLuG3KHnNMIe1UjIPiaGQd2bA8AGjXCPQUVp42Tfbi9NY2LTOXXZ6FysU1Axwkah41-7FKSwwwuc8oVxHCfqBrl6-3WFVkIlCMtFk7x72HJ20VI/s600/dag_persuasion.png" alt="Diagrama Acíclico Dirigido (DAG) del experimento" width="600">
   </a>
 </p>
-> *DAG*
-> *Fuente: Elaboración propia*
+*DAG*
+*Fuente: Elaboración propia*
 
 Junto al desarrollo del **DAG** elaboré una tabla para poder mejor visualizar los resultados de la investigación.
 
