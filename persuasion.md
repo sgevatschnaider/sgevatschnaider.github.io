@@ -1,11 +1,10 @@
-# Autómatas Celulares y Persuasión Algorítmica: ¿Puede la IA cambiar tu opinión?
+# Autómatas Celulares y Persuasión Algorítmica: ¿Puede la **IA** cambiar tu opinión?
 
 *   [🇬🇧 English Version](https://economiayetica.blogspot.com/2025/05/cargando.html)
 
-
-
-
-![Cabecera del artículo sobre IA y persuasión](PLACEHOLDER_HEADER_IMG_URL)
+<p align="center">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoIY2-CvkcrJ-oPYyeNnAs3SVpxekKAPYswLbrP_03OuZW20AaFfxEkYq99zFCtqdRg0n7xwIWesxJOioM2hBmb0DN8BE48EBx8MYE_xGy97PGC5SqvzgjC390GfpzgUYH32nOz49aDFvbJCDyR6g5pn2l5n3cTP91-6KaniPxCezhmLV8KuEbmITIlwU/s600/persuasion_anim.gif" alt="Cabecera del artículo sobre IA y persuasión" width="600">
+</p>
 > *Opcional: Pie de foto para la imagen de cabecera si lo necesitas*
 
 Esta nota surge en la confluencia de dos líneas de trabajo. Por un lado, la experiencia docente en los cursos de **Big Data** y **Teoría de Grafos**, donde junto a mis estudiantes he desarrollado aplicaciones prácticas basadas en **autómatas celulares** para modelar fenómenos de **difusión**, incluyendo enfermedades, modas, rumores, y dinámicas en **redes sociales**. Por otro lado, un estudio empírico reciente, realizado por un grupo de investigadores suizos en 2024, que empleó agentes de **inteligencia artificial (IA)** para participar encubiertamente en el **subreddit r/ChangeMyView**, con el objetivo de simular argumentaciones humanas, utilizando diversas estrategias retóricas de **persuasión**.
@@ -25,9 +24,9 @@ Una de estas comunidades es **r/ChangeMyView (CMV)**, un foro dedicado al debate
 ### 2) Tipos de usuarios de la comunidad
 Los usuarios de esta comunidad son de tres tipos:
 
-*   a) **OP (Original Poster)**: Es quien inicia la discusión con una opinión explícita y está dispuesto a escuchar contraargumentos.
-*   b) **Comentaristas**: Otros usuarios que responden al **OP** con argumentos, evidencia y razonamientos para desafiar la opinión inicial.
-*   c) **Participantes activos y expertos**: Algunos usuarios tienen gran experiencia en argumentación y han obtenido múltiples reconocimientos por su habilidad para persuadir.
+*   **a) OP (Original Poster):** Es quien inicia la discusión con una opinión explícita y está dispuesto a escuchar contraargumentos.
+*   **b) Comentaristas:** Otros usuarios que responden al **OP** con argumentos, evidencia y razonamientos para desafiar la opinión inicial.
+*   **c) Participantes activos y expertos:** Algunos usuarios tienen gran experiencia en argumentación y han obtenido múltiples reconocimientos por su habilidad para persuadir.
 
 ### 3) Recompensa dada por la comunidad
 En **r/ChangeMyView**, el símbolo **delta (∆)** cumple un rol fundamental como métrica explícita de **persuasión** y reconocimiento argumentativo. Este ícono representa una acción consciente del usuario original (**OP**) que inició la discusión.
@@ -63,8 +62,12 @@ La estrategia más exitosa según esta investigación fue la **personalizada**, 
 
 La siguiente imagen tomada del estudio muestra los resultados de la investigación.
 
-[![Tasas de persuasión del estudio original](PLACEHOLDER_IMG_URL_1_ES)](PLACEHOLDER_IMG_URL_1_ES_LINK)
-> *Tasas de persuasión*  
+<p align="center">
+  <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjldqufP48Sg5_GgqSd76tiPnN7YE40NVIHJJ5o9bgeYbyCxaWVcVgz5DBBbR7IUAjDMOusEziYzpxxdJWog0cN2aWiiNCAZuPE3Pr7-W3X-VxILB0TxRdNDfDRz5IVizsnew0yUV8rH25xcGsM-e1fEHMhu8fA4aUGVXIneVipgzo6aZ46t7IA7J0ETZs/s673/graph%20paper.png">
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjldqufP48Sg5_GgqSd76tiPnN7YE40NVIHJJ5o9bgeYbyCxaWVcVgz5DBBbR7IUAjDMOusEziYzpxxdJWog0cN2aWiiNCAZuPE3Pr7-W3X-VxILB0TxRdNDfDRz5IVizsnew0yUV8rH25xcGsM-e1fEHMhu8fA4aUGVXIneVipgzo6aZ46t7IA7J0ETZs/s600/graph%20paper.png" alt="Tasas de persuasión del estudio original" width="600">
+  </a>
+</p>
+> *Tasas de persuasión*
 > *Fuente: Can AI Change Your View?*
 
 La imagen muestra que todos los tratamientos con **inteligencia artificial** superan ampliamente al rendimiento humano base, cuya tasa de **persuasión** se sitúa en apenas 0.027. Dentro de las condiciones evaluadas, la estrategia de **Personalización** se destaca como la más eficaz, con una tasa de **∆** del 18%. No obstante, su intervalo de confianza se superpone parcialmente con el del modelo **Genérico**, lo que sugiere que la diferencia entre ambos no es estadísticamente concluyente. Por otro lado, aunque **Alineado con Comunidad** presenta una tasa más baja (9%), esta sigue siendo aproximadamente tres veces superior al rendimiento humano, lo cual es significativo. Los intervalos de confianza representados en el gráfico permiten estimar la precisión de cada resultado: cuanto más estrecho es el intervalo, mayor es la fiabilidad del valor estimado. En conjunto, el gráfico demuestra que la **IA** supera consistentemente a los humanos en capacidad persuasiva, incluso en su forma menos efectiva, y que la personalización de los argumentos mejora levemente la eficacia, aunque sin garantizar superioridad estadística clara frente a otras variantes.
@@ -75,17 +78,25 @@ Para ello a partir de esta investigación, formulé una representación del expe
 
 Un Diagrama de Causalidad (**DAG**) que muestra cómo se infiere el efecto causal del tratamiento (tipo de respuesta: **IA** vs humano) sobre el cambio de opinión (**∆**).
 
-[![Diagrama Acíclico Dirigido (DAG) del experimento](PLACEHOLDER_IMG_URL_2_ES)](PLACEHOLDER_IMG_URL_2_ES_LINK)
-> *DAG*  
+<p align="center">
+  <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCNUof8cPt8KrkROy6753h1hBkeEEtXFdWv1Pu1TzvjtI3ElzfBs5zspqqC0eJ8FbT9-dagrakYnmIxLuG3KHnNMIe1UjIPiaGQd2bA8AGjXCPQUVp42Tfbi9NY2LTOXXZ6FysU1Axwkah41-7FKSwwwuc8oVxHCfqBrl6-3WFVkIlCMtFk7x72HJ20VI/s1785/dag_persuasion.png">
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCNUof8cPt8KrkROy6753h1hBkeEEtXFdWv1Pu1TzvjtI3ElzfBs5zspqqC0eJ8FbT9-dagrakYnmIxLuG3KHnNMIe1UjIPiaGQd2bA8AGjXCPQUVp42Tfbi9NY2LTOXXZ6FysU1Axwkah41-7FKSwwwuc8oVxHCfqBrl6-3WFVkIlCMtFk7x72HJ20VI/s600/dag_persuasion.png" alt="Diagrama Acíclico Dirigido (DAG) del experimento" width="600">
+  </a>
+</p>
+> *DAG*
 > *Fuente: Elaboración propia*
 
 Junto al desarrollo del **DAG** elaboré una tabla para poder mejor visualizar los resultados de la investigación.
 
-[![Tabla de resultados de la investigación](PLACEHOLDER_IMG_URL_TABLE_ES)](PLACEHOLDER_IMG_URL_TABLE_ES_LINK)
-> *Tabla de Resultados*  
+<p align="center">
+  <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPht26U7q7B709kwHq501u5Fo7SA0L2eAiRJeUsDmODX1rA7sz_2pkBdej9-tqPNFtzbYihDrOImVcN5j8tmiG95VNg8OzYkohf4SzcIAfBDBnAwcLhdKP5ZrGe1x4TDwYeBxbvdhSnjJapUzWhaYWKvbF9H0MsJU-Onq5sQsu05VKGi776oQ0mn3OxrQ/s1500/tabla_persusion_ajustada.png">
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPht26U7q7B709kwHq501u5Fo7SA0L2eAiRJeUsDmODX1rA7sz_2pkBdej9-tqPNFtzbYihDrOImVcN5j8tmiG95VNg8OzYkohf4SzcIAfBDBnAwcLhdKP5ZrGe1x4TDwYeBxbvdhSnjJapUzWhaYWKvbF9H0MsJU-Onq5sQsu05VKGi776oQ0mn3OxrQ/s600/tabla_persusion_ajustada.png" alt="Tabla de resultados de la investigación" width="600">
+  </a>
+</p>
+> *Tabla de Resultados*
 > *Fuente: Elaboración propia en base datos de: Can AI Change Your View?*
 
-### 5. Simulación y Modelado: Autómatas Celulares Sociales 
+### 5. Simulación y Modelado: Autómatas Celulares Sociales
 *(Nota: La numeración "5." se repite del texto original, la mantengo)*
 
 A partir del grafo anterior que me permitió precisar las variables a utilizar en el **autómata celular** y de la tabla, creé un modelo de **autómata celular** donde cada celda representa a un usuario susceptible o no de ser convencido. La grilla bidimensional simula la estructura social de una comunidad online, con reglas locales de interacción y contagio ideológico.
@@ -96,8 +107,12 @@ El modelo permite configurar distintos parámetros: la probabilidad base de **pe
 
 Los resultados de la **simulación** permiten observar cómo pequeñas modificaciones en la estrategia **IA** o en el entorno social pueden alterar profundamente la tasa global de **persuasión**. Por ejemplo, al activar el efecto social con un umbral bajo, se observa una aceleración del cambio colectivo, similar a un efecto de tipping point.
 
-[![Visualización del autómata celular y la persuasión](PLACEHOLDER_IMG_URL_3_ES)](PLACEHOLDER_IMG_URL_3_ES_LINK)
-> *Autómata celular y persuasión*  
+<p align="center">
+  [LUGAR PARA LA VISUALIZACIÓN DEL AUTÓMATA CELULAR Y LA PERSUASIÓN (VIDEO/ANIMACIÓN)]
+  <br>
+  <em>(Originalmente un objeto de vídeo/animación en el HTML: <code>object class="BLOG_video_class" contentid="2e41684486f01120"</code>)</em>
+</p>
+> *Autómata celular y persuasión*
 > *Fuente: Elaboración propia*
 
 El cuadrado superior izquierdo es una cuadrícula 15x15 que representa 225 usuarios individuales (**OPs**) dentro de una comunidad online. Cada celda representa el estado cognitivo de un individuo respecto a la **persuasión**:
@@ -122,8 +137,12 @@ Por último, el cuadro inferior derecho permite contrastar las tasas teóricas d
 
 La siguiente imagen compara los resultados de mi **simulación** basada en **autómatas celulares** con los hallazgos del estudio original.
 
-[![Comparación entre resultados de investigación y simulación](PLACEHOLDER_IMG_URL_4_ES)](PLACEHOLDER_IMG_URL_4_ES_LINK)
-> *Comparación entre los resultados de la investigación y la simulación*  
+<p align="center">
+  <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAbb6ZfzRHqDeXuz6WWS-wnOEqjrb43_p9Sv_UjFiJsCUtbvKY9xJj0uapREhHOCAUuvROiQjmBUjMCizWNvG0vHvmimxu0ERvwePdIl0RvfQVOunnbjpOAyhStxoVG-xDbbK6rKiZNlBS8DCitVEjzvcQsGZp7hH1fy-y1hBXlvHat2dLpO_ulFTHbD8/s1767/persuasion_comparison_en.png">
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAbb6ZfzRHqDeXuz6WWS-wnOEqjrb43_p9Sv_UjFiJsCUtbvKY9xJj0uapREhHOCAUuvROiQjmBUjMCizWNvG0vHvmimxu0ERvwePdIl0RvfQVOunnbjpOAyhStxoVG-xDbbK6rKiZNlBS8DCitVEjzvcQsGZp7hH1fy-y1hBXlvHat2dLpO_ulFTHbD8/s600/persuasion_comparison_en.png" alt="Comparación entre resultados de investigación y simulación" width="600">
+  </a>
+</p>
+> *Comparación entre los resultados de la investigación y la simulación*
 > *Fuente: Elaboración propia*
 
 La imagen anterior compara las tasas de **persuasión (∆)** observadas en el estudio original (“Paper”) con aquellas obtenidas en la **simulación** realizada. En el eje horizontal se representan las cuatro condiciones experimentales: **Personalizado**, **Genérico**, **Alineado con Comunidad** y Base Humana, mientras que el eje vertical indica la proporción de comentarios que lograron cambiar la opinión del **OP**.
