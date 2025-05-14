@@ -6,7 +6,7 @@
   <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoIY2-CvkcrJ-oPYyeNnAs3SVpxekKAPYswLbrP_03OuZW20AaFfxEkYq99zFCtqdRg0n7xwIWesxJOioM2hBmb0DN8BE48EBx8MYE_xGy97PGC5SqvzgjC390GfpzgUYH32nOz49aDFvbJCDyR6g5pn2l5n3cTP91-6KaniPxCezhmLV8KuEbmITIlwU/s600/persuasion_anim.gif" alt="Cabecera del artículo sobre IA y persuasión" width="600">
 </p>
 <p align="center">
-  <em>Opcional: Pie de foto para la imagen de cabecera si lo necesitas</em>
+  
 </p>
 
 Esta nota surge en la confluencia de dos líneas de trabajo. Por un lado, la experiencia docente en los cursos de **Big Data** y **Teoría de Grafos**, donde junto a mis estudiantes he desarrollado aplicaciones prácticas basadas en **autómatas celulares** para modelar fenómenos de **difusión**, incluyendo enfermedades, modas, rumores, y dinámicas en **redes sociales**. Por otro lado, un estudio empírico reciente, realizado por un grupo de investigadores suizos en 2024, que empleó agentes de **inteligencia artificial (IA)** para participar encubiertamente en el **subreddit r/ChangeMyView**, con el objetivo de simular argumentaciones humanas, utilizando diversas estrategias retóricas de **persuasión**.
