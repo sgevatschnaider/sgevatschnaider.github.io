@@ -5,7 +5,7 @@
 <p align="center">
   <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoIY2-CvkcrJ-oPYyeNnAs3SVpxekKAPYswLbrP_03OuZW20AaFfxEkYq99zFCtqdRg0n7xwIWesxJOioM2hBmb0DN8BE48EBx8MYE_xGy97PGC5SqvzgjC390GfpzgUYH32nOz49aDFvbJCDyR6g5pn2l5n3cTP91-6KaniPxCezhmLV8KuEbmITIlwU/s600/persuasion_anim.gif" alt="Cabecera del artículo sobre IA y persuasión" width="600">
 </p>
-> *Opcional: Pie de foto para la imagen de cabecera si lo necesitas*
+
 
 Esta nota surge en la confluencia de dos líneas de trabajo. Por un lado, la experiencia docente en los cursos de **Big Data** y **Teoría de Grafos**, donde junto a mis estudiantes he desarrollado aplicaciones prácticas basadas en **autómatas celulares** para modelar fenómenos de **difusión**, incluyendo enfermedades, modas, rumores, y dinámicas en **redes sociales**. Por otro lado, un estudio empírico reciente, realizado por un grupo de investigadores suizos en 2024, que empleó agentes de **inteligencia artificial (IA)** para participar encubiertamente en el **subreddit r/ChangeMyView**, con el objetivo de simular argumentaciones humanas, utilizando diversas estrategias retóricas de **persuasión**.
 
@@ -97,7 +97,7 @@ Junto al desarrollo del **DAG** elaboré una tabla para poder mejor visualizar l
 > *Fuente: Elaboración propia en base datos de: Can AI Change Your View?*
 
 ### 5. Simulación y Modelado: Autómatas Celulares Sociales
-*(Nota: La numeración "5." se repite del texto original, la mantengo)*
+
 
 A partir del grafo anterior que me permitió precisar las variables a utilizar en el **autómata celular** y de la tabla, creé un modelo de **autómata celular** donde cada celda representa a un usuario susceptible o no de ser convencido. La grilla bidimensional simula la estructura social de una comunidad online, con reglas locales de interacción y contagio ideológico.
 
@@ -108,7 +108,7 @@ El modelo permite configurar distintos parámetros: la probabilidad base de **pe
 Los resultados de la **simulación** permiten observar cómo pequeñas modificaciones en la estrategia **IA** o en el entorno social pueden alterar profundamente la tasa global de **persuasión**. Por ejemplo, al activar el efecto social con un umbral bajo, se observa una aceleración del cambio colectivo, similar a un efecto de tipping point.
 
 <p align="center">
-  <img src="https://sgevatschnaider.github.io/persuasion_anim.gif" alt="Visualización del autómata celular y la persuasión" width="600">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoIY2-CvkcrJ-oPYyeNnAs3SVpxekKAPYswLbrP_03OuZW20AaFfxEkYq99zFCtqdRg0n7xwIWesxJOioM2hBmb0DN8BE48EBx8MYE_xGy97PGC5SqvzgjC390GfpzgUYH32nOz49aDFvbJCDyR6g5pn2l5n3cTP91-6KaniPxCezhmLV8KuEbmITIlwU/s600/persuasion_anim.gif" alt="Cabecera del artículo sobre IA y persuasión" width="600">
 </p>
 > *Autómata celular y persuasión*
 > *Fuente: Elaboración propia*
