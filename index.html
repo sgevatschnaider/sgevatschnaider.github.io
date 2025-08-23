@@ -16,7 +16,6 @@
     body {
       font-family: 'Poppins', sans-serif;
     }
-    /* Transición suave al cambiar modo oscuro (si decides usar modo oscuro) */
     .transition-colors {
       transition: background-color 0.3s, color 0.3s;
     }
@@ -42,13 +41,12 @@
       class="mx-auto mb-6 w-2/3 rounded shadow-lg"
       loading="lazy"
     />
-    <!-- Puedes añadir un botón si deseas guiar al usuario a la sección de notas -->
     <a href="#notas" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-2 rounded transition-colors">
       Ver Notas
     </a>
   </section>
 
-  <!-- Sección de artículos destacados (opcional) -->
+  <!-- Sección de artículos destacados -->
   <section class="container mx-auto px-6 mb-10">
     <h2 class="text-2xl font-semibold mb-4">Artículos Destacados</h2>
     <ul class="list-disc list-inside space-y-2 pl-4">
@@ -68,6 +66,20 @@
         </a> – Breve descripción.
       </li>
     </ul>
+  </section>
+
+  <!--  NUEVA SECCIÓN: Simulador de Königsberg -->
+  <section class="container mx-auto px-6 mb-10">
+    <h2 class="text-2xl font-semibold mb-4">Simulador de Königsberg</h2>
+    <p class="mb-4">Interfaz interactiva para explorar el famoso problema de los puentes de Königsberg.</p>
+    <div class="w-full h-[600px] border rounded shadow overflow-hidden">
+      <iframe 
+        src="konigsberg.html" 
+        class="w-full h-full" 
+        title="Simulador Konigsberg" 
+        loading="lazy">
+      </iframe>
+    </div>
   </section>
 
   <!-- Sección para el buscador y listado dinámico de notas -->
@@ -103,13 +115,11 @@
     </div>
   </section>
 
-  <!-- Script para obtener archivos Markdown y filtrar (igual al que tenías antes) -->
+  <!-- Script para obtener archivos Markdown y filtrar -->
   <script>
-    // Elementos del DOM
     const notesList = document.getElementById('notesList');
     const searchInput = document.getElementById('searchInput');
 
-    // Función para añadir una nota a la lista
     function addNoteItem(name, url) {
       const li = document.createElement('li');
       li.className = "hover:underline";
@@ -125,17 +135,14 @@
       notesList.appendChild(li);
     }
 
-    // Función recursiva para explorar carpetas y encontrar archivos .md
     async function fetchMarkdownFiles(apiUrl) {
       try {
         const response = await fetch(apiUrl);
         const data = await response.json();
         for (const item of data) {
-          // Si es archivo y termina en .md, lo agregamos
           if (item.type === "file" && item.name.endsWith(".md")) {
             addNoteItem(item.name, item.html_url);
           } else if (item.type === "dir") {
-            // Si es un directorio, lo exploramos recursivamente
             await fetchMarkdownFiles(item.url);
           }
         }
@@ -144,14 +151,10 @@
       }
     }
 
-    // Cargar notas al iniciar
     (async function loadNotes() {
-      // Limpiar la lista (quitar "Cargando notas...")
       notesList.innerHTML = "";
-      // URL raíz del repo en la API de GitHub
       const apiRoot = "https://api.github.com/repos/sgevatschnaider/sgevatschnaider.github.io/contents/";
       await fetchMarkdownFiles(apiRoot);
-      // Si no se encontraron notas, mostrar mensaje
       if (!notesList.hasChildNodes()) {
         const msg = document.createElement('li');
         msg.textContent = "No se encontraron notas.";
@@ -159,7 +162,6 @@
       }
     })();
 
-    // Filtrado de notas en tiempo real
     searchInput.addEventListener('input', function() {
       const filter = this.value.toLowerCase();
       const listItems = notesList.getElementsByTagName('li');
@@ -173,3 +175,4 @@
 
 </body>
 </html>
+
