@@ -8,28 +8,22 @@
 
   <!-- Tailwind CSS desde CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
-  
-  <!-- Fuente personalizada (opcional) -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
 
   <style>
-    body {
-      font-family: 'Poppins', sans-serif;
-    }
-    .transition-colors {
-      transition: background-color 0.3s, color 0.3s;
-    }
+    body { font-family: 'Poppins', sans-serif; }
+    .transition-colors { transition: background-color 0.3s, color 0.3s; }
   </style>
 </head>
 <body class="bg-gray-100 text-gray-800 transition-colors">
 
-  <!-- Navbar / Header principal -->
+  <!-- Header -->
   <header class="bg-white shadow-md p-4 mb-6">
     <h1 class="text-3xl font-bold text-blue-600">Blog de IA, Tecnología y Economía</h1>
     <p class="text-lg text-gray-700">Notas y análisis sobre inteligencia artificial, avances tecnológicos y tendencias económicas.</p>
   </header>
 
-  <!-- Sección Hero con la imagen GIF -->
+  <!-- Hero -->
   <section class="container mx-auto px-6 mb-10 text-center">
     <h2 class="text-2xl font-semibold mb-4">Bienvenido a mi blog</h2>
     <p class="text-lg max-w-2xl mx-auto mb-6">
@@ -46,132 +40,123 @@
     </a>
   </section>
 
-  <!-- Sección de artículos destacados -->
+  <!-- Artículos -->
   <section class="container mx-auto px-6 mb-10">
     <h2 class="text-2xl font-semibold mb-4">Artículos Destacados</h2>
     <ul class="list-disc list-inside space-y-2 pl-4">
-      <li>
-        <a href="#" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
-          Alucinaciones en modelos de lenguaje (LLMs)
-        </a> – Breve descripción.
-      </li>
-      <li>
-        <a href="#" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
-          DAGs y Blockchain
-        </a> – Breve descripción.
-      </li>
-      <li>
-        <a href="#" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
-          El fenómeno de los memecoins
-        </a> – Breve descripción.
-      </li>
+      <li><a href="#" class="text-blue-600 hover:underline">Alucinaciones en modelos de lenguaje (LLMs)</a></li>
+      <li><a href="#" class="text-blue-600 hover:underline">DAGs y Blockchain</a></li>
+      <li><a href="#" class="text-blue-600 hover:underline">El fenómeno de los memecoins</a></li>
     </ul>
   </section>
 
-  <!-- 🚀 NUEVA SECCIÓN: Simulador de Königsberg -->
+  <!-- 🚀 Simulador -->
   <section class="container mx-auto px-6 mb-10">
-    <h2 class="text-2xl font-semibold mb-4">Simulador de Königsberg</h2>
+    <h2 class="text-2xl font-semibold mb-4">🚀 Simulador de Königsberg</h2>
     <p class="mb-4">Interfaz interactiva para explorar el famoso problema de los puentes de Königsberg.</p>
-    <div class="w-full h-[600px] border rounded shadow overflow-hidden">
+    
+    <div id="simulatorStatus" class="mb-4 p-3 bg-yellow-100 border border-yellow-400 rounded">
+      <p class="text-yellow-800">Verificando simulador...</p>
+    </div>
+
+    <div class="bg-white p-4 rounded-lg shadow-md">
       <iframe 
-        src="konigsberg.html" 
-        class="w-full h-full" 
-        title="Simulador Konigsberg" 
-        loading="lazy">
+        id="simulatorFrame"
+        src="https://sgevatschnaider.github.io/konigsberg.html" 
+        width="100%" 
+        height="600" 
+        style="border:1px solid #ccc; border-radius:8px;" 
+        title="Simulador Konigsberg"
+        onload="handleSimulatorLoad()"
+        onerror="handleSimulatorError()">
       </iframe>
+
+      <div class="mt-2 text-center">
+        <button onclick="loadAlternativeVersion()" class="text-sm text-blue-600 hover:underline">
+          Probar versión alternativa (DFS)
+        </button>
+      </div>
+
+      <div id="simulatorFallback" style="display: none;" class="text-center py-20">
+        <div class="bg-gray-100 border-2 border-dashed border-gray-300 rounded-lg p-8">
+          <h3 class="text-xl font-semibold text-gray-700 mb-4">Simulador Temporalmente No Disponible</h3>
+          <p class="text-gray-600 mb-4">El simulador de Königsberg está en desarrollo.</p>
+          <button onclick="retrySimulator()" class="mt-4 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded">
+            Reintentar simulador
+          </button>
+        </div>
+      </div>
     </div>
   </section>
 
-  <!-- Sección para el buscador y listado dinámico de notas -->
+  <!-- Notas -->
   <section id="notas" class="container mx-auto px-6 mb-10">
     <h2 class="text-2xl font-semibold mb-4">Todas las notas</h2>
-
-    <!-- Buscador -->
     <div class="mb-6">
-      <input
-        type="text"
-        id="searchInput"
-        placeholder="Buscar notas..."
-        class="w-full md:w-1/2 border border-gray-300 rounded-md px-3 py-2 
-               focus:outline-none focus:ring-2 focus:ring-blue-500"
-      />
+      <input id="searchInput" placeholder="Buscar notas..." class="w-full md:w-1/2 border rounded-md px-3 py-2"/>
     </div>
-
-    <!-- Listado dinámico de notas -->
     <ul id="notesList" class="list-disc list-inside space-y-2 pl-4">
       <li class="text-gray-500">Cargando notas...</li>
     </ul>
-
-    <!-- Botón para agregar nueva nota -->
-    <div class="mt-8">
-      <p class="mb-4">¿Deseas agregar una nueva nota en el repositorio?</p>
-      <a
-        href="https://github.com/sgevatschnaider/sgevatschnaider.github.io/new/main?filename=TuNuevaNota.md"
-        target="_blank"
-        class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded"
-      >
-        Agregar nueva nota
-      </a>
-    </div>
   </section>
 
-  <!-- Script para obtener archivos Markdown y filtrar -->
+  <!-- Scripts -->
   <script>
-    const notesList = document.getElementById('notesList');
-    const searchInput = document.getElementById('searchInput');
-
-    function addNoteItem(name, url) {
-      const li = document.createElement('li');
-      li.className = "hover:underline";
-
-      const link = document.createElement('a');
-      link.href = url;
-      link.textContent = name;
-      link.target = "_blank";
-      link.rel = "noopener noreferrer";
-      link.className = "text-blue-600 hover:underline";
-
-      li.appendChild(link);
-      notesList.appendChild(li);
+    // --- Funciones simulador ---
+    function handleSimulatorLoad() {
+      document.getElementById('simulatorStatus').innerHTML = '✅ Simulador cargado correctamente';
+      document.getElementById('simulatorStatus').className = 'mb-4 p-3 bg-green-100 border border-green-400 rounded';
+    }
+    function handleSimulatorError() { showSimulatorFallback(); }
+    function showSimulatorFallback() {
+      document.getElementById('simulatorStatus').innerHTML = '❌ Error al cargar el simulador';
+      document.getElementById('simulatorFrame').style.display = 'none';
+      document.getElementById('simulatorFallback').style.display = 'block';
+    }
+    function retrySimulator() {
+      document.getElementById('simulatorFrame').style.display = 'block';
+      document.getElementById('simulatorFallback').style.display = 'none';
+      const iframe = document.getElementById('simulatorFrame');
+      iframe.src = 'https://sgevatschnaider.github.io/konigsberg.html?' + Date.now();
+    }
+    function loadAlternativeVersion() {
+      document.getElementById('simulatorFrame').src = 'https://sgevatschnaider.github.io/konigsberg_dfs_2.html';
     }
 
+    // --- Funciones notas ---
+    const notesList = document.getElementById('notesList');
+    const searchInput = document.getElementById('searchInput');
+    function addNoteItem(name, url) {
+      const li = document.createElement('li');
+      const link = document.createElement('a');
+      link.href = url; link.textContent = name;
+      link.target = "_blank"; link.rel = "noopener noreferrer";
+      link.className = "text-blue-600 hover:underline";
+      li.appendChild(link); notesList.appendChild(li);
+    }
     async function fetchMarkdownFiles(apiUrl) {
       try {
         const response = await fetch(apiUrl);
         const data = await response.json();
         for (const item of data) {
-          if (item.type === "file" && item.name.endsWith(".md")) {
-            addNoteItem(item.name, item.html_url);
-          } else if (item.type === "dir") {
-            await fetchMarkdownFiles(item.url);
-          }
+          if (item.type === "file" && item.name.endsWith(".md")) addNoteItem(item.name, item.html_url);
+          else if (item.type === "dir") await fetchMarkdownFiles(item.url);
         }
-      } catch (error) {
-        console.error("Error al obtener contenido del repositorio:", error);
-      }
+      } catch (error) { console.error(error); }
     }
-
     (async function loadNotes() {
       notesList.innerHTML = "";
-      const apiRoot = "https://api.github.com/repos/sgevatschnaider/sgevatschnaider.github.io/contents/";
-      await fetchMarkdownFiles(apiRoot);
-      if (!notesList.hasChildNodes()) {
-        const msg = document.createElement('li');
-        msg.textContent = "No se encontraron notas.";
-        notesList.appendChild(msg);
-      }
+      await fetchMarkdownFiles("https://api.github.com/repos/sgevatschnaider/sgevatschnaider.github.io/contents/");
     })();
-
     searchInput.addEventListener('input', function() {
       const filter = this.value.toLowerCase();
-      const listItems = notesList.getElementsByTagName('li');
-      for (let i = 0; i < listItems.length; i++) {
-        const li = listItems[i];
-        const text = li.textContent.toLowerCase();
-        li.style.display = text.includes(filter) ? "" : "none";
-      }
+      [...notesList.getElementsByTagName('li')].forEach(li => {
+        li.style.display = li.textContent.toLowerCase().includes(filter) ? "" : "none";
+      });
     });
   </script>
 
 </body>
 </html>
+
+
