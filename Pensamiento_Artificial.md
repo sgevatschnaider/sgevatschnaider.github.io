@@ -1,3 +1,9 @@
+---
+title: "Pensamiento Artificial: Cómo Razonan los Modelos de Lenguaje"
+permalink: /pensamiento-artificial/
+layout: default
+---
+
 # Inglés
 
 [![English](https://img.shields.io/badge/Language-English-red)](https://economiayetica.blogspot.com/2025/04/pensamiento-artificial-como-razonan-los_1.html)
