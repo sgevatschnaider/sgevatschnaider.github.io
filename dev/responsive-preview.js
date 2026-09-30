@@ -1,0 +1,1 @@
+const preview=document.getElementById('preview'),width=document.getElementById('width');width.addEventListener('input',()=>{preview.style.width=width.value+'px';document.getElementById('width-label').textContent=width.value});document.getElementById('page').addEventListener('change',e=>preview.src=e.target.value);
