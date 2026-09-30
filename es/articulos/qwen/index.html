@@ -1,0 +1,91 @@
+<!doctype html><html lang="es" data-theme="light"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Grafos y redes neuronales como marco para explorar arquitecturas de modelos."><meta name="author" content="Sergio Gevatschnaider"><meta name="theme-color" content="#183c38"><title>Flexibilidad y arquitecturas neuronales: Qwen 2.5 · Sergio Gevatschnaider</title><link rel="canonical" href="https://sgevatschnaider.github.io/es/articulos/qwen/"><link rel="alternate" hreflang="es" href="https://sgevatschnaider.github.io/es/articulos/qwen/"><link rel="alternate" hreflang="en" href="https://sgevatschnaider.github.io/en/articles/qwen/"><meta property="og:type" content="article"><meta property="og:title" content="Flexibilidad y arquitecturas neuronales: Qwen 2.5"><meta property="og:description" content="Grafos y redes neuronales como marco para explorar arquitecturas de modelos."><meta property="og:url" content="https://sgevatschnaider.github.io/es/articulos/qwen/"><meta property="og:image" content="https://sgevatschnaider.github.io/assets/social-cover.png"><meta property="og:locale" content="es_AR"><meta name="twitter:card" content="summary_large_image"><link rel="icon" type="image/svg+xml" href="../../../assets/favicon.svg"><script src="../../../assets/theme-init.js?v=20260930"></script><link rel="stylesheet" href="../../../assets/site.css?v=20260930"></head><body data-page="article" data-article-id="qwen" data-article-title="Flexibilidad y arquitecturas neuronales: Qwen 2.5"><div class="reading-progress" data-reading-progress></div><a class="skip" href="#contenido">Saltar al contenido</a><header id="inicio" class="site-header"><div class="shell header-row"><a class="brand" href="../../index.html"><span class="brand-mark" aria-hidden="true">SG</span><span><strong>Sergio Gevatschnaider</strong><small>Economía, datos e ideas</small></span></a><nav id="main-nav" aria-label="Navegación principal"><a href="../../index.html#articulos">Artículos</a><a href="../../index.html#cursos">Cursos</a><a href="../../index.html#simulaciones">Simulaciones</a><a href="../../index.html#notas">Notas</a><a href="../../index.html#sobre-mi">Sobre mí</a><a href="../../index.html#contacto">Contacto</a></nav><div class="header-tools"><div class="language" aria-label="Idioma"><span class="active" aria-current="true" lang="es">ES</span><a href="../../../en/articles/qwen/index.html" data-language-link lang="en" aria-label="English">EN</a></div><button class="icon-button" type="button" data-theme-toggle aria-label="Cambiar tema" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9Z" fill="none" stroke="currentColor" stroke-width="1.7"/></svg></button></div><button class="menu-toggle" data-menu type="button" aria-controls="main-nav" aria-expanded="false">Menú</button></div></header><main id="contenido" class="shell"><div class="breadcrumbs"><a href="../../index.html">Inicio</a> / <a href="../../index.html#articulos">Artículos</a> / Inteligencia artificial</div><header class="article-header"><p class="eyebrow">Inteligencia artificial</p><h1>Flexibilidad y arquitecturas neuronales: Qwen 2.5</h1><p class="lead">Grafos y redes neuronales como marco para explorar arquitecturas de modelos.</p><div class="pills"><span class="pill">5 min de lectura</span><span class="pill">feb 2025</span><span class="pill">Nota de archivo</span></div><div class="reading-tools"><button class="button" data-copy>Copiar enlace</button><button class="button" data-print>Imprimir / PDF</button><button class="save" data-save="qwen" data-title="Flexibilidad y arquitecturas neuronales: Qwen 2.5" aria-label="Guardar: Flexibilidad y arquitecturas neuronales: Qwen 2.5" aria-pressed="false">☆</button><a class="text-link" href="https://economiayetica.blogspot.com/2025/02/flexibilidad-grafos-y-arquitecturas_2.html">Edición inglesa en el blog ↗</a></div></header><div class="article-layout"><aside class="toc" aria-label="Índice del artículo"><h2>En esta lectura</h2><a href="#flexibilidad-grafos-y-arquitecturas-neuronales-el-caso-de-qwen-25">Flexibilidad, grafos y arquitecturas neuronales: El caso de Qwen 2.5</a><a href="#-cambiar-idioma">🌐 Cambiar Idioma</a><a href="#1-modelos-densos-versus-moe">1. Modelos densos versus MoE</a><a href="#2-qué-son-los-modelos-densos-en-el-contexto-de-redes-neuronales-y-modelos-de-lenguaje">2. ¿Qué son los modelos densos en el contexto de redes neuronales y modelos de lenguaje?</a><a href="#3-qué-es-qwen-25">3. ¿Qué es Qwen 2.5?</a><a href="#4-teoría-de-los-grafos-y-arquitectura-computacional">4. Teoría de los grafos y arquitectura computacional</a><a href="#conclusión">Conclusión</a><a href="../../index.html#articulos">← Volver al archivo</a></aside><article class="prose"><h1 id="flexibilidad-grafos-y-arquitecturas-neuronales-el-caso-de-qwen-25">Flexibilidad, grafos y arquitecturas neuronales: El caso de Qwen 2.5</h1>
+<h2 id="-cambiar-idioma">🌐 Cambiar Idioma</h2>
+<ul>
+<li><a href="https://economiayetica.blogspot.com/2025/02/flexibilidad-grafos-y-arquitecturas_2.html">🇬🇧 English</a></li>
+</ul>
+<p><figure><details class="motion"><summary>Mostrar animación original</summary><img  data-lazy-src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSYT6N1_pzDA51MbYvty-gvmgWYJlURfTt9v4j0CA7BczoFvUlDhyRh6iDGPqdiwtpahph-xfhazwaLseSi9s5qGSOG0V09mkbGN4DzKBbNu629SGKItVLhenap6ti-05iPHMDGyfoRqqPII6n4gvXnriXBpIGRG7xiBnSh-otknyziZkqbHNc20BKc9g/s320/20250202_0545_Graph%20Interconnection%20Dynamics_simple_compose_01jk2xbw1vf8tr5vqecyrwf70y.gif" alt="Dinámica de interconexión en grafo" loading="lazy" decoding="async"></details><figcaption><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSYT6N1_pzDA51MbYvty-gvmgWYJlURfTt9v4j0CA7BczoFvUlDhyRh6iDGPqdiwtpahph-xfhazwaLseSi9s5qGSOG0V09mkbGN4DzKBbNu629SGKItVLhenap6ti-05iPHMDGyfoRqqPII6n4gvXnriXBpIGRG7xiBnSh-otknyziZkqbHNc20BKc9g/s320/20250202_0545_Graph%20Interconnection%20Dynamics_simple_compose_01jk2xbw1vf8tr5vqecyrwf70y.gif">Abrir animación ↗</a></figcaption></figure></p>
+<h2 id="1-modelos-densos-versus-moe">1. Modelos densos versus MoE</h2>
+<p>El objetivo de esta nota es analizar, usando teoría de los grafos, la diferencia entre la arquitectura de un modelo denso y un MoE (Mixture of Experts), tomando como ejemplo el reciente modelo desarrollado por Alibaba: <strong>Qwen 2.5</strong>.</p>
+<h2 id="2-qué-son-los-modelos-densos-en-el-contexto-de-redes-neuronales-y-modelos-de-lenguaje">2. ¿Qué son los modelos densos en el contexto de redes neuronales y modelos de lenguaje?</h2>
+<p>Un modelo denso (<strong>Dense Model</strong>) es un tipo de modelo de red neuronal en el que todos los parámetros se activan y utilizan en cada paso de inferencia o entrenamiento. Esto significa que cada una de las neuronas o unidades de la arquitectura contribuye significativamente al procesamiento de los datos en cada iteración.</p>
+<p>Las siguientes son las características clave de los modelos densos:</p>
+<ul>
+<li><strong>Todos los parámetros se utilizan simultáneamente:</strong> En cada forward pass (paso de inferencia) o backward pass (paso de entrenamiento), todas las capas y parámetros participan. Esta característica los diferencia de los modelos MoE, en los cuales solo se activa un subconjunto de expertos en cada inferencia.</li>
+<li><strong>Uso de memoria y cómputo constante:</strong> Al estar todas las conexiones activas todo el tiempo, el consumo de memoria y cómputo es predecible y fijo, dependiendo del número total de parámetros.</li>
+<li><strong>Generalmente más fáciles de implementar:</strong> Su estructura uniforme y simple facilita el entrenamiento, sin requerir el enrutamiento de expertos que demandan los modelos MoE.</li>
+</ul>
+<p>Con esta definición, pasamos a estudiar el reciente modelo de la empresa Alibaba.</p>
+<h2 id="3-qué-es-qwen-25">3. ¿Qué es Qwen 2.5?</h2>
+<p>Recientemente, Alibaba lanzó <strong>Qwen 2.5</strong>, el cual enriquece el ecosistema chino de Inteligencia Artificial y, debido a la creciente influencia de los sistemas de IA, su impacto se extiende más allá de China. Qwen 2.5 es una serie de modelos de lenguaje a gran escala (LLMs) diseñados para ofrecer una mejor comprensión del lenguaje, generación de texto, razonamiento, matemáticas y programación. Forma parte de la evolución de la familia Qwen, destacándose por su escalabilidad y eficiencia en comparación con versiones anteriores.</p>
+<p>El modelo está disponible en dos formatos principales:</p>
+<ul>
+<li><strong>Modelos de código abierto (&quot;Open-Weight&quot;)</strong>: Accesibles en Hugging Face y otros repositorios.</li>
+<li><strong>Modelos propietarios (API en la nube)</strong>: Optimados para una inferencia rápida mediante técnicas MoE.</li>
+</ul>
+<p>Para el propósito de esta nota se destacan dos implementaciones de Qwen 2.5, cada una con una arquitectura diferente:</p>
+<p><strong>Comparativa:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Característica</th>
+<th>Qwen2.5 Open-Weight (Modelo Denso)</th>
+<th>Qwen2.5-Turbo / Plus (MoE)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Arquitectura</strong></td>
+<td>Dense Transformer</td>
+<td>Mixture of Experts (MoE)</td>
+</tr>
+<tr>
+<td><strong>Parámetros Activos</strong></td>
+<td>Se usan todos los parámetros en cada inferencia</td>
+<td>Solo se activa una fracción de parámetros por consulta</td>
+</tr>
+<tr>
+<td><strong>Uso de Cómputo</strong></td>
+<td>Alto, ya que todas las capas se activan siempre</td>
+<td>Más eficiente, usando solo los expertos más relevantes</td>
+</tr>
+<tr>
+<td><strong>Escalabilidad</strong></td>
+<td>Limitada, requiere más GPUs para crecer</td>
+<td>Mayor, puede expandirse sin aumentar el cómputo proporcionalmente</td>
+</tr>
+<tr>
+<td><strong>Eficiencia en Inferencia</strong></td>
+<td>Más costosa y lenta</td>
+<td>Más rápida y optimizada para producción</td>
+</tr>
+<tr>
+<td><strong>Disponibilidad</strong></td>
+<td>Open-weight (código abierto)</td>
+<td>Disponible vía API en Alibaba Cloud</td>
+</tr>
+</tbody></table>
+<p><em>Fuente: Elaboración propia</em></p>
+<p>Por ejemplo, <strong>Qwen2.5 Open-Weight</strong> es un modelo denso; todas sus capas y conexiones se activan en cada inferencia, lo que lo hace ideal para investigación en hardware de alto rendimiento, aunque con un costo computacional elevado. En cambio, <strong>Qwen2.5-Turbo</strong> y <strong>Qwen2.5-Plus</strong>, al ser modelos MoE, activan solo algunas partes según la entrada, reduciendo el consumo de memoria y acelerando la inferencia, lo que resulta más eficiente para aplicaciones en la nube.</p>
+<h2 id="4-teoría-de-los-grafos-y-arquitectura-computacional">4. Teoría de los grafos y arquitectura computacional</h2>
+<p>Desde el punto de vista de la teoría de grafos, un modelo denso puede interpretarse como un <strong>grafo denso</strong>, en el que todos los nodos (neuronas) están altamente conectados. Un grafo denso es aquel en el que el número de aristas (conexiones entre nodos) se acerca al máximo posible. Para un grafo dirigido con <code>N</code> nodos, el número máximo de aristas es <code>N(N-1)</code> (cada nodo puede conectarse con todos los demás).</p>
+<p>Formalmente, la densidad de un grafo dirigido <code>G = (V, E)</code> se define como:</p>
+<p>D(G) = |E| / (|V|(|V| - 1))</p>
+<p>markdown
+Copiar</p>
+<p>Donde:</p>
+<ul>
+<li><code>|V|</code> es el número de nodos (neuronas o capas de la red)</li>
+<li><code>|E|</code> es el número de conexiones (pesos sinápticos).</li>
+</ul>
+<p>Si la densidad se acerca a 1, el grafo se considera denso; si se acerca a 0, es disperso (<em>sparse</em>).</p>
+<p>En Deep Learning, un modelo denso se asemeja a un grafo casi completamente conectado, en el que:</p>
+<ul>
+<li>Las capas forman los nodos.</li>
+<li>Las conexiones sinápticas representan las aristas.</li>
+<li>Cada nodo de una capa se conecta con todos los nodos de la siguiente (como en una fully connected layer).</li>
+</ul>
+<h2 id="conclusión">Conclusión</h2>
+<p>El uso de modelos densos y MoE se refleja en la eficiencia del modelo y puede representarse mediante grafos. Los modelos densos (<strong>Qwen2.5 Open-Weight</strong>) tienen una densidad de grafo cercana a 1, utilizando todas las conexiones posibles, lo que implica un mayor uso de memoria y cómputo pero ofrece mayor consistencia en las respuestas. En contraste, los modelos MoE (<strong>Qwen2.5-Turbo</strong> y <strong>Qwen2.5-Plus</strong>) tienen una densidad mucho menor, activando solo una fracción de expertos por inferencia, lo que permite escalabilidad sin un incremento proporcional en el costo de hardware.</p>
+<p><figure><details class="motion"><summary>Mostrar animación original</summary><img  data-lazy-src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQtx6hUt9Vu_a-kVpLrj40BR_Hyhxc8zscng-88kB9vXLqF9xlcFLiivXR5uFeahe6tPssbksDsxHsKfDz_kKxBM_TPBpIwyOjlA7WPLwtJJcSPEsInVcFUzbToNjapspjPC0LDqf2YELbcAgzRiWWPAFoeWzx439Ypt5rYF2VOL5Ussn3Mr7b9CrOQBU/s320/grafos%20completos.gif" alt="Grafos Completos" loading="lazy" decoding="async"></details><figcaption><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQtx6hUt9Vu_a-kVpLrj40BR_Hyhxc8zscng-88kB9vXLqF9xlcFLiivXR5uFeahe6tPssbksDsxHsKfDz_kKxBM_TPBpIwyOjlA7WPLwtJJcSPEsInVcFUzbToNjapspjPC0LDqf2YELbcAgzRiWWPAFoeWzx439Ypt5rYF2VOL5Ussn3Mr7b9CrOQBU/s320/grafos%20completos.gif">Abrir animación ↗</a></figcaption></figure></p>
+<p>Video generado por Qwen 2.5 representando un grafo denso y un grafo disperso.</p>
+<p><a href="https://arxiv.org/abs/2412.15115">Reference: Qwen 2.5 Technical Report</a></p>
+<div class="article-original"><p>Esta nota conserva el texto del archivo original y su contexto histórico.</p><a href="https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/main/Qwen-2-5.md">Consultar archivo original ↗</a></div></article></div></main><footer class="site-footer"><div class="shell footer-row"><span>© 2026 Sergio Gevatschnaider · Portal actualizado 30.09.2026</span><div class="footer-links"><a href="https://github.com/sgevatschnaider/sgevatschnaider.github.io">Código del sitio</a><a href="https://economiayetica.blogspot.com/">Economía y Ética ↗</a><a href="../../index.html#contacto">Contacto</a></div></div></footer><a class="back-top" href="#inicio" aria-label="Volver arriba" hidden>↑</a><div class="toast" role="status" aria-live="polite" hidden></div><script src="../../../assets/site.js?v=20260930" defer></script></body></html>

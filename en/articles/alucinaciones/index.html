@@ -1,0 +1,60 @@
+<!doctype html><html lang="en" data-theme="light"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Why models can produce convincing but incorrect answers, and what retrieval and verification can contribute."><meta name="author" content="Sergio Gevatschnaider"><meta name="theme-color" content="#183c38"><title>Hallucinations and language models · Sergio Gevatschnaider</title><link rel="canonical" href="https://sgevatschnaider.github.io/en/articles/alucinaciones/"><link rel="alternate" hreflang="en" href="https://sgevatschnaider.github.io/en/articles/alucinaciones/"><link rel="alternate" hreflang="es" href="https://sgevatschnaider.github.io/es/articulos/alucinaciones/"><meta property="og:type" content="article"><meta property="og:title" content="Hallucinations and language models"><meta property="og:description" content="Why models can produce convincing but incorrect answers, and what retrieval and verification can contribute."><meta property="og:url" content="https://sgevatschnaider.github.io/en/articles/alucinaciones/"><meta property="og:image" content="https://sgevatschnaider.github.io/assets/social-cover.png"><meta property="og:locale" content="en_US"><meta name="twitter:card" content="summary_large_image"><link rel="icon" type="image/svg+xml" href="../../../assets/favicon.svg"><script src="../../../assets/theme-init.js?v=20260930"></script><link rel="stylesheet" href="../../../assets/site.css?v=20260930"></head><body data-page="article" data-article-id="alucinaciones" data-article-title="Hallucinations and language models"><div class="reading-progress" data-reading-progress></div><a class="skip" href="#contenido">Skip to content</a><header id="inicio" class="site-header"><div class="shell header-row"><a class="brand" href="../../index.html"><span class="brand-mark" aria-hidden="true">SG</span><span><strong>Sergio Gevatschnaider</strong><small>Economics, data and ideas</small></span></a><nav id="main-nav" aria-label="Main navigation"><a href="../../index.html#articulos">Articles</a><a href="../../index.html#cursos">Courses</a><a href="../../index.html#simulaciones">Simulations</a><a href="../../index.html#notas">Notes</a><a href="../../index.html#sobre-mi">About</a><a href="../../index.html#contacto">Contact</a></nav><div class="header-tools"><div class="language" aria-label="Language"><a href="../../../es/articulos/alucinaciones/index.html" data-language-link lang="es" aria-label="Español">ES</a><span class="active" aria-current="true" lang="en">EN</span></div><button class="icon-button" type="button" data-theme-toggle aria-label="Switch theme" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9Z" fill="none" stroke="currentColor" stroke-width="1.7"/></svg></button></div><button class="menu-toggle" data-menu type="button" aria-controls="main-nav" aria-expanded="false">Menu</button></div></header><main id="contenido" class="shell"><div class="breadcrumbs"><a href="../../index.html">Home</a> / <a href="../../index.html#articulos">Articles</a> / Artificial intelligence</div><header class="article-header"><p class="eyebrow">Artificial intelligence</p><h1>Hallucinations and language models</h1><p class="lead">Why models can produce convincing but incorrect answers, and what retrieval and verification can contribute.</p><div class="pills"><span class="pill">4 min read</span><span class="pill">Jan 2025</span><span class="pill">Revised edition</span></div><div class="reading-tools"><button class="button" data-copy>Copy link</button><button class="button" data-print>Print / PDF</button><button class="save" data-save="alucinaciones" data-title="Hallucinations and language models" aria-label="Save: Hallucinations and language models" aria-pressed="false">☆</button><a class="text-link" href="https://economiayetica.blogspot.com/2025/01/hallucinations-and-llms-color-variables.html">English edition on the blog ↗</a></div></header><div class="article-layout"><aside class="toc" aria-label="Article contents"><h2>In this article</h2><a href="#1-when-a-convincing-answer-is-not-a-true-answer">1. When a convincing answer is not a true answer</a><a href="#2-mitigation-tools-and-their-limits">2. Mitigation tools and their limits</a><a href="#3-reading-theoretical-limits-carefully">3. Reading theoretical limits carefully</a><a href="#4-gödel-and-the-halting-problem-what-they-do-and-do-not-say">4. Gödel and the halting problem: what they do and do not say</a><a href="#5-retrieving-a-needle-is-not-always-an-undecidable-problem">5. Retrieving a needle is not always an undecidable problem</a><a href="#6-from-confidence-in-tone-to-confidence-in-evidence">6. From confidence in tone to confidence in evidence</a><a href="#references">References</a><a href="../../index.html#articulos">← Back to the archive</a></aside><article class="prose"><div class="original-notice"><p>Revised bilingual edition · 30 September 2026. Includes conceptual clarifications and references. <a href="../../../es/archivo/alucinaciones/index.html">Read the complete historical Spanish text</a>.</p></div><h2 id="1-when-a-convincing-answer-is-not-a-true-answer">1. When a convincing answer is not a true answer</h2>
+<p>A language model may produce a fluent explanation, cite a non-existent paper or combine incompatible facts. The answer sounds convincing, but its content is unsupported. This kind of output is commonly called a <strong>hallucination</strong>.</p>
+<p>Two problems should be distinguished: a claim may be false about the world, or it may contradict the documents provided to the model. The distinction matters because evaluation and correction strategies also differ.</p>
+<p><strong>Example.</strong> We ask for the author of a specific paper. The model gives a plausible name. To assess the answer, plausibility is insufficient: we need to check the original paper.</p>
+<h2 id="2-mitigation-tools-and-their-limits">2. Mitigation tools and their limits</h2>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>What it contributes</th>
+<th>What it does not guarantee</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Retrieval-augmented generation, or RAG</td>
+<td>Lets the system consult relevant documents before generating an answer.</td>
+<td>That the correct document is retrieved or correctly interpreted.</td>
+</tr>
+<tr>
+<td>Self-consistency</td>
+<td>Compares several responses or reasoning trajectories and looks for agreement.</td>
+<td>That several agreeing responses are true.</td>
+</tr>
+<tr>
+<td>Reasoning and decomposition</td>
+<td>Organises a problem into steps that can be examined.</td>
+<td>That an extended explanation is a valid proof.</td>
+</tr>
+<tr>
+<td>Tool-based verification</td>
+<td>Checks calculations, citations and claims against external resources.</td>
+<td>That the tool or source is suitable for every claim.</td>
+</tr>
+<tr>
+<td>Abstention</td>
+<td>Allows the system to acknowledge missing evidence.</td>
+<td>That it always recognises the limits of its knowledge.</td>
+</tr>
+</tbody></table>
+<p>These tools can reduce errors on specific tasks. Their effectiveness should be measured using relevant examples, verifiable sources and an explicit evaluation criterion.</p>
+<h2 id="3-reading-theoretical-limits-carefully">3. Reading theoretical limits carefully</h2>
+<p>In <em>LLMs Will Always Hallucinate, and We Need to Live With This</em>, Sourav Banerjee, Ayushi Agarwal and Saloni Singla present an argument about structural limitations, drawing on computation theory and undecidable problems. This is the theoretical position of that paper, which should be read with attention to its definitions and assumptions.</p>
+<p>It does not follow directly that every concrete question will receive a wrong answer, or that all mitigation strategies are useless. <strong>The absence of a universal correctness guarantee and accuracy on a bounded task are different questions.</strong></p>
+<h2 id="4-gödel-and-the-halting-problem-what-they-do-and-do-not-say">4. Gödel and the halting problem: what they do and do not say</h2>
+<p>Gödel’s incompleteness theorems concern formal systems satisfying specific conditions. A language model does not automatically become one of those systems merely because it produces text or uses mathematical operations.</p>
+<p>The halting problem establishes that no general algorithm can decide, for every program and every input, whether the program will terminate. It does not mean that an LLM implementation cannot enforce a token limit. A system can stop generation after a defined budget.</p>
+<p>These results help us think about general limits of computational procedures. Connecting those limits to observable model behaviour requires a precise argument; an analogy cannot replace it.</p>
+<h2 id="5-retrieving-a-needle-is-not-always-an-undecidable-problem">5. Retrieving a needle is not always an undecidable problem</h2>
+<p>Searching a finite collection of documents can be a computable task. A different question is whether a retrieval system finds the relevant passage or whether a model uses a long context correctly.</p>
+<p><em>Needle in a haystack</em> experiments therefore evaluate practical capabilities under specific conditions. They should not automatically be confused with an undecidability theorem covering every document search.</p>
+<h2 id="6-from-confidence-in-tone-to-confidence-in-evidence">6. From confidence in tone to confidence in evidence</h2>
+<p>When examining an answer, ask: what claim is being made? What source supports it? Does the source actually say that? Can the calculation be reproduced? What remains uncertain?</p>
+<p>A useful response may include limitations, alternatives or a request for more information. Evaluation improves when we examine evidence and the scope of a claim as well as the fluency of the text.</p>
+<h2 id="references">References</h2>
+<ul>
+<li>Banerjee, Agarwal and Singla: <a href="https://arxiv.org/abs/2409.05746">LLMs Will Always Hallucinate, and We Need to Live With This</a>.</li>
+<li>Huang and colleagues: <a href="https://arxiv.org/abs/2311.05232">A Survey on Hallucination in Large Language Models</a>.</li>
+</ul>
+<p>This revised edition clarifies conceptual distinctions in the January 2025 note. The original text remains available in the archive.</p>
+<div class="article-original"><p>This archive note retains its original publication context.</p><a href="https://github.com/sgevatschnaider/sgevatschnaider.github.io/blob/main/alucinaciones.md">View original archive file ↗</a></div></article></div></main><footer class="site-footer"><div class="shell footer-row"><span>© 2026 Sergio Gevatschnaider · Portal updated 30.09.2026</span><div class="footer-links"><a href="https://github.com/sgevatschnaider/sgevatschnaider.github.io">Site source</a><a href="https://economiayetica.blogspot.com/">Economía y Ética ↗</a><a href="../../index.html#contacto">Contact</a></div></div></footer><a class="back-top" href="#inicio" aria-label="Back to top" hidden>↑</a><div class="toast" role="status" aria-live="polite" hidden></div><script src="../../../assets/site.js?v=20260930" defer></script></body></html>

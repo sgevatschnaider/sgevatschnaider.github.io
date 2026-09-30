@@ -1,34 +1,38 @@
-# sgevatschnaider.github.io
+# Documentation · English
 
-<div align="center">
-  <img src="https://github.com/sgevatschnaider/sgevatschnaider.github.io/raw/main/20250113_1958_Mystical%20Data%20Labyrinths_simple_compose_01jhgy86t8eph9yne675yf4c1t.gif" alt="Visualización" width="100%" style="border: 1px solid #ccc; border-radius: 8px;">
-</div>
+This bilingual portal brings together Sergio Gevatschnaider’s articles, courses and simulations, and links to his **Economía y Ética** research notebook.
 
-Bienvenido a mi sitio personal de GitHub Pages. Este espacio está dedicado a la exploración de temas avanzados en inteligencia artificial, ciencia de datos, tecnología, criptografía, visualización, y otros campos emergentes del conocimiento.
+## Main entry points
 
-Aquí encontrarás:
+- [English homepage](https://sgevatschnaider.github.io/en/)
+- [Spanish homepage](https://sgevatschnaider.github.io/es/)
+- [ZKP / Ali Baba laboratory](https://sgevatschnaider.github.io/en/simulations/zkp/)
+- [Königsberg laboratory](https://sgevatschnaider.github.io/en/simulations/konigsberg/)
+- [Research notebook](https://economiayetica.blogspot.com/)
 
-- Documentación técnica
-- Visualizaciones interactivas
-- Ensayos sobre IA, Blockchain, Modelos de Lenguaje y más
-- Reflexiones interdisciplinarias entre tecnología, ética y ciencia
+## Editions and languages
 
----
+The homepage, navigation, catalogue and native labs have complete English and Spanish versions. The three featured readings have revised bilingual editions. Historical Markdown files are preserved. Other English archive pages provide English titles and summaries, link to English blog editions when the original file includes one, and clearly identify when the full text is available only in Spanish.
 
-## 🌍 Selecciona idioma / Choose Language
+External course materials retain their original language. A translated course card does not imply that the linked course has been translated.
 
-| Español 🇪🇸 | English 🇬🇧 |
-|------------|-------------|
-| [Ver README en Español](README_es.md) | [View README in English](README_en.md) |
+## Building and maintaining the portal
 
----
+Requires Node.js 22 or later.
 
-## ⚙️ Sobre este Repositorio
+```bash
+npm install --ignore-scripts
+npm run build
+npm run check
+node scripts/sync.mjs
+```
 
-Este sitio está construido con HTML, CSS y recursos Markdown, y se publica automáticamente mediante GitHub Pages. Es un proyecto vivo en constante evolución.
+The generator writes a reviewable `public/` directory. The sync script copies the generated pages to the repository root used by the existing GitHub Pages configuration. Commit the generated pages together with their source files. Original Markdown articles are not overwritten.
 
-Para más información específica, visita el README completo en tu idioma preferido.
+` scripts/catalog.mjs ` contains editorial metadata. `content/es/` and `content/en/` contain revised articles. `assets/` contains styles, local scripts and illustrations.
 
----
+The validation workflow checks internal links and anchors, language versions, Eulerian scenarios, ZKP outcomes and the correspondence between generated and published pages.
 
-Gracias por visitar este proyecto.
+## Local preferences
+
+Theme, saved articles and last reading are stored only in the current browser. The hash-commitment experiment does not save or send its messages. Historic animations load only when their panel is opened.

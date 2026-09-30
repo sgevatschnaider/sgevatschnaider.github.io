@@ -1,0 +1,8 @@
+(()=>{'use strict';
+const base=[['a1','A','C'],['a2','A','C'],['b1','B','C'],['b2','B','C'],['a3','A','D'],['b3','B','D'],['c1','C','D']];
+function edgesFor(preset){const edges=base.map(([id,u,v])=>({id,u,v}));if(preset==='trail')return edges.filter(e=>e.id!=='c1');if(preset==='cycle')return [...edges,{id:'extra1',u:'A',v:'B'},{id:'extra2',u:'C',v:'D'}];return edges}
+function analyze(edges){const degree={},adj={};for(const e of edges){degree[e.u]=(degree[e.u]||0)+1;degree[e.v]=(degree[e.v]||0)+1;(adj[e.u]??=[]).push(e.v);(adj[e.v]??=[]).push(e.u)}const nodes=Object.keys(degree),seen=new Set(),stack=nodes.length?[nodes[0]]:[];while(stack.length){const v=stack.pop();if(seen.has(v))continue;seen.add(v);stack.push(...(adj[v]||[]))}const connected=seen.size===nodes.length,odd=nodes.filter(v=>degree[v]%2);return {degree,odd,connected,possible:connected&&(odd.length===0||odd.length===2)}}
+function euler(edges){const info=analyze(edges);if(!edges.length)return {vertices:[],edges:[]};if(!info.possible)return null;const adjacency={};for(const e of edges){(adjacency[e.u]??=[]).push(e);(adjacency[e.v]??=[]).push(e)}const start=info.odd[0]||edges[0].u,stack=[{v:start,incoming:null}],used=new Set(),out=[];while(stack.length){const at=stack[stack.length-1],available=(adjacency[at.v]||[]).find(e=>!used.has(e.id));if(available){used.add(available.id);stack.push({v:available.u===at.v?available.v:available.u,incoming:available.id})}else out.push(stack.pop())}out.reverse();return {vertices:out.map(x=>x.v),edges:out.slice(1).map(x=>x.incoming)}}
+const success=(knows,entry,challenge)=>Boolean(knows)||entry===challenge;
+const probability=n=>Math.pow(.5,n);
+globalThis.SGMath=Object.freeze({edgesFor,analyze,euler,success,probability});})();
