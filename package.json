@@ -1,1 +1,20 @@
-{"name":"sergio-gevatschnaider-portal","private":true,"type":"module","scripts":{"build":"node scripts/build.mjs","check":"node scripts/check.mjs"},"devDependencies":{"marked":"17.0.5"},"engines":{"node":">=22"}}
+{
+  "name": "sergio-gevatschnaider-portal",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs && node scripts/check-ui.mjs",
+    "sync:blog": "node scripts/sync-blog.mjs",
+    "sync": "node scripts/sync.mjs"
+  },
+  "devDependencies": {
+    "cheerio": "1.2.0",
+    "happy-dom": "20.9.0",
+    "katex": "0.18.10",
+    "marked": "17.0.5"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

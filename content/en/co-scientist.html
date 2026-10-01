@@ -1,0 +1,69 @@
+<h1><strong>Artificial Intelligence</strong>, <strong>Agent Model</strong> and <strong>Graph Theory</strong></h1>
+        <p>
+          Multi-agent systems are revolutionizing artificial intelligence by enabling collaboration between multiple specialized agents. To better understand this architecture, this article explores the study <strong>Towards an AI Co‑Scientist</strong>, developed by Google Research and Google DeepMind.
+        </p>
+        <p>
+          As a key tool in this analysis, we use <strong>graph theory</strong>, which helps us understand how these systems are structured, organized, and optimized, especially in the generation and evolution of scientific hypotheses.
+        </p>
+         <div class="separator">
+            <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicETdBDIpGUrJ7QGTimtdwA4nQWd-JPBUKeYOyDg46YsCBt9m8ry36Wr5gwTBCKKPAnxfHcozLYiN_ejGaPbuwEF4SWlS39nZAR3Z_aSkDmypklpR2iA9B0L0u2dgcQsVoIVkKUHLh1V_Kx32NzeBl4fJEkw0VWE6DWRGYKm8BDUH18FZWxQqD_ssxkdw/s1200/ai_co_scientist_hierarchical%20%281%29.gif">
+              <img alt="Diagrama AI Co‑Scientist" border="0" width="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicETdBDIpGUrJ7QGTimtdwA4nQWd-JPBUKeYOyDg46YsCBt9m8ry36Wr5gwTBCKKPAnxfHcozLYiN_ejGaPbuwEF4SWlS39nZAR3Z_aSkDmypklpR2iA9B0L0u2dgcQsVoIVkKUHLh1V_Kx32NzeBl4fJEkw0VWE6DWRGYKm8BDUH18FZWxQqD_ssxkdw/s320/ai_co_scientist_hierarchical%20%281%29.gif">
+            </a>
+           <p><em>Source: Own elaboration using graphs based on the paper <strong>Towards an AI co‑scientist</strong></em></p>
+          </div>
+        <h2>Imagine an Artificial Intelligence that Discovers Medicines</h2>
+        <p>
+          In scientific research, generating new hypotheses is a complex process that requires analyzing large volumes of information and multiple validations. Now, one must imagine an artificial intelligence system that can formulate scientific hypotheses, evaluate them, and autonomously improve them.
+        </p>
+        <p>
+          This is the concept behind the <strong>AI Co‑Scientist</strong>, a system based on a Hierarchical Multi‑Agent System (HMAS) architecture that organizes different AI agents into levels of authority and cooperation. To understand its operation, <strong>graph theory</strong> is an essential tool as it allows us to model its structure, visualize the flow of information, and analyze how agents collaborate to accelerate scientific discovery.
+        </p>
+        
+        <h2>Hierarchical Multi‑Agent Systems (HMAS) and their Application in the AI Co‑Scientist</h2>
+        <p>
+          A Hierarchical Multi‑Agent System (HMAS) is an architecture in which multiple intelligent agents are organized into different levels based on their function and decision-making capacity. Its hierarchical structure enables optimized communication, task division, and greater scalability.
+        </p>
+        <p>
+          The <strong>AI Co‑Scientist</strong> is an example of HMAS applied to scientific research, as it organizes agents into hierarchical levels where high‑level agents supervise and coordinate the work of subordinate agents. Furthermore, it divides the hypothesis generation process into subtasks, assigning each agent a specific role. The autonomy of the agents allows them to operate independently within their function, while cooperation and the flow of information between them optimize hypothesis validation. Its adaptable and scalable design permits the incorporation of new agents and the reconfiguration of processes according to the problem’s complexity.
+        </p>
+        <p>
+          This system can be modeled with <strong>graph theory</strong>, which allows its interactions and processes to be represented in a structured way.
+        </p>
+        
+        <h2>Modeling the AI Co‑Scientist with Graph Theory</h2>
+        <p>
+          In this case, the <strong>AI Co‑Scientist</strong> can be represented as a directed graph <em>G = (V, E)</em>, where the nodes represent the specialized agents within the system and the directed edges indicate the flow of information between them. Optionally, weights can be added to the edges to represent the relevance or priority of certain interactions.
+        </p>
+        <p>
+          More precisely, it can be represented as a cyclic directed graph (a partial DAG) with some feedback cycles, where there is a multi‑agent network in which each agent has specialized roles and communicates dynamically. It is expressed as an information flow network, similar to models of distributed systems. This representation is the one that heads this note.
+        </p>
+        
+        <h2>Types of Graphs Applied to the AI Co‑Scientist</h2>
+        <p>
+          The organization of the <strong>AI Co‑Scientist</strong> has the structure of a <strong>directed graph</strong>, which facilitates task assignment and decision‑making at different levels. In addition, agents need to exchange information efficiently, which is modeled with a communication graph where the connections between nodes represent data flow. For hypothesis comparison, the <strong>Ranking Agent</strong> employs a weighted directed graph—similar to an Elo ranking in chess—where each node is a hypothesis and the edges indicate comparisons among them. Finally, the <strong>Proximity Agent</strong> organizes a similarity graph, where nodes represent hypotheses and the edges connect those with similar content.
+        </p>
+        
+        <h2>Example of Application in Biomedical Discovery</h2>
+        <p>
+          The <strong>AI Co‑Scientist</strong> has been used in biomedicine for drug repurposing, the identification of new therapeutic targets, and the study of the evolution of antimicrobial resistance. In the first case, the system searches for existing drugs that can treat new diseases. For therapeutic target discovery, it identifies new molecules or key genes in specific diseases. Finally, in the evolution of antimicrobial resistance, it analyzes how bacteria develop resistance to antibiotics, allowing for the prediction of new therapeutic strategies.
+        </p>
+        
+        <h2>Conclusion</h2>
+        <p>
+          The <strong>AI Co‑Scientist</strong> is an advanced example of Hierarchical Multi‑Agent Systems (HMAS) applied to scientific research. Thanks to <strong>graph theory</strong>, it is possible to model its structure and visualize how information flows within the system, thereby optimizing its efficiency.
+        </p>
+        
+        <h2>Table of Graph Theory Models for the AI Co‑Scientist</h2>
+        <div class="separator"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNJYhIsLMb-M9W6RVWceTHdCJdknaZOqfyMQg2oXVqMD8cBVYTaZXAbpt-rySC7xPPk01043TEE8jTj3NMODs7WvUuItwQT1CXsFNcioBztF1wf2vbjYcgTZ_nIxeJHQRJOgBHrMx2yut-l_LmsUlzCt3Ef6iGosmTN2ciLa1VD4UgOWR8Gz2tggSt-OM/s641/tabla%20en%20ingles.png"><img alt="" border="0" width="320" data-original-height="265" data-original-width="641" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNJYhIsLMb-M9W6RVWceTHdCJdknaZOqfyMQg2oXVqMD8cBVYTaZXAbpt-rySC7xPPk01043TEE8jTj3NMODs7WvUuItwQT1CXsFNcioBztF1wf2vbjYcgTZ_nIxeJHQRJOgBHrMx2yut-l_LmsUlzCt3Ef6iGosmTN2ciLa1VD4UgOWR8Gz2tggSt-OM/s320/tabla%20en%20ingles.png"></a></div>
+        <p><em>Source: Own elaboration</em></p>
+        
+        <h2>References</h2>
+        <p>
+          <a class="link-button" href="https://storage.googleapis.com/coscientist_paper/ai_coscientist.pdf" target="_blank">Towards an AI co‑scientist</a>
+        </p>
+        <p>
+          <a class="link-button" href="https://research.google/blog/accelerating-scientific-breakthroughs-with-an-ai-co-scientist/" target="_blank">Google Blog</a>
+        </p>
+        <p>
+          <a class="link-button" href="https://github.com/sgevatschnaider/Grafos/blob/81dfd531d00b321edbcb4a00bd261d11d4e24438/ntebooks/%20Sistemas_Jer%C3%A1rquicos_Multi%E2%80%91Agente_(HMAS).ipynb" target="_blank">Github</a>
+        </p>

@@ -1,0 +1,234 @@
+<!-- Language switcher widget -->
+  <div class="language-widget">
+    <h3>🌐 Change / Cambiar Language</h3>
+    <ul>
+      <!-- Keep the link to the Spanish version -->
+      <li><a href="https://economiayetica.blogspot.com/2025/01/titans-vs-transformers-root-primary.html">🇪🇸 Español</a></li>
+      <li><a href="https://economiayetica.blogspot.com/2025/01/titans-vs-transformers-root-primary_21.html">🇬🇧 English</a></li>
+    </ul>
+  </div>
+
+  <h1>Titans vs Transformers: A New Kind of Memory</h1>
+
+  <!-- Diagram before the index -->
+  <div class="separator">
+    <!-- MAIN DIAGRAM OR IMAGE (as indicated in the Spanish version) -->
+    <div class="separator">
+      <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizAH4didhsQICR4uk9G8KaokHV7-ddxhCueWrf7UFfLykJ5UQFYlXVuN1N5kYFXSRXimz86wQhveUaDX5dy2AhV_2oi80NGfUqUZGnqVSGvq6kDrIR5dSMk8oq18cz58gAudqiKzgunihz4Qop75kqx4xad9C4GMkAoEwRaKEn9tcAduWQ_UhZ1m_BUJo/s320/20250121_0825_Futuristic%20Mountain%20Panorama_simple_compose_01jj49redcf499pbw4k6wfsnqe.gif">
+        <img alt="" border="0" width="320" data-original-height="180" data-original-width="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizAH4didhsQICR4uk9G8KaokHV7-ddxhCueWrf7UFfLykJ5UQFYlXVuN1N5kYFXSRXimz86wQhveUaDX5dy2AhV_2oi80NGfUqUZGnqVSGvq6kDrIR5dSMk8oq18cz58gAudqiKzgunihz4Qop75kqx4xad9C4GMkAoEwRaKEn9tcAduWQ_UhZ1m_BUJo/s320/20250121_0825_Futuristic%20Mountain%20Panorama_simple_compose_01jj49redcf499pbw4k6wfsnqe.gif">
+      </a>
+    </div>
+  </div>
+
+
+
+        <div class="content">
+            <p><strong>1.</strong> Introduction</p>
+            <p><strong>2.</strong> Limitations of Transformers</p>
+            <p><strong>3.</strong> Titans: Architectures Inspired by Human Memory</p>
+            <p><strong>4.</strong> Advantages of Titans over Transformers</p>
+            <p><strong>5.</strong> Three Ways to Incorporate Memory</p>
+            <p><strong>6.</strong> References</p>
+        </div>
+  
+  <!-- SECTION 1 - INTRODUCTION -->
+  
+  <div class="content">
+    <p>
+      This note aims to present the architecture introduced in
+      <span class="highlight">Titans: Learning to Memorize at Test Time</span>. It compares
+      <span class="highlight">Titans</span> to traditional <span class="highlight">Transformers</span>,
+      highlights its advantages, and describes the three proposed strategies to integrate
+      <span class="highlight">memory</span>.
+    </p>
+  </div>
+
+  <!-- SECTION 2 - LIMITATIONS -->
+  
+  <div class="content">
+    <p>
+      One problem with <span class="highlight">Transformers</span> is the
+      <span class="highlight">quadratic complexity</span> of the attention mechanism, causing
+      performance and viability to decrease rapidly as the input sequence length grows.
+    </p>
+    <p>
+      For example, in tasks where contextual dependencies span very long sequences—such as large
+      documents, biological data, or time series—standard <span class="highlight">Transformers</span>
+      cannot efficiently handle these sequences without using truncations or simplifications.
+      These limitations can negatively affect result quality.
+    </p>
+    <p>
+      The following chart compares three complexities: quadratic, linear, and logarithmic.
+    </p>
+    <div class="separator">
+      <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhg7klrQWaCdlb-ouNpQ5WG_wHzcho7FTT7Ry7xHrEbNWdVI41CowWjWjRQa8ybF9nqlSrSo5usdOQ_tC6IqWYFFhJIM40pbHmILbNVK6jBBqPv6_mHRUQPv-R9B_vsrPopenbG7-K1owhJTuXCnOb8S_jaihyphenhypheng57xLRc71s0pfhyphenhypheni4vBtRCx5Pj-uuJq0/s361/cuadr%C3%A1tica.png">
+        <img alt="" border="0" width="320" data-original-height="235" data-original-width="361" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhg7klrQWaCdlb-ouNpQ5WG_wHzcho7FTT7Ry7xHrEbNWdVI41CowWjWjRQa8ybF9nqlSrSo5usdOQ_tC6IqWYFFhJIM40pbHmILbNVK6jBBqPv6_mHRUQPv-R9B_vsrPopenbG7-K1owhJTuXCnOb8S_jaihyphenhypheng57xLRc71s0pfhyphenhypheni4vBtRCx5Pj-uuJq0/s320/cuadr%C3%A1tica.png">
+      </a>
+    </div>
+    <div class="separator">
+      <p><em>Source: Own elaboration</em></p>
+    </div>
+    <p>
+      This chart clearly shows how <span class="highlight">quadratic complexity</span>
+      limits the use of standard <span class="highlight">Transformers</span> for long sequences.
+    </p>
+  </div>
+
+  <!-- SECTION 3 - TITANS -->
+  
+  <div class="content">
+    <p>
+      To address these issues, in the paper
+      <span class="highlight">Titans: Learning to Memorize at Test Time</span>,
+      Google researchers propose a new architecture, <span class="highlight">Titans</span>, that
+      overcomes these limitations. This architecture is based on the structure of
+      <span class="highlight">human memory</span> to integrate short-term memory,
+      long-term memory, and <span class="highlight">persistent memory</span>.
+    </p>
+    <p>
+      To this end, <span class="highlight">Titans</span> includes a
+      <span class="highlight">neural memory module</span> that combines three main types:
+    </p>
+    <ul>
+      <li>
+        Short-term memory that captures local dependencies, similar to the attention mechanism
+        of <span class="highlight">Transformers</span>.
+      </li>
+      <li>
+        Long-term memory that summarizes and stores important historical relationships.
+      </li>
+      <li>
+        Persistent memory that encapsulates the general knowledge acquired during training.
+      </li>
+    </ul>
+    <p>
+      <span class="highlight">Memory</span> operates dynamically, adjusting based on the relevance
+      of the data. <span class="highlight">Titans</span> uses a “surprise” metric to identify which
+      information should be stored in long-term memory, emulating the human ability to recall
+      significant events. It also introduces a forgetting mechanism that discards irrelevant
+      information, optimizing the ability to handle new data.
+    </p>
+    <p>
+      While <span class="highlight">Transformers</span> must split long sequences into chunks due
+      to their <span class="highlight">quadratic complexity</span>, <span class="highlight">Titans</span>
+      can handle sequences of <span class="highlight">millions of tokens</span> with
+      <span class="highlight">linear</span> or sub-quadratic complexity, thanks to its long-term
+      memory module preserving global relationships without processing all possible token
+      combinations.
+    </p>
+    <p>
+      In addition, <span class="highlight">Titans</span> uses optimized mini-batch operations,
+      significantly reducing <span class="highlight">memory</span> and computation costs. This
+      design makes it a much more efficient solution for tasks requiring extensive sequence
+      analysis.
+    </p>
+    <div class="separator">
+      <div class="separator">
+        <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEbENGrOXY9R8-3Er9kWO_jiYoKEQPaLAALU3BmY6_PdIXwFviCTapI_wHgMiWLem2D79jC3i_D5BjEXi5ouXcnxuUBTVTIguGOex4zxDoY_JimCT_-dSs1rtOh8h0uGCdI8DNxT8uaEMjxJ6GqrzMgTtPpVn8muj63NiQarbR6aojttIUFIATJvRCWfA/s520/diagrama%20en%20espa%C3%B1ol.png">
+          <img alt="" border="0" height="320" data-original-height="520" data-original-width="399" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEbENGrOXY9R8-3Er9kWO_jiYoKEQPaLAALU3BmY6_PdIXwFviCTapI_wHgMiWLem2D79jC3i_D5BjEXi5ouXcnxuUBTVTIguGOex4zxDoY_JimCT_-dSs1rtOh8h0uGCdI8DNxT8uaEMjxJ6GqrzMgTtPpVn8muj63NiQarbR6aojttIUFIATJvRCWfA/s320/diagrama%20en%20espa%C3%B1ol.png">
+        </a>
+      </div>
+      <p><em>Source: Own elaboration</em></p>
+    </div>
+  </div>
+
+  <!-- SECTION 4 - ADVANTAGES -->
+  
+  <div class="content">
+    <p>
+      The advantages of <span class="highlight">Titans</span> are remarkable. It can process
+      contexts of up to 2 million <span class="highlight">tokens</span> without loss of accuracy,
+      making it exceptionally efficient. Its ability to dynamically update
+      <span class="highlight">memory</span> during inference allows it to adapt to new data
+      without retraining.
+    </p>
+    <p>
+      These features establish <span class="highlight">Titans</span> as a powerful, advanced
+      solution to the traditional limitations of <span class="highlight">Transformers</span>.
+    </p>
+  </div>
+
+  <!-- SECTION 5 - THREE WAYS TO INCORPORATE MEMORY -->
+  
+  <div class="content">
+    <p>
+      <span class="highlight">Titans</span> incorporates <span class="highlight">memory</span>
+      in three distinct variants to efficiently address the limitations of traditional
+      <span class="highlight">Transformers</span>. These variants focus on combining
+      <span class="highlight">short-term memory</span>, <span class="highlight">long-term memory</span>,
+      and <span class="highlight">persistent memory</span>, adapting to different needs in deep
+      learning tasks.
+    </p>
+
+    <!-- 5.1 MAC -->
+    <p><strong>1. Memory as Context (MAC)</strong></p>
+    <div class="separator">
+      <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjnMXMMEXopL7Sv4IlYmz8A-N6-hVWnd5VVQy2BPQeX3Akmpx6R5mihrIzh-y6qpTMhlV-EPmhWe_8Rq8u7aACzhM8RoTi6EBurASEIr1JSdKxwsiK1aWzWD702hM3NUsxGeuvNqLQc0_MG5T2W7OvVt-UPO1l9Epj8cPOAfJsKlmtuL1gIDO1VOwz5ceo/s567/contexto.png">
+        <img alt="" border="0" width="320" data-original-height="177" data-original-width="567" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjnMXMMEXopL7Sv4IlYmz8A-N6-hVWnd5VVQy2BPQeX3Akmpx6R5mihrIzh-y6qpTMhlV-EPmhWe_8Rq8u7aACzhM8RoTi6EBurASEIr1JSdKxwsiK1aWzWD702hM3NUsxGeuvNqLQc0_MG5T2W7OvVt-UPO1l9Epj8cPOAfJsKlmtuL1gIDO1VOwz5ceo/s320/contexto.png">
+      </a>
+    </div>
+    <p><em>Source: Titans: Learning to Memorize at Test Time</em></p>
+    <p>
+      In this variant, <span class="highlight">long-term memory</span> is treated as an
+      additional context that complements the current input.
+    </p>
+
+    <!-- 5.2 MAG -->
+    <p><strong>2. Memory as Gate (MAG)</strong></p>
+    <p>
+      This variant uses <span class="highlight">long-term memory</span> as a separate branch that
+      interacts with the model’s main flow through a non-linear gating mechanism.
+    </p>
+    <div class="separator">
+      <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWif-IJkplqoNG4Bm89Bo-ob4N_lyL7EqVYm3opyjitL8ZkNcxVvm624CJ1i1I-ZRofq8TB89Wds6x7UG0dSRtKY3jxVRISemYKOOVT9RtdjQe4FkfavyuNOylcxjjI0JL0bk8RNSlmu_5AtFCdi4Hl929gw2cqCYw2fvfhm54W8lLJQCB5coUkxCrtLE/s567/memoria%20comp%20puerta%7D.png">
+        <img alt="" border="0" width="320" data-original-height="194" data-original-width="567" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWif-IJkplqoNG4Bm89Bo-ob4N_lyL7EqVYm3opyjitL8ZkNcxVvm624CJ1i1I-ZRofq8TB89Wds6x7UG0dSRtKY3jxVRISemYKOOVT9RtdjQe4FkfavyuNOylcxjjI0JL0bk8RNSlmu_5AtFCdi4Hl929gw2cqCYw2fvfhm54W8lLJQCB5coUkxCrtLE/s320/memoria%20comp%20puerta%7D.png">
+      </a>
+    </div>
+    <p><em>Source: Titans: Learning to Memorize at Test Time</em></p>
+
+    <!-- 5.3 MAL -->
+    <p><strong>3. Memory as Layer (MAL)</strong></p>
+    <p>
+      Here, <span class="highlight">long-term memory</span> is integrated as an autonomous layer
+      within the architecture, acting like a recurrent or linear transformer in a deep model.
+    </p>
+    <div class="separator">
+      <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNOgiQ7r2f2DzDt9AvFvrhOqBtVjRZ2ViJjOKN_ysWu8s-3Rnlu1-T1GvlUdOzc0NYoYzMwUn_zcgwohpp2NzF1SpnT9xxHbUhHVC8d3v_p1INeBP44z4yB3qWSzo-IdnKuXyB1Eb3NusDQbB-dQ22NEsX1RMCp5R1TuItWY9By1EsXb2Oct_KHDOVmRA/s567/mal.png">
+        <img alt="" border="0" width="320" data-original-height="231" data-original-width="567" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNOgiQ7r2f2DzDt9AvFvrhOqBtVjRZ2ViJjOKN_ysWu8s-3Rnlu1-T1GvlUdOzc0NYoYzMwUn_zcgwohpp2NzF1SpnT9xxHbUhHVC8d3v_p1INeBP44z4yB3qWSzo-IdnKuXyB1Eb3NusDQbB-dQ22NEsX1RMCp5R1TuItWY9By1EsXb2Oct_KHDOVmRA/s320/mal.png">
+      </a>
+    </div>
+    <p><em>Source: Titans: Learning to Memorize at Test Time</em></p>
+
+    <h4>Comparison and Variant Selection</h4>
+    <table>
+      <tbody><tr>
+        <th>Variant</th>
+        <th>Main Benefits</th>
+        <th>Ideal Scenarios</th>
+      </tr>
+      <tr>
+        <td>MAC</td>
+        <td>Efficiently combines historical memory and current context.</td>
+        <td>Tasks with extensive dependencies and long contexts.</td>
+      </tr>
+      <tr>
+        <td>MAG</td>
+        <td>Flexibility and efficiency via dynamic gating.</td>
+        <td>Applications where local and global dependencies are equally important.</td>
+      </tr>
+      <tr>
+        <td>MAL</td>
+        <td>Simple and straightforward; suitable for sequential structures.</td>
+        <td>Hybrid models or tasks with clear patterns.</td>
+      </tr>
+    </tbody></table>
+  </div>
+
+  <!-- REFERENCES -->
+  <div class="link-buttons">
+    <a href="https://arxiv.org/abs/2501.00663" target="_blank" rel="noopener">
+      Titans: Learning to Memorize at Test Time
+    </a>
+  </div>
+
+  <!-- Collapsible buttons script -->

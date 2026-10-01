@@ -1,0 +1,107 @@
+<h1>When <strong>Artificial Intelligence</strong> Teaches Itself</h1>
+        
+        <!-- Main Image -->
+        <div class="separator">
+          <a href="#" title="Image representing a digital environment with two versions of AI competing on a chessboard">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxq7mJV2Q6o8JtCJlWPcLJ3MdSRoEOmgtLEv9zT_uhi2_3mDNL8q-T3f1gTXn9KvNGj8yAqY_gj_zzpHG_IrDXSrpLC3nPeOOCQ2pMffQeeNkp4PK3XoBsRjKeeNW3YTvx6K3NpLZn5hnXYl8dSBKNH0TyQdkAPnHaFZch02xZU-W9s_KVQGz1XTTJTqE/s320/20250217_1854_AI%20Chess%20Battle_simple_compose_01jmayeynhehesdp849qx8epzk.gif" alt="Digital environment with AI playing chess" width="320">
+          </a>
+          <p><em>Image Representing a Digital Environment with Two Versions of AI Competing on a Chessboard</em></p>
+        </div>
+        
+        <h2>Index</h2>
+        <ol>
+          <li>From <strong>LLMs</strong> to <strong>LRMs</strong></li>
+          <li>Games and <strong>Artificial Intelligence</strong></li>
+          <li>Emerging Behaviors in Models</li>
+          <li>Conclusion</li>
+          <li>References</li>
+        </ol>
+        
+        <h2>1. From <strong>LLMs</strong> to <strong>LRMs</strong></h2>
+        <p>Artificial intelligence has evolved from simple predictive models to systems capable of reasoning and improving their own performance without human intervention. This evolution has led to the emergence of <strong>Large Reasoning Models (LRMs)</strong>, which go beyond text generation to explore multiple solution paths, correct errors, and develop structured thinking. This can be observed in models such as OpenAI’s latest releases, Google’s Gemini Thinking Model, and Deepseek R1. In this article, we explore how techniques like <strong>RLSP (Reinforcement Learning via Self-Play)</strong> allow AI to learn to reason by itself, getting ever closer to human-like thinking.</p>
+        
+        <p><strong>What is the basis of this transformation?</strong></p>
+        <p>This transformation is based on the ability of reasoning models to conduct deliberate searches and execute logical reasoning chains during inference. Unlike traditional <strong>LLMs</strong>, whose primary goal is to generate coherent text, <strong>LRMs</strong> can explore different solution paths, verify their responses, and iteratively correct their mistakes. This approach not only improves accuracy but also allows models to tackle more complex problems with structured reasoning.</p>
+        
+        <p>For example, while a conventional language model may solve a mathematical equation by applying a known formula, a reasoning model can analyze the problem from multiple perspectives, evaluate different solution methods, and correct its conclusions if it detects inconsistencies in its reasoning.</p>
+        
+        <p>This paper aims to explore this question by analyzing the proposed <strong>RLSP</strong> framework and its contribution to the development of models with advanced reasoning capabilities.</p>
+        
+        <h2>2. Games and <strong>Artificial Intelligence</strong></h2>
+        <p>The core of this study is the <strong>RLSP (Reinforcement Learning via Self-Play)</strong> framework, a post-training reinforcement learning method designed to improve the reasoning ability of language models. Unlike traditional approaches such as supervised learning or reinforcement learning with human feedback (<strong>RLHF</strong>), <strong>RLSP</strong> introduces a mechanism that allows models to learn autonomously by exploring different problem-solving strategies without constant human intervention.</p>
+        
+        <p>The <strong>RLSP</strong> framework is based on three essential components that work together to promote deeper and more structured reasoning.</p>
+        
+        <h3>a) Supervised Fine-Tuning (<strong>SFT</strong>)</h3>
+        <p>The first step in <strong>RLSP</strong> involves Supervised Fine-Tuning (<strong>SFT</strong>), where the model is trained with examples of structured reasoning. These examples can be provided by humans or synthetically generated using techniques such as <strong>Chain of Thought (CoT)</strong>, which break down complex problems into logical sequences of intermediate steps.</p>
+        
+        <h3>b) Exploration Reward</h3>
+        <p>The second component introduces an exploration reward, a key mechanism to encourage the model to seek innovative solutions beyond pre-existing patterns in its training data.</p>
+        
+        <h3>c) Reinforcement Learning with <strong>PPO</strong></h3>
+        <p>The third component of <strong>RLSP</strong> is reinforcement learning using the <strong>PPO (Proximal Policy Optimization)</strong> algorithm, a widely used technique for optimizing AI models without causing abrupt behavioral changes. To ensure the model does not deviate too far from its initial behavior, a penalty based on <strong>KL divergence (Kullback-Leibler)</strong> is applied. This prevents the model from generating arbitrarily long responses without useful content (<em>reward hacking</em>), maintaining a balance between exploration and adherence to prior knowledge.</p>
+        
+        <p>This process is illustrated in the following diagram:</p>
+        <div class="separator">
+          <a href="#" title="RLSP process diagram">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVqE_32_GWAPVGF3CIawvaA3cpaXZDWpP37f2E-KPkyBwpnIKBmKd7ay8ZWVIunrz9iM8DJ16lDR5SXMSl8suCT1SzefK1frwhKwYxoJZ9zc2SPTvCoIfkQ6BqJpQ1v6yC5Tjf6eNlxdHesPHunmw6pRnD_2TCkYNMxZlj1j23sn60T2rFWo81eWPlLlQ/s320/modelo%20ingles.png" alt="RLSP Diagram" width="320">
+          </a>
+          <p><em>(Diagram source: Author’s creation)</em></p>
+        </div>
+        
+        <p>A fundamental aspect of the <strong>RLSP</strong> framework is its difference from <strong>RLHF</strong> (Reinforcement Learning from Human Feedback), a method commonly used to improve language models through direct human feedback.</p>
+        
+        <h3>Comparison: RLHF vs RLSP</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Characteristic</th>
+              <th>RLHF</th>
+              <th>RLSP</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Feedback Source</td>
+              <td>Humans rate model responses.</td>
+              <td>The model learns by exploring multiple solutions on its own.</td>
+            </tr>
+            <tr>
+              <td>Learning Method</td>
+              <td>Based on explicit human rewards.</td>
+              <td>Based on an automatic verifier and exploration rewards.</td>
+            </tr>
+            <tr>
+              <td>Level of Autonomy</td>
+              <td>Depends on constant human intervention.</td>
+              <td>Allows the model to self-train without external supervision.</td>
+            </tr>
+            <tr>
+              <td>Scalability</td>
+              <td>Limited by the number of human evaluations available.</td>
+              <td>Scalable to any domain without requiring large amounts of human annotations.</td>
+            </tr>
+          </tbody>
+        </table>
+        <p><em>(Table source: Author’s creation)</em></p>
+        
+        <p>While <strong>RLHF</strong> is useful for aligning the model with human preferences, its dependence on human evaluators limits its scalability. In contrast, <strong>RLSP</strong> allows the model to learn autonomously, optimizing its reasoning ability through self-assessment and exploration.</p>
+        
+        <h2>3. Emerging Behaviors in Models</h2>
+        <p>One of the most significant findings in the implementation of <strong>RLSP</strong> is the emergence of unexpected behaviors in language models. These behaviors, which were not explicitly programmed, arise as a result of the optimization process based on exploration and self-evaluation.</p>
+        <p>Unlike models trained through supervised learning or <strong>RLHF</strong>, models optimized with <strong>RLSP</strong> demonstrate the ability to adjust their reasoning in real-time, making them more flexible and effective in solving complex problems.</p>
+        <p>Training with <strong>RLSP</strong> induces behaviors that resemble human thinking, especially in tasks requiring multi-step reasoning. Some of the most notable behaviors include:</p>
+        <ul>
+          <li><strong>Backtracking (Revisiting and Correcting):</strong> When the model detects a potential inconsistency in its response, it can retrace its steps, review its calculations, and modify the solution based on new information.</li>
+          <li><strong>Exploration of Multiple Paths:</strong> Instead of following a single problem-solving method, the model evaluates different strategies before making a final decision, allowing it to find optimal solutions in complex cases.</li>
+          <li><strong>Self-Verification:</strong> Before providing a final response, the model checks the validity of its solution using techniques such as numerical verification or comparison with alternative methods.</li>
+        </ul>
+        
+        <h2>Conclusion</h2>
+        <p>As autonomous reasoning models continue to evolve, we are approaching a point where AI could surpass human capability in certain cognitive tasks. This raises fundamental questions about its role in decision-making, the ethics of its development, and its impact on society. Self-learning AI is not just a technological advancement; it represents a paradigm shift in our relationship with machines.</p>
+        
+        <h2>References</h2>
+        <p>On the Emergence of Thinking in LLMs I: Searching for the Right Intuition</p>
+        <div class="separator">
+          <a class="link-button" href="https://arxiv.org/abs/2502.06773" target="_blank">View Reference</a>
+        </div>

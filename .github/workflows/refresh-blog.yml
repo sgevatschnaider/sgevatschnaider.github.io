@@ -1,0 +1,51 @@
+name: Refresh notebook
+on:
+  schedule:
+    - cron: '15 3 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+concurrency:
+  group: refresh-notebook
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci --ignore-scripts --no-audit --no-fund
+      - run: npm run sync:blog
+      - run: npm run build
+      - run: npm run check
+      - run: npm run sync
+      - name: Save updated notebook links
+        id: save
+        shell: bash
+        run: |
+          git add data/blog-notes.json index.html es/index.html en/index.html
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Refresh recent notebook entries"
+            git push origin HEAD:main
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+      # GITHUB_TOKEN commits do not trigger a branch-based Pages build.
+      - name: Publish refreshed notebook
+        if: steps.save.outputs.changed == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.request('POST /repos/{owner}/{repo}/pages/builds', {
+              owner: context.repo.owner,
+              repo: context.repo.repo
+            });

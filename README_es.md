@@ -12,7 +12,7 @@ Este portal reúne los artículos, cursos y simulaciones de Sergio Gevatschnaide
 
 ## Ediciones e idiomas
 
-La portada, navegación, catálogo y laboratorios propios tienen versiones completas ES/EN. Las tres lecturas destacadas están revisadas en ambos idiomas. El archivo histórico conserva los textos originales; las fichas en inglés indican dónde leer una edición inglesa en el blog y cuándo el texto completo solo está disponible en español.
+La portada, navegación, catálogo y laboratorios propios tienen versiones completas ES/EN. Las tres lecturas destacadas están revisadas en ambos idiomas. El archivo histórico conserva los textos originales. Los 32 artículos se leen completos en ambos idiomas en el portal; las ediciones inglesas recuperadas del blog incluyen su procedencia.
 
 Se conservaron los archivos Markdown y el explorador histórico `konigsberg_dfs_2.html`. La ruta `konigsberg.html` ahora lleva al laboratorio que funciona, en lugar de cargar una copia de la portada dentro de sí misma.
 
@@ -21,3 +21,9 @@ Se conservaron los archivos Markdown y el explorador histórico `konigsberg_dfs_
 Las instrucciones de instalación, construcción, comprobación y publicación están en [README.md](README.md). Los metadatos se editan en `scripts/catalog.mjs`; los estilos y controles en `assets/`; las ediciones revisadas en `content/`.
 
 Para agregar una lectura: añadir su Markdown a la raíz, incorporarla al catálogo con título y resumen en ambos idiomas, ejecutar la construcción y los controles, sincronizar las páginas generadas y confirmar los cambios en GitHub.
+
+## Herramientas de estudio
+
+Las tres rutas guardan sus pasos en el navegador. La búsqueda incluye el texto completo en ambos idiomas. Cada lectura permite guardar la posición, marcarla como leída, ajustar el tamaño, tomar notas y exportarlas. El laboratorio ZKP incluye desafíos con respuestas explicadas y aclara la diferencia entre conocimiento cero, commit–reveal y pruebas de validez.
+
+Las cuatro notas recientes del blog se sincronizan diariamente con **Refresh notebook**. Si Blogger no responde, se conserva la selección anterior. Las instrucciones están en [README.md](README.md).

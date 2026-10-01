@@ -13,10 +13,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: npm install --ignore-scripts --no-audit --no-fund
+      - run: npm ci --ignore-scripts --no-audit --no-fund
       - run: npm run build
       - run: npm run check
       - name: Verify published pages match source
         run: |
           node scripts/sync.mjs
-          git diff --exit-code -- index.html es en simulaciones assets/catalog.json assets/site.css assets/site.js assets/zkp.js assets/konigsberg.js
+          git diff --exit-code -- index.html es en simulaciones assets sitemap.xml robots.txt 404.html konigsberg.html

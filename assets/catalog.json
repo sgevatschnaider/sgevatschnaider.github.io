@@ -9,6 +9,8 @@
     "enDescription": "Why models can produce convincing but incorrect answers, and what retrieval and verification can contribute.",
     "visual": "hallucinations",
     "englishUrl": "https://economiayetica.blogspot.com/2025/01/hallucinations-and-llms-color-variables.html",
+    "englishComplete": true,
+    "englishMinutes": 3,
     "published": "2025-01",
     "minutes": 4
   },
@@ -22,6 +24,8 @@
     "enDescription": "Directed acyclic graphs, consensus and alternatives to linear chains of blocks.",
     "visual": "dag",
     "englishUrl": "https://economiayetica.blogspot.com/2025/01/dag-and-blockchain-root-primary-color.html",
+    "englishComplete": true,
+    "englishMinutes": 3,
     "published": "2025-01",
     "minutes": 4
   },
@@ -35,6 +39,8 @@
     "enDescription": "A technological, cultural and economic perspective on speculation and digital communities.",
     "visual": "finance",
     "englishUrl": "https://economiayetica.blogspot.com/2025/02/memecoins-y-criptomonedas-analisis.html",
+    "englishComplete": true,
+    "englishMinutes": 4,
     "published": "2025-02",
     "minutes": 4
   },
@@ -47,7 +53,9 @@
     "esDescription": "Evolución artificial, búsqueda de algoritmos e implicancias para la investigación científica.",
     "enDescription": "Artificial evolution, algorithm search and implications for scientific research.",
     "visual": "ai",
-    "englishUrl": null,
+    "englishUrl": "https://economiayetica.blogspot.com/2025/06/creatividad-computacional-y-alphaevolve.html",
+    "englishComplete": true,
+    "englishMinutes": 10,
     "published": "2025-06",
     "minutes": 11
   },
@@ -60,7 +68,9 @@
     "esDescription": "Exploración del razonamiento recurrente y los cómputos internos más allá de las cadenas de palabras.",
     "enDescription": "An exploration of recurrent reasoning and internal computation beyond chains of words.",
     "visual": "ai",
-    "englishUrl": null,
+    "englishUrl": "https://economiayetica.blogspot.com/2025/04/huginn-razonamiento-latente-root_27.html",
+    "englishComplete": true,
+    "englishMinutes": 13,
     "published": "2025-04",
     "minutes": 13
   },
@@ -74,6 +84,8 @@
     "enDescription": "Asimov and Polanyi as a starting point for thinking about tacit knowledge, robots and work.",
     "visual": "network",
     "englishUrl": "https://economiayetica.blogspot.com/2025/04/tecnologia-intuicion-y-el-futuro-del.html",
+    "englishComplete": true,
+    "englishMinutes": 7,
     "published": "2025-04",
     "minutes": 8
   },
@@ -87,6 +99,8 @@
     "enDescription": "Connectivity, mathematical structure and networks that combine sparse links with strong expansion.",
     "visual": "network",
     "englishUrl": "https://economiayetica.blogspot.com/2025/04/desde-big-data-hasta-ramanujan-root.html",
+    "englishComplete": true,
+    "englishMinutes": 7,
     "published": "2025-04",
     "minutes": 5
   },
@@ -100,6 +114,8 @@
     "enDescription": "China, software-defined vehicles and the architecture of automotive power.",
     "visual": "china",
     "englishUrl": "https://economiayetica.blogspot.com/2025/03/el-automovil-como-codigo-china-ia-y-la_23.html",
+    "englishComplete": true,
+    "englishMinutes": 19,
     "published": "2025-03",
     "minutes": 23
   },
@@ -113,6 +129,8 @@
     "enDescription": "A perspective on capabilities, decisions and the shaping of future scenarios.",
     "visual": "china",
     "englishUrl": "https://economiayetica.blogspot.com/2025/04/el-arte-de-configurar-el-futuro.html",
+    "englishComplete": true,
+    "englishMinutes": 9,
     "published": "2025-04",
     "minutes": 7
   },
@@ -126,6 +144,8 @@
     "enDescription": "Projections, hypercubes and visualisations for exploring four-dimensional structures.",
     "visual": "cube",
     "englishUrl": "https://economiayetica.blogspot.com/2025/04/teseracto-mas-alla-de-la-dimension_10.html",
+    "englishComplete": true,
+    "englishMinutes": 11,
     "published": "2025-04",
     "minutes": 8
   },
@@ -139,6 +159,8 @@
     "enDescription": "Models of local interaction for thinking about influence, opinions and their limits.",
     "visual": "grid",
     "englishUrl": "https://economiayetica.blogspot.com/2025/05/cargando.html",
+    "englishComplete": true,
+    "englishMinutes": 11,
     "published": "2025-05",
     "minutes": 12
   },
@@ -152,6 +174,8 @@
     "enDescription": "Mathematics, networks and machine learning behind a recommendation system.",
     "visual": "network",
     "englishUrl": "https://economiayetica.blogspot.com/2025/03/como-tiktok-sabe-lo-que-quieres-ver-ia.html",
+    "englishComplete": true,
+    "englishMinutes": 3,
     "published": "2025-03",
     "minutes": 3
   },
@@ -165,6 +189,8 @@
     "enDescription": "What happens when models learn from synthetic content and lose diversity.",
     "visual": "ai",
     "englishUrl": "https://economiayetica.blogspot.com/2025/03/la-paradoja-de-la-ia-por-que-los.html",
+    "englishComplete": true,
+    "englishMinutes": 4,
     "published": "2025-03",
     "minutes": 5
   },
@@ -178,6 +204,8 @@
     "enDescription": "Reward hacking, incentives and behaviours that divert a system from its intended purpose.",
     "visual": "ai",
     "englishUrl": "https://economiayetica.blogspot.com/2025/03/psicopatas-digitales-como-la-ia-aprende_16.html",
+    "englishComplete": true,
+    "englishMinutes": 10,
     "published": "2025-03",
     "minutes": 11
   },
@@ -191,6 +219,8 @@
     "enDescription": "Constructed languages and their relationship to the brain’s language mechanisms.",
     "visual": "network",
     "englishUrl": "https://economiayetica.blogspot.com/2025/03/cerebro-y-procesamiento-del-lenguaje.html",
+    "englishComplete": true,
+    "englishMinutes": 5,
     "published": "2025-03",
     "minutes": 6
   },
@@ -204,6 +234,8 @@
     "enDescription": "Cultural concepts for exploring strategic positioning and action.",
     "visual": "china",
     "englishUrl": "https://economiayetica.blogspot.com/2025/03/el-arte-de-no-actuar-china-el-shi-y-la.html",
+    "englishComplete": true,
+    "englishMinutes": 11,
     "published": "2025-03",
     "minutes": 12
   },
@@ -216,7 +248,9 @@
     "esDescription": "Capacidades tecnológicas, industria y una mirada sobre el poder más allá del PIB.",
     "enDescription": "Technological capabilities, industry and a perspective on power beyond GDP.",
     "visual": "china",
-    "englishUrl": null,
+    "englishUrl": "https://economiayetica.blogspot.com/2025/05/armonia-y-hardware-el-camino-chino_3.html",
+    "englishComplete": true,
+    "englishMinutes": 15,
     "published": "",
     "minutes": 15
   },
@@ -230,6 +264,8 @@
     "enDescription": "Multi-agent systems and their use as support for scientific research.",
     "visual": "network",
     "englishUrl": "https://economiayetica.blogspot.com/2025/02/inteligencia-artificial-modelo-de.html",
+    "englishComplete": true,
+    "englishMinutes": 4,
     "published": "2025-02",
     "minutes": 4
   },
@@ -243,6 +279,8 @@
     "enDescription": "Learning, reasoning and strategies for improving models through new training processes.",
     "visual": "ai",
     "englishUrl": "https://economiayetica.blogspot.com/2025/02/ia-que-se-ensena-si-misma-ai-that.html",
+    "englishComplete": true,
+    "englishMinutes": 5,
     "published": "2025-02",
     "minutes": 6
   },
@@ -256,6 +294,8 @@
     "enDescription": "An encounter between Chinese poetry, culture and artificial intelligence tools.",
     "visual": "china",
     "englishUrl": "https://economiayetica.blogspot.com/2025/02/html-li-bai-poesia-tang-e-ia-creativa.html",
+    "englishComplete": true,
+    "englishMinutes": 6,
     "published": "2025-02",
     "minutes": 7
   },
@@ -269,6 +309,8 @@
     "enDescription": "Language models applied to the design and understanding of biological sequences.",
     "visual": "network",
     "englishUrl": "https://economiayetica.blogspot.com/2025/02/cuando-la-biologia-habla-modelos-de_4.html",
+    "englishComplete": true,
+    "englishMinutes": 5,
     "published": "2025-02",
     "minutes": 5
   },
@@ -282,6 +324,8 @@
     "enDescription": "Graphs and neural networks as a framework for exploring model architectures.",
     "visual": "ai",
     "englishUrl": "https://economiayetica.blogspot.com/2025/02/flexibilidad-grafos-y-arquitecturas_2.html",
+    "englishComplete": true,
+    "englishMinutes": 4,
     "published": "2025-02",
     "minutes": 5
   },
@@ -295,6 +339,8 @@
     "enDescription": "Reinforcement learning, interaction with the environment and agent adaptation.",
     "visual": "grid",
     "englishUrl": "https://economiayetica.blogspot.com/2025/02/robots-pacman-y-las-leyes-del.html",
+    "englishComplete": true,
+    "englishMinutes": 5,
     "published": "2025-02",
     "minutes": 5
   },
@@ -307,7 +353,9 @@
     "esDescription": "Conceptos económicos y tecnológicos para estudiar Bitcoin y sus posibles roles.",
     "enDescription": "Economic and technological concepts for studying Bitcoin and its possible roles.",
     "visual": "finance",
-    "englishUrl": "https://economiayetica.blogspot.com/2025/02/html-bitcoin-como-activo-de-reserva-y.html",
+    "englishUrl": "https://economiayetica.blogspot.com/2025/02/bitcoin-como-activo-de-reserva-y.html",
+    "englishComplete": true,
+    "englishMinutes": 7,
     "published": "2025-02",
     "minutes": 5
   },
@@ -321,6 +369,8 @@
     "enDescription": "Reasoning models, access to technology and international competition.",
     "visual": "ai",
     "englishUrl": "https://economiayetica.blogspot.com/2025/01/deepseek-r1-innovation-and-geopolitics_7.html",
+    "englishComplete": true,
+    "englishMinutes": 2,
     "published": "2025-01",
     "minutes": 2
   },
@@ -334,6 +384,8 @@
     "enDescription": "Image generation and new tools in China’s AI ecosystem.",
     "visual": "ai",
     "englishUrl": "https://economiayetica.blogspot.com/2025/02/janus-pro-china-imagenes-e-inteligencia.html",
+    "englishComplete": true,
+    "englishMinutes": 2,
     "published": "2025-02",
     "minutes": 4
   },
@@ -347,6 +399,8 @@
     "enDescription": "Generative models for exploring new materials and desired properties.",
     "visual": "network",
     "englishUrl": "https://economiayetica.blogspot.com/2025/01/design-of-materials-with-ai-root.html",
+    "englishComplete": true,
+    "englishMinutes": 4,
     "published": "2025-01",
     "minutes": 2
   },
@@ -359,7 +413,9 @@
     "esDescription": "Psicología, valor percibido y dinámicas de mercado en comunidades digitales.",
     "enDescription": "Psychology, perceived value and market dynamics in digital communities.",
     "visual": "finance",
-    "englishUrl": null,
+    "englishUrl": "https://economiayetica.blogspot.com/2025/03/memecoins-la-psicologia-de-la-coleccion.html",
+    "englishComplete": true,
+    "englishMinutes": 6,
     "published": "",
     "minutes": 7
   },
@@ -373,6 +429,8 @@
     "enDescription": "Shanzhai, innovation and adaptation as forms of economic transformation.",
     "visual": "china",
     "englishUrl": "https://economiayetica.blogspot.com/2025/02/copy-and-originality-chinese-economy-en.html",
+    "englishComplete": true,
+    "englishMinutes": 2,
     "published": "2025-02",
     "minutes": 3
   },
@@ -385,7 +443,9 @@
     "esDescription": "Representaciones visuales y conexiones entre escritura, significado y redes.",
     "enDescription": "Visual representations and connections between writing, meaning and networks.",
     "visual": "network",
-    "englishUrl": null,
+    "englishUrl": "https://economiayetica.blogspot.com/2025/02/cuando-el-lenguaje-es-un-imagen.html",
+    "englishComplete": true,
+    "englishMinutes": 5,
     "published": "2025-02",
     "minutes": 6
   },
@@ -399,6 +459,8 @@
     "enDescription": "Memory, context and architectures that expand model capabilities.",
     "visual": "ai",
     "englishUrl": "https://economiayetica.blogspot.com/2025/01/titans-vs-transformers-root-primary_21.html",
+    "englishComplete": true,
+    "englishMinutes": 3,
     "published": "2025-01",
     "minutes": 4
   },
@@ -412,6 +474,8 @@
     "enDescription": "A reading of political strategies through games, signals and uncertainty.",
     "visual": "finance",
     "englishUrl": "https://economiayetica.blogspot.com/2025/04/trump-y-la-teoria-de-los-juegos-caos.html",
+    "englishComplete": true,
+    "englishMinutes": 9,
     "published": "2025-04",
     "minutes": 8
   }

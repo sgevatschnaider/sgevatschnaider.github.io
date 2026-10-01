@@ -1,0 +1,112 @@
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSYT6N1_pzDA51MbYvty-gvmgWYJlURfTt9v4j0CA7BczoFvUlDhyRh6iDGPqdiwtpahph-xfhazwaLseSi9s5qGSOG0V09mkbGN4DzKBbNu629SGKItVLhenap6ti-05iPHMDGyfoRqqPII6n4gvXnriXBpIGRG7xiBnSh-otknyziZkqbHNc20BKc9g/s320/20250202_0545_Graph%20Interconnection%20Dynamics_simple_compose_01jk2xbw1vf8tr5vqecyrwf70y.gif" alt="Dinámica de interconexión en grafo" width="320" height="180">
+
+      <h1>Flexibility, Graphs, and Neural Architectures: The Case of Qwen 2.5</h1>
+      
+      <h2>1. Dense Models vs. MoE</h2>
+      <p>
+        The objective of this article is to analyze, using graph theory, the difference between the architecture of a dense model and a Mixture of Experts (MoE) model, taking as an example the recent model developed by Alibaba: Qwen 2.5.
+      </p>
+      
+      <h2>2. What Are Dense Models in the Context of Neural Networks and Language Models?</h2>
+      <p>
+        A dense model is a type of neural network model in which all parameters are activated and utilized in every inference or training step. This means that each neuron or unit within the architecture contributes significantly to data processing in every iteration.
+      </p>
+      <p>Key characteristics of dense models:</p>
+      <ul>
+        <li><strong>All parameters are used simultaneously:</strong> In each forward pass (inference) or backward pass (training), all layers and parameters are active. This contrasts with MoE models, where only a subset of experts is activated per inference.</li>
+        <li><strong>Constant memory and computation usage:</strong> Since all connections remain active at all times, the memory and computation costs are predictable and fixed based on the total number of parameters.</li>
+        <li><strong>Generally easier to implement:</strong> Their uniform and simple structure makes them easier to train, without the need for expert routing as required in MoE models.</li>
+      </ul>
+      <p>With this definition in mind, let’s examine the recent model from Alibaba.</p>
+      
+      <h2>3. What Is Qwen 2.5?</h2>
+      <p>
+        Recently, Alibaba launched Qwen 2.5, enriching the Chinese artificial intelligence ecosystem. Given the growing influence of AI systems, its impact extends beyond China. Qwen 2.5 is a series of large language models (LLMs) designed to enhance language understanding, text generation, reasoning, mathematics, and programming. It is part of the evolving Qwen family, standing out for its improved scalability and efficiency compared to previous versions.
+      </p>
+      <p>
+        The model is available in two main formats:
+      </p>
+      <ul>
+        <li><strong>Open-weight models:</strong> Accessible via Hugging Face and other repositories.</li>
+        <li><strong>Proprietary models (cloud-based API):</strong> Optimized for fast inference using Mixture of Experts (MoE) techniques.</li>
+      </ul>
+      <p>
+        For this analysis, two implementations of Qwen 2.5 are highlighted, each with a different architecture:
+      </p>
+      <p><strong>Comparison:</strong></p>
+      <table>
+        <caption>Differences between Dense Models and MoE Models</caption>
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>Qwen 2.5 Open-Weight (Dense Model)</th>
+            <th>Qwen 2.5-Turbo / Plus (MoE)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Architecture</td>
+            <td>Dense Transformer</td>
+            <td>Mixture of Experts (MoE)</td>
+          </tr>
+          <tr>
+            <td>Active Parameters</td>
+            <td>Uses all parameters in every inference</td>
+            <td>Activates only a fraction of parameters per query</td>
+          </tr>
+          <tr>
+            <td>Computational Cost</td>
+            <td>High, as all layers are always active</td>
+            <td>More efficient, using only the most relevant experts</td>
+          </tr>
+          <tr>
+            <td>Scalability</td>
+            <td>Limited, requires more GPUs to scale</td>
+            <td>Higher, as it can scale without proportional computation increase</td>
+          </tr>
+          <tr>
+            <td>Inference Efficiency</td>
+            <td>More costly and slower</td>
+            <td>Faster and optimized for production</td>
+          </tr>
+          <tr>
+            <td>Availability</td>
+            <td>Open-weight (open-source)</td>
+            <td>Available via API on Alibaba Cloud</td>
+          </tr>
+        </tbody>
+      </table>
+      <p><em>Source: Own Elaboration</em></p>
+      <p>
+        For example, Qwen 2.5 Open-Weight is a dense model—every layer and connection is active during each inference. This makes it ideal for research and high-performance hardware, albeit with a higher computational cost. In contrast, Qwen 2.5-Turbo and Qwen 2.5-Plus, being MoE models, activate only specific parts based on the input, reducing memory consumption and increasing inference speed, which makes them more efficient for cloud applications.
+      </p>
+      
+      <h2>4. Graph Theory and Computational Architecture</h2>
+      <p>
+        From the perspective of graph theory, a dense model can be interpreted as a <strong>dense graph</strong> where all nodes (neurons) are highly interconnected. A dense graph is one in which the number of edges (connections between nodes) is close to the maximum possible. For a directed graph with <span class="math-formula">N</span> nodes, the maximum number of edges is <span class="math-formula">N(N-1)</span> (each node can connect to every other node).
+      </p>
+      <p>
+        Formally, the density of a directed graph <span class="math-formula">G = (V, E)</span> is defined as:
+        <br>
+        <span class="math-formula">D(G) = |E| / (|V|(|V| - 1))</span>
+      </p>
+      <p>
+        Where:
+        <br>
+        <span class="math-formula">|V|</span> is the number of nodes (neurons or layers) and <span class="math-formula">|E|</span> is the number of connections (synaptic weights). A graph with density close to 1 is considered dense; if it is close to 0, it is sparse.
+      </p>
+      <p>
+        In deep learning, a dense model resembles an almost fully connected directed graph, where:
+        <br>– The network layers form the graph nodes.
+        <br>– The synaptic connections represent the edges.
+        <br>– Each node in one layer is connected to all nodes in the next layer (as in a fully connected layer).
+      </p>
+      
+      <h2>Conclusion</h2>
+      <p>
+        The efficiency of dense models and MoE models can be represented through graphs. Dense models (Qwen 2.5 Open-Weight) have a graph density close to 1, utilizing all possible connections. This results in higher memory and computational usage but greater consistency in responses. In contrast, MoE models (Qwen 2.5-Turbo and Plus) have a much lower density—activating only a fraction of experts per inference—which makes them computationally efficient and scalable without a proportional increase in hardware costs.
+        
+        </p><div class="separator"></div>
+ 
+           
+      <!-- Botón de referencia -->
