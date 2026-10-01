@@ -12,7 +12,7 @@ This bilingual portal brings together Sergio Gevatschnaider’s articles, course
 
 ## Editions and languages
 
-The homepage, navigation, catalogue and native labs have complete English and Spanish versions. The three featured readings have revised bilingual editions. Historical Markdown files are preserved. All 32 articles are available in full in both languages inside the portal. The remaining 29 English editions were recovered from the author’s blog, with source URLs recorded in `data/article-provenance.json`.
+The homepage, navigation, catalogue and native labs have complete English and Spanish versions. The three featured readings and the expander article have revised bilingual editions. Historical Markdown files are preserved. All 32 articles are available in full in both languages inside the portal. The remaining 29 English editions were recovered from the author’s blog, with source URLs recorded in `data/article-provenance.json`.
 
 External course materials retain their original language. A translated course card does not imply that the linked course has been translated.
 
@@ -29,7 +29,7 @@ node scripts/sync.mjs
 
 The generator writes a reviewable `public/` directory. The sync script copies the generated pages to the repository root used by the existing GitHub Pages configuration. Commit the generated pages together with their source files. Original Markdown articles are not overwritten.
 
-` scripts/catalog.mjs ` contains editorial metadata. `content/es/` contains the three revisions; `content/en/` contains all English editions. `assets/` contains styles, local scripts and illustrations.
+` scripts/catalog.mjs ` contains editorial metadata. `content/es/` contains the four revisions; `content/en/` contains all English editions. `assets/` contains styles, local scripts and illustrations.
 
 The validation workflow checks internal links and anchors, language versions, Eulerian scenarios, ZKP outcomes and the correspondence between generated and published pages.
 

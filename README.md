@@ -13,11 +13,11 @@ Portal personal bilingüe con artículos, cursos y laboratorios. Publicado en Gi
 
 ## Contenido
 
-32 artículos del archivo, tres recorridos de aprendizaje y dos laboratorios propios en español e inglés. Las tres lecturas destacadas incluyen ediciones revisadas bilingües; sus textos históricos completos se conservan. Los 32 artículos tienen texto completo en español e inglés dentro del portal. Las 29 ediciones inglesas restantes se recuperaron del blog del autor; su procedencia figura en `data/article-provenance.json`. Los cursos externos conservan sus idiomas originales.
+32 artículos del archivo, tres recorridos de aprendizaje y dos laboratorios propios en español e inglés. Las tres lecturas destacadas y la lectura sobre grafos expander incluyen ediciones revisadas bilingües; sus textos históricos completos se conservan. Los 32 artículos tienen texto completo en español e inglés dentro del portal. Las 29 ediciones inglesas restantes se recuperaron del blog del autor; su procedencia figura en `data/article-provenance.json`. Los cursos externos conservan sus idiomas originales.
 
 ## Mantenimiento
 
-Requiere Node.js 22 o posterior. Los archivos Markdown históricos permanecen en la raíz. `scripts/catalog.mjs` reúne los metadatos editoriales. `content/es` contiene las tres revisiones y `content/en` todas las ediciones inglesas.
+Requiere Node.js 22 o posterior. Los archivos Markdown históricos permanecen en la raíz. `scripts/catalog.mjs` reúne los metadatos editoriales. `content/es` contiene las cuatro revisiones y `content/en` todas las ediciones inglesas.
 
 ```bash
 npm ci --ignore-scripts
@@ -48,3 +48,5 @@ Las preferencias y los guardados se conservan solo en el navegador. Los mensajes
 `npm run sync:blog` actualiza las cuatro notas recientes desde el feed público de Blogger. Si la fuente falla, se conserva la copia publicada. El workflow **Refresh notebook** se ejecuta diariamente a las 03:15 UTC o manualmente en Actions; solo confirma cambios cuando hay notas distintas, comprueba el sitio y solicita una nueva construcción de GitHub Pages. No modifica el blog.
 
 KaTeX se genera durante la construcción y se distribuye localmente, con su licencia y fuentes. No depende de un CDN durante la lectura. Para volver a importar ediciones inglesas desde una copia del feed completo: `node scripts/import-blog.mjs /ruta/al/feed.json`.
+
+`qa/responsive.html` permite revisar las páginas a 320, 375, 768 y 1024 píxeles. Esta vista de mantenimiento no aparece en la navegación ni se indexa. En la ejecución manual de **Refresh notebook**, `force_publish` permite solicitar una nueva construcción aunque no haya notas nuevas.

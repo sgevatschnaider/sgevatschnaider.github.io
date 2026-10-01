@@ -3,6 +3,11 @@ on:
   schedule:
     - cron: '15 3 * * *'
   workflow_dispatch:
+    inputs:
+      force_publish:
+        description: Request a Pages rebuild even when notebook links are unchanged
+        type: boolean
+        default: false
 permissions:
   contents: write
   pages: write
@@ -41,7 +46,7 @@ jobs:
           fi
       # GITHUB_TOKEN commits do not trigger a branch-based Pages build.
       - name: Publish refreshed notebook
-        if: steps.save.outputs.changed == 'true'
+        if: steps.save.outputs.changed == 'true' || inputs.force_publish == true
         uses: actions/github-script@v7
         with:
           script: |

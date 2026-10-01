@@ -12,7 +12,7 @@ Este portal reúne los artículos, cursos y simulaciones de Sergio Gevatschnaide
 
 ## Ediciones e idiomas
 
-La portada, navegación, catálogo y laboratorios propios tienen versiones completas ES/EN. Las tres lecturas destacadas están revisadas en ambos idiomas. El archivo histórico conserva los textos originales. Los 32 artículos se leen completos en ambos idiomas en el portal; las ediciones inglesas recuperadas del blog incluyen su procedencia.
+La portada, navegación, catálogo y laboratorios propios tienen versiones completas ES/EN. Las tres lecturas destacadas y la lectura sobre grafos expander están revisadas en ambos idiomas. El archivo histórico conserva los textos originales. Los 32 artículos se leen completos en ambos idiomas en el portal; las ediciones inglesas recuperadas del blog incluyen su procedencia.
 
 Se conservaron los archivos Markdown y el explorador histórico `konigsberg_dfs_2.html`. La ruta `konigsberg.html` ahora lleva al laboratorio que funciona, en lugar de cargar una copia de la portada dentro de sí misma.
 

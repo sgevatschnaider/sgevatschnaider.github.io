@@ -35,6 +35,8 @@ export function cleanArticle(html){
    const list=$(el).next();if(list.is('ol,ul'))list.remove();$(el).remove();
   }
  });
+ $('p').each((_,el)=>{if(/^(?:🌐\s*)?(?:Cambiar idioma|Idioma|Read in English|English version|Versión en inglés)\s*:/i.test($(el).text().trim()))$(el).remove()});
+ $('pre,code').each((_,el)=>{if(!$(el).text().trim())$(el).remove()});
  $('a[target="_blank"]').attr('rel','noopener noreferrer');
  return $.html();
 }
